@@ -1,0 +1,366 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Helvetica", sans-serif;
+}
+
+body {
+  color: #000;
+  
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  position: sticky;
+  top: 0px;
+  z-index: 100;
+}
+header a{
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-left,
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  position: relative;
+}
+
+.logo {
+  font-size: 40px;
+  font-weight: bolder;
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-item {
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+ 
+}
+.nav-item a{
+   color: #000;
+  text-decoration: none;
+}
+.dropdown {
+  display: none;
+  position: fixed;
+  top: 120px;
+  left: 0;
+  width: 100vw;
+  background-color: #fff;
+  padding: 40px 60px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  z-index: 100000;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.nav-item:hover .dropdown,
+.nav-item:focus-within .dropdown,
+.dropdown:hover,
+.dropdown:focus-within {
+  display: flex;
+}
+
+#women-nav:hover #women-dropdown,
+#women-dropdown:hover,
+#men-nav:hover #men-dropdown,
+#men-dropdown:hover,
+#gift-nav:hover #gift-dropdown,
+#gift-dropdown:hover {
+  display: flex;
+}
+
+.dropdown-column {
+  min-width: 150px;
+  padding-left: 80px;
+}
+
+.dropdown-column h4 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.dropdown-column ul {
+  list-style: none;
+}
+
+.dropdown-column li {
+  font-size: 15px;
+  margin: 10px 0px;
+  cursor: pointer;
+}
+
+.dropdown-column li.red {
+  color: red;
+}
+.dropdown-image a {
+  color: #000;
+  display: inline-block;
+}
+.dropdown-image a img {
+  height: 220px;
+  width: 160px;
+}
+
+.sale-banner {
+  background-color: #d7f0dd;
+  text-align: center;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.hero {
+  height: 40vw;
+  width: 100%;
+  margin: 00px 30px 50px 0px;
+  position: relative;
+  background-size: contain;
+  background-image: url("menslider.webp");
+  object-fit: contain;
+  background-repeat: no-repeat;
+}
+.hero button {
+  position: absolute;
+  bottom: 40px;
+  right: 30px;
+  padding: 15px 10px;
+  font-size: 15px;
+  font-weight: bolder;
+  background-color: #fafafa;
+  color: #000;
+  border-style: none;
+}
+
+
+.logo-circle {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background-color: #000;
+  color: #fff;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 20px;
+  z-index: 100000;
+  text-decoration: none;
+}
+.men-heading {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+  text-align: center;
+  margin: 60px 0px 40px 0px;
+}
+.men-heading h2{
+font-weight: 750;
+}
+.men-shopbyactivity{
+    display: flex;
+    flex-direction: column;
+}
+
+.men-cards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.men-card-image {
+  width: 20%;
+  cursor: pointer;
+}
+.men-card-image a {
+  text-align: center;
+  color: #000;
+  font-size: 12px;
+  font-weight: 750;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.men-card-image a:hover{
+  text-decoration: underline;
+}
+.men-card-image a img {
+  width: 100%;
+
+}
+
+.mens-container {
+  display: flex;
+  gap: 40px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.mens-card {
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.mens-card img {
+  width: 100%;
+  height: auto;
+  
+}
+
+.mens-text {
+    display: inline-block;
+    width: 100%;
+  padding: 20px 10px;
+  text-align: start;
+
+
+  background-color: #F5F5F5;
+}
+
+.mens-text a {
+    color: #000;
+  font-size: 12px;
+  font-weight: 800;
+  margin-bottom: 10px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+.best-sellers {
+  
+  max-width: 80%;
+  margin:0px  auto;
+  margin-top: 100px;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+
+}
+.section-header a{
+color: #424141;
+font-size: 12px;
+}
+
+.section-header h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.slider-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.card-slider {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 16px;
+   overflow-x: hidden; 
+}
+
+.men-card {
+  flex: 0 0 auto;
+  width: 19%;
+  background: #f9f9f9;
+  text-align: left;
+}
+
+.men-card img {
+  width: 100%;
+ 
+}
+
+.men-card h4 {
+  font-size: 14px;
+  margin: 10px 0 5px;
+}
+
+.men-card .price {
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.slider-btn {
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+  background: white;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 10;
+  padding: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.slider-btn.left {
+
+  left: 0px;
+  z-index: 1000000000;
+  color: #000;
+}
+.slider-btn.left:hover{
+  color: white;
+ background-color: #000;
+}
+
+.slider-btn.right {
+  right: 0;
+  color: #000;
+}
+.slider-btn.right:hover{
+  color: white;
+ background-color: #000;
+}
+.men-card .colors {
+  display: flex;
+  justify-content: start;
+  margin: 10px 0;
+}
+
+.men-card .colors span {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 0 5px;
+  border: 1px solid #ddd;
+}
