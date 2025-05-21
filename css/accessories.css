@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.accessories-heading{
+padding-top:80px ;
+font-size: 24px;
+text-align: center;
+font-family: "Montserrat", sans-serif;
+text-transform: uppercase;
+font-weight: 900;
+}
+.accessories-heading h1{
+  margin-bottom:10px ;
+}
+.accessories-heading p{
+  font-size: 12px;
+  font-weight: 700;
+  margin-top: 1px;
+}
+
+
