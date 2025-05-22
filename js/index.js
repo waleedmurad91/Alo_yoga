@@ -66,18 +66,7 @@ startAutoSlide();
 sliderTrack.addEventListener("mouseenter", stopAutoSlide);
 sliderTrack.addEventListener("mouseleave", startAutoSlide);
 
-window.addEventListener('scroll', () => {
-    const dropdowns = document.querySelectorAll('.dropdown');
-    const scrollTop = window.scrollY || document.documentElement.scrollTop;
 
-    dropdowns.forEach(dropdown => {
-      if (scrollTop > 0) {
-        dropdown.style.top = '75px';
-      } else {
-        dropdown.style.top = '120px';
-      }
-    });
-  });
 
 
   
