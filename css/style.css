@@ -901,7 +901,7 @@ body{
   }
 
   .card-image {
-    width: 100%;
+    width: 80%;
   }
 
   .shopbyactivity h2,
@@ -951,5 +951,8 @@ body{
     flex: 1 1 100%;
     max-width: 100%;
     height: auto;
+  }
+  .card {
+    width: 100%;
   }
 }

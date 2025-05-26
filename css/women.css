@@ -23,7 +23,7 @@ position: relative;
 .filter select{
   position: absolute;
   top: 0;
-  right: 160px;
+  right: 90px;
   padding: 10px;
   text-transform: capitalize;
   border:1px solid rgb(222, 220, 220);
@@ -69,19 +69,10 @@ details {
 
 
 
-
-
-
-
-
-
-
-
-
 .women-container {
   display: flex;
-  max-width: 1500px;
-  margin: 30px 150px;
+  max-width: 100%;
+  margin: 30px 20px;
   position: relative;
 }
 .sidebar {
@@ -144,17 +135,16 @@ details {
 }
 
 .products-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr); 
+  display: flex;
+  flex-wrap: wrap;
   gap: 10px;
 }
 
-
-.product-card {
-  padding: 10px;
-  position: relative;
-  cursor: pointer;
+.products-grid .product-card {
+  flex: 1 0 calc(25% - 10px); 
+  box-sizing: border-box;
 }
+
 
 
 
@@ -233,3 +223,25 @@ opacity: 0;
 
 
 
+
+
+@media (max-width: 992px) {
+  .products-grid .product-card {
+    flex: 1 0 calc(33.33% - 10px); 
+  }
+}
+
+@media (max-width: 768px) {
+  .products-grid .product-card {
+    flex: 1 0 calc(50% - 10px); 
+  }
+aside{
+  display: none;
+}
+}
+
+@media (max-width: 480px) {
+  .products-grid .product-card {
+    flex: 1 0 100%; 
+  }
+}
