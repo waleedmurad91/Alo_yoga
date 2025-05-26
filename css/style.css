@@ -740,13 +740,6 @@ nav {
 
 @media (width >= 1200px) {
 
-  .dropdown {
-    padding: 20px 40px;
-    gap: 20px;
-    grid-template-columns: repeat(3, 1fr);
-  }
-
-  
 .card-image {
   width: 17%;
 }
@@ -763,11 +756,7 @@ nav {
 body{
   max-width:1200px;
 }
-  .dropdown {
-    padding: 20px 40px;
-    gap: 20px;
-    grid-template-columns: repeat(3, 1fr);
-  }
+ 
 
   
 .card-image {
