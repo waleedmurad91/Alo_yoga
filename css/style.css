@@ -1,3 +1,30 @@
+@font-face {
+  font-family: 'arquitecta';
+  src:  url("/assests/fonts/ArquitectaBlack.woff2") format('woff2')
+      
+  
+}
+@font-face {
+  font-family: 'arquitectabold';
+  src:  url("/assests/fonts/ArquitectaBold.woff2") format('woff2')
+  
+}
+
+ 
+   
+  
+
+@font-face {
+  font-family: 'proxima nova';
+  src:  url("/assests/fonts/ProximaNovaA-Black.woff2") format('woff2')
+  
+}
+.container{
+  max-width: 1600px;  
+  padding: 30px;
+position: relative;
+}
+
 body {
   margin: 0px;
   font-family: Arial, sans-serif; 
@@ -13,25 +40,22 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding:10px;
   border-bottom: 1px solid #eee;
   background-color: white;
   position: relative;
   z-index: 10;
+ 
 }
 
-.logo {
-  font-size: 28px;
-  font-weight: bold;
-}
 .logo a{
+  font-size: 14px;
   text-decoration: none;
+  font-family: proxima nova, sans-serif !important;
   color: #000;
 }
 
 .menu {
   display: flex;
-  gap: 20px;
   position: relative;
   align-items: center;
 }
@@ -40,55 +64,63 @@ nav {
   flex-direction: row;
   align-items: center;
   list-style: none;
+  margin: 7px;
 }
 .menu ul li {
   margin-left: 10px;
 }
 .menu-item {
   position: relative;
+  padding: 24px 0px;
+  padding-left: 28px;
 }
 
 .menu-item > a {
+  font-size: 18px;
   text-decoration: none;
   color: black;
   font-weight: 600;
-  padding: 8px;
+ font-family: 'Arquitecta', sans-serif !important;
 }
 
 .dropdown {
   display: none;
+  flex-direction: row;
   position: absolute;
   top: 100%;
   left: 0;
   width: 100vw;
   background: white;
-  padding: 30px 60px;
+  padding: 30px 0px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  display: none;
-  grid-template-columns: repeat(5, minmax(160px, 1fr));
   gap: 40px;
   z-index: 999;
+  text-align: justify;
 }
   #dropdown-accessories{
-    left: -315px;
+    left: -385px;
   }
   #dropdown-women{
-    left: -100px;
+    left: -130px;
+   
   }
   #dropdown-men{
-    left: -189px;
+    left: -229px;
   }
   #dropdown-gift{
-    left: -251px;
+    left: -311px;
   }
 .menu-item:hover .dropdown {
-  display: grid;
+  display: flex;
+  
 }
-
+.menu-item a:hover{
+  border-bottom: 4px solid black ;
+  border-radius: 4px;
+}
 .dropdown-column {
- 
+  text-align: justify;
   min-width: 150px;
-  padding-left: 80px;
 }
 
 .dropdown-column h4 {
@@ -98,16 +130,19 @@ nav {
 }
 
 .dropdown-column ul {
-
   list-style: none;
 }
 
 .dropdown-column li {
   font-size: 15px;
-  margin: 10px 0px;
+  font-weight: 400;
+  /* font-family: Proxima Nova, sans-serif !important; */
+  margin: 14px 0px;
   cursor: pointer;
 }
-
+.dropdown-column li:hover{
+  text-decoration: underline;
+}
 .dropdown-column li.red {
   color: red;
 }
@@ -133,10 +168,16 @@ nav {
 
 .auth-icons {
   display: flex;
-  gap: 16px;
   align-items: center;
+  justify-content: center;
+  margin: 7px;
+  padding-right:40px;
 }
-
+.auth-icons ul{
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
 .auth-icons a {
   text-decoration: none;
   color: black;
@@ -145,6 +186,25 @@ nav {
 .dropdown-image a {
   color: #000;
   display: inline-block;
+}
+#signin{
+  font-family: 'Arquitecta', sans-serif !important;
+  display: flex;
+  font-size: 15px;
+  align-items: center;
+}
+#signin:hover{
+  border-bottom: 4px solid black ;
+  border-radius: 4px;
+}
+#signin:hover img{
+background-image:url("/images/icons8-user-24.png");
+}
+#heart:hover img{
+  background-image: url("/images/icons8-filledheart-24.png");
+}
+#cart:hover img{
+  background-image: url("/images/filledshopping-bag-24.png");
 }
 .dropdown-image a img {
   height: 220px;
@@ -165,7 +225,7 @@ nav {
   margin: 00px 30px 50px 0px;
   position: relative;
   background-size: contain;
-  background-image: url("/images/top\ banner.png");
+  background-image: url("/images/top-banner.png");
   object-fit: contain;
   background-repeat: no-repeat;
 }
@@ -198,17 +258,22 @@ nav {
   z-index: 100000;
 }
 .heading {
-  font-size: 30px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  font-family: 'Arquitecta', sans-serif !important;
   font-weight: bolder;
   text-align: center;
   margin: 40px 0;
+  text-transform: uppercase;
+  letter-spacing: 5px;
 }
-
+.trending-card{
+  display: flex;
+  justify-content: center;
+}
 .cards {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
+  /* flex-direction: row; */
   width: 100%;
   text-align: center;
   justify-content: center;
@@ -217,7 +282,7 @@ nav {
 }
 
 .card-image {
-  width: 20%;
+  width: 24%;
   cursor: pointer;
 }
 .card-image a {
@@ -236,7 +301,6 @@ nav {
 }
 
 .grey-background {
-  background-color: rgb(173, 173, 173);
   height: 40vw;
   margin: 50px 30px 50px 0px;
   position: relative;
@@ -260,8 +324,12 @@ nav {
   color: #000;
   border-style: none;
 }
-
-.container {
+.jiso-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
   display: flex;
   gap: 20px;
   text-align: center;
@@ -270,63 +338,77 @@ nav {
 }
 
 .card {
-  width: 550px;
+  width: 44%;
   display: flex;
   flex-direction: column;
   align-items: end;
   text-align: center;
+  position: relative;
 }
 
 .card img {
   width: 100%;
   height: auto;
- 
 }
 
 .text {
-  padding: 20px 10px;
   text-align: end;
-  margin-top: -50px;
-
+  position: absolute;
+  bottom: 0;
+  right: 0;
   background-color: white;
 }
 
 .text h4 {
-  font-size: 16px;
-  font-weight: bold;
-  margin-bottom: 10px;
+  font-size: 18px;
+  padding-top: 10px;
+  margin: 0px;
   letter-spacing: 0.5px;
+  font-family: 'Arquitecta', sans-serif !important;
 }
 
 .text p {
-  font-size: 12px;
+  font-family: 'Arquitectabold', sans-serif !important;
+  font-size: 16px;
   color: #333;
-  line-height: 1.5;
+  font-weight: 200;
   width: 95%;
 }
-.shopbyactivity {
-  background-color: #f8f6ef;
+.shopbyactivity-cards{
+ background-color: #f8f6ef;
   margin-top: 50px;
-  padding: 30px 10px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shopbyactivity{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 .shopbyactivity h2 {
   text-align: center;
-  font-size: 28px;
+  font-size: 40px;
   letter-spacing: 2px;
   font-weight: bolder;
   margin-bottom: 40px;
-  font-family: Arial, Helvetica, sans-serif;
+ font-family: 'Arquitecta', sans-serif !important;
 }
 
 .activity-grid {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   gap: 20px;
+  justify-content: center;
+  align-items: center;
 }
 
 .activity-card {
-  width: 200px;
+  width: 15.5%;
   text-align: center;
 }
 
@@ -335,31 +417,36 @@ nav {
   height: auto;
 }
 
-.activity-label {
+.activity-label a{
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
   margin-top: 10px;
-  font-size: 12px;
-  font-weight: bold;
+  font-size: 18px;
+  font-family: 'Arquitecta', sans-serif !important;
   letter-spacing: 1px;
-  text-decoration: underline;
+  text-align: center;
   cursor: pointer;
 }
-.background {
+.activity-card:hover .activity-label a{
+  border-bottom: 4px solid black;
+  border-radius: 3px;
+}
+.shopbyall-cards{
   margin: 50px 0px;
-  padding-bottom: 50px;
   background-color: #f0f0f0;
+}
+.background{
   display: flex;
-  flex-wrap: nowrap;
   flex-direction: column;
-  justify-content: start;
-
 }
 .shopbyall {
   display: flex;
-  flex-direction: column;
-  margin: 0 auto;
+  flex-wrap: nowrap;
+  width:100%;
+  gap: 20px;
 }
-.shopbyall h2 {
-
+.background h2 {
   text-align: start;
   font-size: 33px;
   letter-spacing: 2px;
@@ -370,14 +457,7 @@ nav {
   
 }
 
-.shopbyall-container {
-  display: flex;
-  gap: 20px;
-  flex-wrap: nowrap;
-  overflow-x: hidden;
-  align-items: center;
-  justify-content: center;
-}
+
 
 .shopbyall-card {
   position: relative;
@@ -385,6 +465,7 @@ nav {
   height: 400px;
   overflow: hidden;
   font-family: "Arial", sans-serif;
+  cursor: pointer;
 }
 
 .shopbyall-card img {
@@ -443,16 +524,17 @@ nav {
   margin-top: 50px;
   background-color: #111;
   color: #fff;
-  padding: 40px 20px;
+  padding: 40px 0px;
   font-family: Arial, sans-serif;
+ 
 }
 
 .footer-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 30px;
-  margin: 0px 150px;
+  gap: 20px;
+  
 }
 
 .footer-column {
@@ -483,6 +565,7 @@ nav {
   color: #ccc;
   text-decoration: none;
   font-size: 13px;
+  cursor: pointer;
 }
 
 .footer-column select {
@@ -533,7 +616,7 @@ nav {
 }
 
 .footer-bottom {
-  margin: 30px 50px 0px 140px;
+  padding-top: 50px;
   font-size: 12px;
   color: #aaa;
   text-align: justify;
@@ -543,6 +626,7 @@ nav {
 .footer-bottom a {
   color: #fff;
   margin-left: 8px;
+  cursor: pointer;
 }
 .footer-column ul li a:hover {
   text-decoration: underline;
@@ -559,21 +643,28 @@ nav {
   transform: translateY(0);
 }
 
+
+
 .slider-text {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   margin: 20px auto;
 }
 .slider-text h2 {
-  margin-bottom: 10px;
-  font-size: 22px;
+  margin-bottom: 5px;
+  font-family: 'Arquitecta', sans-serif !important;
+  font-size: 40px;
   font-weight: 800;
   text-transform: uppercase;
 }
 .slider-text p {
-  font-size: 16px;
+  font-size: 20px;
 }
-
+.slider-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .slider-wrapper {
   position: relative;
   width: 100%;
@@ -610,6 +701,7 @@ nav {
 .slider-container {
   overflow: hidden;
   width: 100%;
+
 }
 
 .slider-track {
@@ -711,7 +803,7 @@ nav {
 
 .linear {
   background-color: #00000000;
-}
+} 
 
 .logobutton {
   position: absolute;
@@ -734,225 +826,79 @@ nav {
 
 
 
-
-
-
-
-@media (width >= 1200px) {
-
+@media (width > 1600px) {
+  .shopbyall-cards{
+     display: flex;
+ justify-content: center;
+  }
+  .background{
+    width: 1600px;
+  }
+  .footer{
+     display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  .footer-container{
+    width: 1600px;
+  }
+}
+@media (width > 1200px) {
 .card-image {
-  width: 17%;
+  width: 23%;
+  }
+   .activity-card {
+  width: 14.9%;
+}
 }
 
- .background{
-  flex-direction: column;
- }
 
- .activity-card {
-  width: 14%;
-}
-}
 @media (width <= 1200px) {
-body{
-  max-width:1200px;
-}
- 
-
-  
 .card-image {
-  width: 17%;
+  width: 22%;
 }
-
- .background{
-  flex-direction: column;
- }
- .shopbyall-card {
-    width: 200px;
-    height: 300px;
-  }
- .activity-card {
-  width: 14%;
+.activity-card {
+  width: 14.2%;
 }
 }
-@media (width <= 1024px) {
-   .shopbyall-card {
-    width: 200px;
-    height: 300px;
-  }
-}
-@media (width<= 1024px) {
-body{
-  max-width: 1024px;
-}
- .slider-card {
-    width: 42%;
-  }
-}
-
-@media (width<= 992px) {
-.menu-item{
+@media (width <= 990px) {
+   .menu-item{
   display: none;
 }
-
-  .card-image {
-    width: 90%;
-  }
-
-  .container {
-    flex-direction: column;
-  }
-
-  .slider-card {
-    width: 40%;
-  }
-  .shopbyall{
-    margin-left: 10px;
-    justify-content: center;
-  }
-.shopbyall-card {
-    width: 450px;
-    height: 500px;
-  }
-.background{
- overflow-x: scroll;
+.cards{
+  flex-wrap: wrap;
+ 
+}
+.card-image{
+  width: 48%;
+}
+.card-container{
+  flex-direction: column;
+  gap: 20px;
+}
+.card{
+  width: 100%;
+}
+.shopbyactivity{
+  width: 100vw;
 }
 .activity-grid{
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+flex-direction: column;
+width: 93%;
 }
 .activity-card{
-  width: 90%;
-  
+  width: 100%;
 }
-
-  .footer-bottom {
-    width: 100%;
-    margin-left: 0;
-  }
+.shopbyall{
+overflow-x:scroll;
+width: 100vw;
 }
-
-
-@media (max-width: 768px) {
-  .hero,
-  .grey-background {
-
-    margin: 20px 0;
-    background-size: cover;
-  }
-
-  .cards {
-    flex-direction: column;
-    gap: 20px;
-  }
-
-  .card-image {
-    width: 80%;
-  }
-
-  .dropdown {
-    grid-template-columns: 1fr;
-  }
-   .shopbyall-card {
-    width: 400px;
-    height: 500px;
-  }
-.background{
- overflow-x: scroll;
-} 
-.slider-card {
-    width: 80%;
-  }
-.shopbyactivity{
-  flex-direction:column ;
+.shopbyall-card {
+  width: 574.8px;
+  height: 718.48px;
+  flex: 0 0 auto;
 }
-  .arrow-btn-left,
-  .arrow-btn-right {
-    display: none;
-  }
-
-  .footer-container {
-    margin: 0 20px;
-  }
 }
 
 
-@media (max-width: 576px) {
-  body{
-    width: 425px;
-  }
-  .logo {
-    font-size: 20px;
-  }
 
-  .menu-item > a {
-    font-size: 14px;
-    padding: 6px;
-  }
-
-  .auth-icons a {
-    font-size: 12px;
-  }
-
-  .hero button,
-  .grey-background button {
-    padding: 10px 8px;
-    font-size: 12px;
-  }
-
-  .card-image {
-    width: 80%;
-  }
-
-  .shopbyactivity h2,
-  .background h2 {
-    font-size: 22px;
-    margin: 20px;
-    text-align: center;
-  }
-
-  .footer-column ul li a,
-  .footer-column h4 {
-    font-size: 12px;
-  }
-
-  .footer-column select {
-    font-size: 12px;
-  }
-
-  .slider-text h2 {
-    font-size: 18px;
-  }
-
-  .slider-text p {
-    font-size: 14px;
-  }
-
-  .slider-card {
-    width: 100%;
-    height: 300px;
-  }
-
-  .logobutton {
-    bottom: 60px;
-    right: 20px;
-    width: 24px;
-    height: 24px;
-  }
-
-  .logo-circle {
-    width: 50px;
-    height: 50px;
-    font-size: 16px;
-  }
-}
-@media (max-width: 576px) {
-  .shopbyall-card {
-    flex: 1 1 100%;
-    max-width: 100%;
-    height: auto;
-  }
-  .card {
-    width: 100%;
-  }
-}
