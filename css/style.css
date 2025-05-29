@@ -439,8 +439,11 @@ background-image:url("/images/icons8-user-24.png");
 .background{
   display: flex;
   flex-direction: column;
+    padding: 0px 30px;
+
 }
 .shopbyall {
+
   display: flex;
   flex-wrap: nowrap;
   width:100%;
