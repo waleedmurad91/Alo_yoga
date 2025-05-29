@@ -905,3 +905,8 @@ width: 100vw;
 
 
 
+@media (width <= 540px) {
+  .card-image{
+  width: 47%;
+}
+}
