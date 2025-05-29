@@ -83,9 +83,9 @@ function scrollFunction() {
   }
 }
 
-console.log(document.body.scrollTop);
+
 function topFunction() {
-  console.log(document.body.scrollTop);
+ 
   document.body.scrollTop =0;
   document.documentElement.scrollTop = 0;
 }
