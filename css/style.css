@@ -9,11 +9,6 @@
   src:  url("/assests/fonts/ArquitectaBold.woff2") format('woff2')
   
 }
-
- 
-   
-  
-
 @font-face {
   font-family: 'proxima nova';
   src:  url("/assests/fonts/ProximaNovaA-Black.woff2") format('woff2')
@@ -27,8 +22,10 @@ position: relative;
 
 body {
   margin: 0px;
+  padding: 0px;
   font-family: Arial, sans-serif; 
   position: relative;
+
 }
 header{
   position: sticky;
@@ -44,7 +41,7 @@ nav {
   background-color: white;
   position: relative;
   z-index: 10;
- 
+  padding:0px 20px ;
 }
 
 .logo a{
@@ -64,7 +61,7 @@ nav {
   flex-direction: row;
   align-items: center;
   list-style: none;
-  margin: 7px;
+  /* margin: 7px; */
 }
 .menu ul li {
   margin-left: 10px;
@@ -173,8 +170,8 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 7px;
-  padding-right:40px;
+  /* margin: 7px; */
+  /* padding-right:40px; */
 }
 .auth-icons ul{
   list-style: none;
@@ -225,7 +222,7 @@ background-image:url("/images/icons8-user-24.png");
 .hero {
   height: 40vw;
   width: 100%;
-  margin: 00px 30px 50px 0px;
+  /* margin: 00px 50px 50px 0px; */
   position: relative;
   background-size: contain;
   background-image: url("/images/top-banner.png");
@@ -890,18 +887,18 @@ background-image:url("/images/icons8-user-24.png");
   width: 100%;
 }
 .shopbyactivity{
-  width: 94vw;
+  width: 90vw;
 }
 .activity-grid{
 flex-direction: column;
-width: 93%;
+width: 100%;
 }
 .activity-card{
   width: 100%;
 }
 .shopbyall{
 overflow-x:scroll;
-width: 90vw;
+
 }
 .shopbyall-card {
   width: 574.8px;
@@ -913,7 +910,7 @@ width: 90vw;
 
 
 
-@media (width <= 540px) {
+@media (width <= 580px) {
   .card-image{
   width: 46%;
 }
@@ -934,5 +931,8 @@ width: 90vw;
 }
 .background {
   padding: 0px;
+}
+.shopbyactivity{
+  width: 89vw;
 }
 }
