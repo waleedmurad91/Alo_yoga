@@ -15,8 +15,25 @@ const sliderTrack = document.getElementById("sliderTrack");
 const prevBtn = document.getElementById("prevBtn");
 const nextBtn = document.getElementById("nextBtn");
 
-const cardWidth = 25; 
-const visibleCards = 4;
+let cardWidth = 0 
+let visibleCards = 0;
+let resize=()=>{
+  if(window.innerWidth<750){
+ cardWidth=50;
+ visibleCards=2;
+}
+else if(window.innerWidth>=1600){
+  cardWidth=25;
+  visibleCards=4;
+}
+else{
+  cardWidth=25.5;
+  visibleCards=4;
+}
+}
+resize();
+window.addEventListener('resize',resize)
+console.log(cardWidth);
 const totalCards = document.querySelectorAll(".slider-card").length;
 
 let currentIndex = 0;

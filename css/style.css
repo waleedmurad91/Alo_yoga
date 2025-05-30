@@ -95,17 +95,17 @@ nav {
   text-align: justify;
 }
   #dropdown-accessories{
-    left: -385px;
+    left: -392px;
   }
   #dropdown-women{
-    left: -130px;
+    left: -145px;
    
   }
   #dropdown-men{
-    left: -229px;
+    left: -243px;
   }
   #dropdown-gift{
-    left: -311px;
+    left: -317px;
   }
 .menu-item:hover .dropdown {
   display: flex;
@@ -526,7 +526,7 @@ background-image:url("/images/icons8-user-24.png");
 
 .footer {
   margin-top: 50px;
-  background-color: #111;
+  background-color: black;
   color: #fff;
   padding: 40px 0px;
   font-family: Arial, sans-serif;
@@ -538,11 +538,11 @@ background-image:url("/images/icons8-user-24.png");
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 20px;
-  
+  font-family: proxima nova;
 }
 
 .footer-column {
-  flex: 1 1 180px;
+  flex: 0 1 145px;
 }
 
 .footer-column h4 {
@@ -576,17 +576,24 @@ background-image:url("/images/icons8-user-24.png");
   padding: 6px;
   font-size: 13px;
 }
-
+.newsletter{
+   width: 30%; 
+}
 .footer-column.newsletter form {
   display: flex;
   margin-top: 10px;
+  color: white;
+ 
 }
 
 .footer-column.newsletter input[type="email"] {
   flex: 1;
-  padding: 8px;
+  padding: 15px 50px 15px 15px;
   font-size: 13px;
   border: none;
+  background-color: #000;
+  color: white;
+  
 }
 
 .footer-column.newsletter button {
@@ -600,7 +607,8 @@ background-image:url("/images/icons8-user-24.png");
 .privacy-note {
   margin-top: 10px;
   font-size: 12px;
-  color: #aaa;
+  color: white;
+  text-align: justify;
 }
 
 .privacy-note a {
@@ -612,9 +620,10 @@ background-image:url("/images/icons8-user-24.png");
   margin-top: 10px;
 }
 
-.social-icons a {
+.social-icons a{
   margin-right: 10px;
-  color: #fff;
+  background-image: url("/images/icons8-instagram-logo-30.png");
+  background-size: cover;
   font-size: 18px;
   text-decoration: none;
 }
@@ -622,15 +631,16 @@ background-image:url("/images/icons8-user-24.png");
 .footer-bottom {
   padding-top: 50px;
   font-size: 12px;
-  color: #aaa;
+  color: white;
   text-align: justify;
   width: 25%;
 }
 
 .footer-bottom a {
   color: #fff;
-  margin-left: 8px;
+  margin-top: 15px;
   cursor: pointer;
+  padding-bottom: 20px;
 }
 .footer-column ul li a:hover {
   text-decoration: underline;
@@ -674,27 +684,34 @@ background-image:url("/images/icons8-user-24.png");
   width: 100%;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .arrow-btn-left {
   position: relative;
+  background: url('https://uploads.sitepoint.com/wp-content/uploads/2023/10/1697699669arrow.svg') no-repeat;
+  background-position: center;
+  transform: rotate(90deg);
   top: 50%;
   left: 15px;
   z-index: 100;
 }
 .arrow-btn-right {
   position: relative;
+  background: url('https://uploads.sitepoint.com/wp-content/uploads/2023/10/1697699669arrow.svg') no-repeat;
+  background-position: center;
+  transform: rotate(-90deg);
   top: 50%;
   right: 20px;
   z-index: 100;
 }
 .arrow-btn {
   border: none;
-  padding: 10px;
+  padding: 12px;
   border-radius: 50%;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
   cursor: pointer;
   font-size: larger;
-  /* background-image: url("greater-than.png"); */
+  background-color: white;
 }
 
 .arrow-btn:disabled {
@@ -705,7 +722,6 @@ background-image:url("/images/icons8-user-24.png");
 .slider-container {
   overflow: hidden;
   width: 100%;
-
 }
 
 .slider-track {
@@ -716,7 +732,7 @@ background-image:url("/images/icons8-user-24.png");
 .slider-card {
   position: relative;
   width: 23.8%;
-  height: 350px;
+ height: 350px;
   border-radius: 16px;
   overflow: hidden;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -727,54 +743,44 @@ background-image:url("/images/icons8-user-24.png");
   background-size: cover;
 }
 
-#bg-slider1 {
-  background-image: url("/images/slider1.png");
-  /* min-width: 300px; */
-  height: 400px;
-  margin-right: 20px;
-}
+
 #bg-slider2 {
   /* min-width: 300px; */
-  height: 400px;
+  /* height: 400px; */
   margin-right: 20px;
   background-image: url("/images/slider1.png");
 }
 #bg-slider1 {
-  /* min-width: 300px; */
-  height: 400px;
-  margin-right: 20px;
-  min-width: 300px;
-  height: 400px;
   margin-right: 20px;
   background-image: url("/images/slider2.png");
 }
 #bg-slider3 {
   /* min-width: 300px; */
-  height: 400px;
+  /* height: 400px; */
   margin-right: 20px;
   background-image: url("/images/slider3.png");
 }
 #bg-slider4 {
   /* min-width: 300px; */
-  height: 400px;
+  /* height: 400px; */
   margin-right: 20px;
   background-image: url("/images/slider4.png");
 }
 #bg-slider5 {
   /* min-width: 300px; */
-  height: 400px;
+  /* height: 400px; */
   margin-right: 20px;
   background-image: url("/images/slider5.png");
 }
 #bg-slider6 {
   /* min-width: 300px; */
-  height: 400px;
+  /* height: 400px; */
   margin-right: 20px;
   background-image: url("/images/slider6.png");
 }
 #bg-slider7 {
   /* min-width: 300px; */
-  height: 400px;
+  /* height: 400px; */
   margin-right: 20px;
   background-image: url("/images/slider7.png");
 }
@@ -828,14 +834,71 @@ background-image:url("/images/icons8-user-24.png");
   z-index: 100000;
 }
 
+.footer-column details {
+  color: #ccc;
+  margin: 15px 0px;
+  border-radius: 5px;
+}
+summary::after {
+  content: '';
+  width: 18px;
+  height: 10px;
+  background: url('https://uploads.sitepoint.com/wp-content/uploads/2023/10/1697699669arrow.svg') no-repeat;
+  background-size: cover;
+  transition: 0.2s;
+  display: inline-block; 
+  margin-left: 8px;
+}
+
+details[open] > summary::after {
+  transform: rotate(180deg);
+}
+summary::-webkit-details-marker{
+  display: none;
+}
+details[open] summary {border-radius: 5px 5px 0 0;}
 
 
+.footer-column summary {
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 5px 0;
+  text-transform: uppercase;
+}
+summary {
+  all: unset;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.social-icons a img{
+  height: auto;
+  width: auto;
+}
+.details{
+ margin-bottom: 20px;
+ font-size: 16px;
+ font-family: proxima nova;
+}
+.small{
+  display: none;
+}
+details ul {
+  padding: 0px;
+}
+details ul li{
+  list-style: none;
+  padding-top: 10px;
+}
+details ul li a{
+  text-decoration: none;
+  color: white;
+}
 @media (width > 1600px) {
-  .shopbyall-cards{
+.shopbyall-cards{
   display: flex;
  justify-content: center;
- 
-
   }
   .background{
     width: 1539px;
@@ -848,6 +911,17 @@ background-image:url("/images/icons8-user-24.png");
   }
   .footer-container{
     width: 1600px;
+  }
+  .slider-card{
+    width: 24.4%;
+    height: auto;
+    aspect-ratio: 4 / 4;
+  }
+}
+@media (width < 1600px){
+   .slider-card{
+    height: auto;
+    aspect-ratio: 4 / 4;
   }
 }
 @media (width > 1200px) {
@@ -867,6 +941,39 @@ background-image:url("/images/icons8-user-24.png");
 .activity-card {
   width: 14.2%;
 }
+.arrow-btn{
+  padding: 14px;
+}
+}
+
+@media (width < 750px) {
+.footer-container{
+  flex-direction: column;
+}
+.footer-column{
+  width: 50%;
+}
+.footer-bottom { 
+  padding: 30px 15px 15px 0px 15px;
+  font: 13px;
+}
+.footer-full{
+  display: none;
+}
+.small{
+  display:flex;
+}
+.center{
+  display: flex;
+  justify-content: center;
+}
+.footer-bottom{
+  width: 70%;
+}
+.slider-card{
+  width: 47%;
+}
+
 }
 @media (width <= 1000px) {
 .menu-item{
@@ -905,7 +1012,9 @@ overflow-x:scroll;
   height: 718.48px;
   flex: 0 0 auto;
 }
-
+.arrow-btn{
+  padding: 13px;
+}
 }
 
 
@@ -934,5 +1043,14 @@ overflow-x:scroll;
 }
 .shopbyactivity{
   width: 89vw;
+}
+.footer-bottom{
+  width: 100%;
+}
+.newsletter{
+  width: 100%;
+}
+.arrow-btn{
+  padding: 12px;
 }
 }
