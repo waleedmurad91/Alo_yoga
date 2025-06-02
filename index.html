@@ -15,8 +15,8 @@
 
   <body>
     <div class="sale-banner">30% OFF SITEWIDE</div>
-    <header class="position">
-      <nav>
+    <header>
+      <nav class="main-nav">
         <div class="menu">
           <ul id="menu">
             <div class="logo">
@@ -253,8 +253,368 @@
           </ul>
         </div>
       </nav>
-    </header>
+      <nav class="small-nav">
+        <div class="mobile-nav">
+          <div class="left-icons">
+            <button id="toggleSidebar" class="icon-button">
+              <img src="images/icons8-menu-24.png" alt="" />
+            </button>
+            <a href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                x="0px"
+                y="0px"
+                width="24px"
+                height="24px"
+                viewBox="0 0 50 50"
+              >
+                <path
+                  d="M 21 3 C 11.621094 3 4 10.621094 4 20 C 4 29.378906 11.621094 37 21 37 C 24.710938 37 28.140625 35.804688 30.9375 33.78125 L 44.09375 46.90625 L 46.90625 44.09375 L 33.90625 31.0625 C 36.460938 28.085938 38 24.222656 38 20 C 38 10.621094 30.378906 3 21 3 Z M 21 5 C 29.296875 5 36 11.703125 36 20 C 36 28.296875 29.296875 35 21 35 C 12.703125 35 6 28.296875 6 20 C 6 11.703125 12.703125 5 21 5 Z"
+                ></path>
+              </svg>
+            </a>
+          </div>
 
+          <div class="logo">
+            <a href="index.html">
+              <svg
+                viewBox="0 0 71 48"
+                width="71"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22.826 19.591h5.771v27.43h-5.77v-1.928A13.973 13.973 0 0114.298 48C6.414 48 0 41.409 0 33.306c0-8.103 6.414-14.694 14.299-14.694 3.193 0 6.145 1.082 8.527 2.907zm-.145 13.715c0-4.861-3.76-8.816-8.382-8.816-4.623 0-8.382 3.955-8.382 8.816 0 4.862 3.76 8.816 8.382 8.816s8.382-3.954 8.382-8.816zM39.434 47.02h-5.906V0h5.906zm2.969-13.714c0-8.103 6.414-14.694 14.298-14.694C64.586 18.612 71 25.203 71 33.306 71 41.41 64.586 48 56.701 48s-14.298-6.591-14.298-14.694zm5.916 0c0 4.862 3.76 8.816 8.382 8.816 4.623 0 8.382-3.954 8.382-8.816 0-4.861-3.76-8.816-8.382-8.816s-8.382 3.955-8.382 8.816z"
+                ></path>
+                <desc>Alo</desc>
+              </svg></a
+            >
+          </div>
+
+          <div class="right-icons">
+            <div class="auth-icons">
+              <ul>
+                <li>
+                  <a href="#" id="signin"
+                    ><img
+                      src="images/icons8-user-44.png"
+                      alt="user icon"
+                      height="24px"
+                      width="24px"
+                      alt="user icon"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a href="#" id="heart"
+                    ><img src="images/icons8-heart-24.png" alt="heart icon"
+                  /></a>
+                </li>
+                <li>
+                  <a href="#" id="cart"
+                    ><img src="/images/shopping-bag-24.png" alt="cart icon"
+                  /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <aside id="nav-sidebar" class="nav-sidebar">
+          <div class="upper-content">
+            <div class="account">
+              <a href="" id="signin">
+                <img
+                  src="images/icons8-user-44.png"
+                  alt="user icon"
+                  height="24px"
+                  width="24px"
+                  alt="user icon"
+                />
+                <div class="signin">SIGN In to get rewards</div></a
+              >
+              <button id="cross">
+                <svg class="svg">
+                  <path
+                    d="M.865 15.978a.5.5 0 00.707.707l7.433-7.431 7.579 7.282a.501.501 0 00.846-.37.5.5 0 00-.153-.351L9.712 8.546l7.417-7.416a.5.5 0 10-.707-.708L8.991 7.853 1.413.573a.5.5 0 10-.693.72l7.563 7.268-7.418 7.417z"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+            <div class="search">
+              <input type="text" placeholder="search" name="" id="searchbar" />
+            </div>
+            <div class="mobile-nav-menu">
+              <ul id="menu-btns">
+                <li>
+                  <button class="menuBtn" id="active" name="womens">
+                    Women's
+                  </button>
+                </li>
+                <li>
+                  <button class="menuBtn" id="" name="mens">Men's</button>
+                </li>
+                <li><button class="menuBtn" id="" name="gift">Gift</button></li>
+                <li>
+                  <button class="menuBtn" id="" name="accessories">
+                    Accessories
+                  </button>
+                </li>
+              </ul>
+              <div class="navbar-menu-items">
+                <div class="navbar-menu-items" id="womens-menu-items">
+                  <div class="shopall-women">
+                    <a href="">
+                      <img
+                        src="images/toggle-menu-img-shopallwomen.jpg"
+                        alt="Shopall image"
+                      />
+                      <div class="menu-item-text">shop all women</div>
+                    </a>
+                  </div>
+                  <div class="shopall-women">
+                    <a href="">
+                      <img
+                        src="images/toggle-menu-img-best-seller.jpg"
+                        alt="Shopall image"
+                      />
+                      <div class="menu-item-text">best sellers</div>
+                    </a>
+                  </div>
+                  <div class="shopall-women">
+                    <a href="">
+                      <img
+                        src="images/toggle-menu-img-shopbyactivity.jpg"
+                        alt="Shopall image"
+                      />
+                      <div class="menu-item-text">shop by activity</div>
+                    </a>
+                  </div>
+                  <div class="shopall-women">
+                    <a href="">
+                      <img
+                        src="images/toggle-menu-img-accessories.jpg"
+                        alt="Shopall image"
+                      />
+                      <div class="menu-item-text">accessories</div>
+                    </a>
+                  </div>
+                  <div class="shopall-women">
+                    <a href="">
+                      <img
+                        src="images/toggle-menu-img-new.jpg"
+                        alt="Shopall image"
+                      />
+                      <div class="menu-item-text">new</div>
+                    </a>
+                  </div>
+                  <div class="shopall-women">
+                    <a href="">
+                      <img
+                        src="images/toggle-menu-img-sale.png"
+                        alt="Shopall image"
+                      />
+                      <div class="menu-item-text">sale</div>
+                    </a>
+                  </div>
+                </div>
+                <div class="navbar-menu-items" id="mens-menu-items">
+                  <div class="shopall-women">
+                    <a href="">
+                      <img
+                        src="images/mens-menu-img-shopall-men.jpg"
+                        alt="Shopall image"
+                      />
+                      <div class="menu-item-text">shop all men</div>
+                    </a>
+                  </div>
+                  <div class="shopall-women">
+                    <a href="">
+                      <img
+                        src="images/mens-menu-img-shopbyactivity.jpg"
+                        alt="Shopall image"
+                      />
+                      <div class="menu-item-text">shop by activity</div>
+                    </a>
+                  </div>
+                  <div class="shopall-women">
+                    <a href="">
+                      <img
+                        src="images/mens-menu-img-best-sellers.jpg"
+                        alt="Shopall image"
+                      />
+                      <div class="menu-item-text">best sellers</div>
+                    </a>
+                  </div>
+                  <div class="shopall-women">
+                    <a href="">
+                      <img
+                        src="images/mens-menu-img-accessories.jpg"
+                        alt="Shopall image"
+                      />
+                      <div class="menu-item-text">accessories</div>
+                    </a>
+                  </div>
+                  <div class="shopall-women">
+                    <a href="">
+                      <img
+                        src="images/mens-menu-img-new.jpg"
+                        alt="Shopall image"
+                      />
+                      <div class="menu-item-text">new</div>
+                    </a>
+                  </div>
+                  <div class="shopall-women">
+                    <a href="">
+                      <img
+                        src="images/mens-menu-img-sneaker.jpg"
+                        alt="Shopall image"
+                      />
+                      <div class="menu-item-text">sneakers</div>
+                    </a>
+                  </div>
+                  <div class="shopall-women">
+                    <a href="">
+                      <img
+                        src="images/mens-menu-img-featured-shop.jpg"
+                        alt="Shopall image"
+                      />
+                      <div class="menu-item-text">Featured shop</div>
+                    </a>
+                  </div>
+                  <div class="shopall-women">
+                    <a href="">
+                      <img
+                        src="images/mens-menu-img-sale.jpg"
+                        alt="Shopall image"
+                      />
+                      <div class="menu-item-text">sale</div>
+                    </a>
+                  </div>
+                </div>
+                <div class="navbar-menu-items" id="gift-menu-items">
+                  <div class="shopall-women">
+                    <a href="">
+                      <img
+                        src="images/gift-menu-img-allgifts.jpg"
+                        alt="Shopall image"
+                      />
+                      <div class="menu-item-text">shop all gifts</div>
+                    </a>
+                  </div>
+                  <div class="shopall-women">
+                    <a href="">
+                      <img
+                        src="images/gift-menu-img-loungewear.jpg"
+                        alt="Shopall image"
+                      />
+                      <div class="menu-item-text">for the lounge wear</div>
+                    </a>
+                  </div>
+                  <div class="shopall-women">
+                    <a href="">
+                      <img
+                        src="images/gift-menu-img-fortennis.jpg"
+                        alt="Shopall image"
+                      />
+                      <div class="menu-item-text">for the tennis players</div>
+                    </a>
+                  </div>
+                  <div class="shopall-women">
+                    <a href="">
+                      <img
+                        src="images/gift-menu-img-foryogi.jpg"
+                        alt="Shopall image"
+                      />
+                      <div class="menu-item-text">for the yogi</div>
+                    </a>
+                  </div>
+                  <div class="shopall-women">
+                    <a href="">
+                      <img
+                        src="images/gift-menu-img-giftsforhim.jpg"
+                        alt="Shopall image"
+                      />
+                      <div class="menu-item-text">gifts fro him</div>
+                    </a>
+                  </div>
+                </div>
+                <div class="navbar-menu-items" id="accessories-menu-items">
+                  <div class="shopall-women">
+                    <a href="">
+                      <img
+                        src="images/accessories-menu-img-shopall.jpg"
+                        alt="Shopall image"
+                      />
+                      <div class="menu-item-text">shop all</div>
+                    </a>
+                  </div>
+                  <div class="shopall-women">
+                    <a href="">
+                      <img
+                        src="images/accessories-menu-img-hats.jpg"
+                        alt="Shopall image"
+                      />
+                      <div class="menu-item-text">hats</div>
+                    </a>
+                  </div>
+                  <div class="shopall-women">
+                    <a href="">
+                      <img
+                        src="images/accessories-menu-img-bags.jpg"
+                        alt="Shopall image"
+                      />
+                      <div class="menu-item-text">bags</div>
+                    </a>
+                  </div>
+                  <div class="shopall-women">
+                    <a href="">
+                      <img
+                        src="images/accessories-menu-img-yogamats.jpg"
+                        alt="Shopall image"
+                      />
+                      <div class="menu-item-text">yoga mats & equipments</div>
+                    </a>
+                  </div>
+                  <div class="shopall-women">
+                    <a href="">
+                      <img
+                        src="images/accessories-menu-img-socksandslides.jpg"
+                        alt="socks & Slides"
+                      />
+                      <div class="menu-item-text">socks & Slides</div>
+                    </a>
+                  </div>
+                  <div class="shopall-women">
+                    <a href="">
+                      <img
+                        src="images/accessories-menu-img-hair.jpg"
+                        alt="Hair accessories"
+                      />
+                      <div class="menu-item-text">Hair accessories</div>
+                    </a>
+                  </div>
+                  <div class="shopall-women">
+                    <a href="">
+                      <img
+                        src="images/accessories-menu-img-sunglasses.jpg"
+                        alt="sunglasses"
+                      />
+                      <div class="menu-item-text">sunglasses</div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="navbar-language">
+            <select>
+              <option selected>English</option>
+              <option>Indonesia</option>
+            </select>
+          </div>
+        </aside>
+      </nav>
+    </header>
     <section class="hero">
       <button type="submit">SHOP NOW</button>
     </section>
@@ -426,91 +786,85 @@
     <a href="index.html" class="logo-circle">alo</a>
 
     <section class="slider-section">
-        <div class="slider-container">
-          <div class="slider-text">
-            <h2>Alo in the wild</h2>
-            <p>click to shop the looks you love!</p>
-          </div>
+      <div class="slider-container">
+        <div class="slider-text">
+          <h2>Alo in the wild</h2>
+          <p>click to shop the looks you love!</p>
+        </div>
 
-          <div class="slider-wrapper">
-            <button class="arrow-btn arrow-btn-left" id="prevBtn">
-            
-            </button>
+        <div class="slider-wrapper">
+          <button class="arrow-btn arrow-btn-left" id="prevBtn"></button>
 
-            <div class="slider-container">
-              <div class="slider-track" id="sliderTrack">
-                <div class="slider-card" id="bg-slider1">
-                  <div class="middle">
-                    <div class="slider-hover">
-                      <p>crisp air,clear mind and just the right shade</p>
-                      <a href="">#AloIndonesia</a>
-                    </div>
+          <div class="slider-container">
+            <div class="slider-track" id="sliderTrack">
+              <div class="slider-card" id="bg-slider1">
+                <div class="middle">
+                  <div class="slider-hover">
+                    <p>crisp air,clear mind and just the right shade</p>
+                    <a href="">#AloIndonesia</a>
                   </div>
                 </div>
+              </div>
 
-                <div class="slider-card" id="bg-slider2">
-                  <div class="middle">
-                    <div class="slider-hover">
-                      <p>crisp air,clear mind and just the right shade</p>
-                      <a href="">#AloIndonesia</a>
-                    </div>
+              <div class="slider-card" id="bg-slider2">
+                <div class="middle">
+                  <div class="slider-hover">
+                    <p>crisp air,clear mind and just the right shade</p>
+                    <a href="">#AloIndonesia</a>
                   </div>
                 </div>
+              </div>
 
-                <div class="slider-card" id="bg-slider3">
-                  <div class="middle">
-                    <div class="slider-hover">
-                      <p>crisp air,clear mind and just the right shade</p>
-                      <a href="">#AloIndonesia</a>
-                    </div>
+              <div class="slider-card" id="bg-slider3">
+                <div class="middle">
+                  <div class="slider-hover">
+                    <p>crisp air,clear mind and just the right shade</p>
+                    <a href="">#AloIndonesia</a>
                   </div>
                 </div>
+              </div>
 
-                <div class="slider-card" id="bg-slider4">
-                  <div class="middle">
-                    <div class="slider-hover">
-                      <p>crisp air,clear mind and just the right shade</p>
-                      <a href="">#AloIndonesia</a>
-                    </div>
+              <div class="slider-card" id="bg-slider4">
+                <div class="middle">
+                  <div class="slider-hover">
+                    <p>crisp air,clear mind and just the right shade</p>
+                    <a href="">#AloIndonesia</a>
                   </div>
                 </div>
+              </div>
 
-                <div class="slider-card" id="bg-slider5">
-                  <div class="middle">
-                    <div class="slider-hover">
-                      <p>crisp air,clear mind and just the right shade</p>
-                      <a href="">#AloIndonesia</a>
-                    </div>
+              <div class="slider-card" id="bg-slider5">
+                <div class="middle">
+                  <div class="slider-hover">
+                    <p>crisp air,clear mind and just the right shade</p>
+                    <a href="">#AloIndonesia</a>
                   </div>
                 </div>
+              </div>
 
-                <div class="slider-card" id="bg-slider6">
-                  <div class="middle">
-                    <div class="slider-hover">
-                      <p>crisp air,clear mind and just the right shade</p>
-                      <a href="">#AloIndonesia</a>
-                    </div>
+              <div class="slider-card" id="bg-slider6">
+                <div class="middle">
+                  <div class="slider-hover">
+                    <p>crisp air,clear mind and just the right shade</p>
+                    <a href="">#AloIndonesia</a>
                   </div>
                 </div>
+              </div>
 
-                <div class="slider-card" id="bg-slider7">
-                  <div class="middle">
-                    <div class="slider-hover">
-                      <p>crisp air,clear mind and just the right shade</p>
-                      <a href="">#AloIndonesia</a>
-                    </div>
+              <div class="slider-card" id="bg-slider7">
+                <div class="middle">
+                  <div class="slider-hover">
+                    <p>crisp air,clear mind and just the right shade</p>
+                    <a href="">#AloIndonesia</a>
                   </div>
                 </div>
-
-                
               </div>
             </div>
-
-            <button class="arrow-btn arrow-btn-right" id="nextBtn">
-            </button>
           </div>
+
+          <button class="arrow-btn arrow-btn-right" id="nextBtn"></button>
         </div>
-      
+      </div>
     </section>
 
     <div class="footer-full">
