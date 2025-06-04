@@ -441,7 +441,7 @@ overflow-y: hidden;
   /* margin: 00px 50px 50px 0px; */
   position: relative;
   background-size: contain;
-  background-image: url("/images/top-banner.png");
+  background-image: url("/images/top-banner-full.jpg");
   object-fit: contain;
   background-repeat: no-repeat;
 }
@@ -520,7 +520,7 @@ overflow-y: hidden;
   height: 40vw;
   margin: 50px 30px 50px 0px;
   position: relative;
-  background-image: url("/images/background\ banner.png ");
+  background-image: url("/images/background-banner-full.jpg ");
   background-size: contain;
   background-position: center;
   object-fit: contain;
@@ -1149,6 +1149,23 @@ details ul li a {
 }
 
 @media (width < 750px) {
+  .container{
+    padding: 15px;
+  }
+  .hero{
+    height: 120vh;
+  background-size: cover;
+  background-image: url("/images/top-banner-mobile.jpg");
+  
+}
+.hero button{
+  right:40%;
+}
+.grey-background{
+      height: 120vh;
+  background-size: cover;
+  background-image: url("/images/background-banner-mobile.webp");
+}
    .links-grid{
     display: block;
    }
@@ -1229,15 +1246,13 @@ details ul li a {
 }
 
 @media (width <= 580px) {
-header{
-    top: 10px;
-  }
-  .mobile-nav{
-    padding: 0px;
-  }
- .small-nav{
-  padding: 0px 10px;
- }
+.small-icon{
+  width: 15px;
+  height: 15px;
+}
+#logoid{
+width: 40px;
+}
   .right-icons ul{
 padding: 0px;
   }
@@ -1270,4 +1285,14 @@ padding: 0px;
   .arrow-btn {
     padding: 12px;
   }
+}
+@media (width <= 580px) {
+ .footer-column.newsletter input[type="email"] {
+  padding: 12px 50px 12px 12px;
+  font-size: 9px;
+ 
+}
+.card-image{
+  width: 45%;
+}
 }
