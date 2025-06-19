@@ -90,22 +90,7 @@ sliderTrack.addEventListener("mouseleave", startAutoSlide);
 let logobutton = document.getElementById("mybtn");
 
 
-window.onscroll = function() {scrollFunction()};
 
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    logobutton.style.display = "block";
-  } else {
-    logobutton.style.display = "none";
-  }
-}
-
-
-function topFunction() {
- 
-  document.body.scrollTop =0;
-  document.documentElement.scrollTop = 0;
-}
 
 
 
@@ -114,11 +99,13 @@ const toggleBtn = document.getElementById('toggleSidebar');
 const navSidebar = document.getElementById('nav-sidebar');
 const crossBtn = document.getElementById('cross');
 toggleBtn.addEventListener('click', () => {
-  navSidebar.style.display="flex";
+  // navSidebar.style.display="flex";
+  navSidebar.classList.add('active');
 });
 
 crossBtn.addEventListener('click', () => {
-  navSidebar.style.display="none";
+  // navSidebar.style.display="none";
+  navSidebar.classList.remove('active');
 });
 
 
@@ -132,7 +119,7 @@ for (let i = 0; i < buttons.length; i++) {
     const name = this.getAttribute("name"); 
     const classDisplay = name + "-menu-items";
 
-    const allMenus = document.querySelectorAll(".navbar-menu-items > div");
+    const allMenus = document.querySelectorAll(".navbar-menu-container > .navbar-menu-items");
     allMenus.forEach(div => {
       div.style.display = "none";
     });

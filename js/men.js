@@ -13,26 +13,6 @@ document.querySelectorAll('.hidden').forEach(el => observer.observe(el));
 
 
 
-  
-let logobutton = document.getElementById("mybtn");
-
-
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    logobutton.style.display = "block";
-  } else {
-    logobutton.style.display = "none";
-  }
-}
-
-
-function topFunction() {
-
-  document.body.scrollTop =0;
-  document.documentElement.scrollTop = 0;
-}
 
 
 
