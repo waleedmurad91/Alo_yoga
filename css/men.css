@@ -10,11 +10,12 @@
 }
 .men-hero button {
   position: absolute;
-  bottom: 85px;
-  right: 85px;
-  padding: 15px 40px;
+  bottom: 13%;
+  right: 5.5%;
+  padding: 10px 35px;
   font-size: 18px;
   font-family: "Arquitecta", sans-serif !important;
+  letter-spacing: 1px;
   font-weight: bolder;
   background-color: #fafafa;
   color: #000;
@@ -44,15 +45,15 @@
   height: auto;
   margin: 0 auto;
   text-align: center;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 10px;
  padding: 36px 0px;
 }
 
 .men-card-image {
-  width: 23%;
-  height: auto;
+  width: 24%;
+  aspect-ratio: 4/5;
   cursor: pointer;
 }
 .men-card-image a {
@@ -146,7 +147,9 @@
   overflow-x: auto;
   scroll-behavior: smooth;
   gap: 30px;
-  overflow-x: hidden;
+}
+.card-slider::-webkit-scrollbar {
+  display: none;               
 }
 
 .men-card {
@@ -217,9 +220,15 @@
   border: 1px solid #ddd;
 }
 
+@media (width >1660px) {
+.men-hero button{
+    bottom: 13%;
+  right: 25%;
+}
+}
 @media (max-width:992px) {
  .men-card-image {
-  width: 48%;
+  width: 49%;
  }
  .men-card {
   width: 45%;
@@ -242,7 +251,7 @@
 
 @media (max-width:750px) {
    .men-card-image {
-  width: 47%;
+  width: 49%;
  }
  .men-card {
   width: 44%;
@@ -250,14 +259,38 @@
   .container{
     padding: 0px 10px;
   }
+  .men-hero{
+    background: url("/images/men-banner.jpg");
+    height: 100vw;
+    background-size: cover;
+  }
+   .men-hero button{
+    right: 50%;
+    transform: translate(50%);
+    font-size:16px ;
+  }
+}
+@media (width <= 580px) {
+  .men-card-image{
+    width: 48.5%;
+  }
 }
 
 @media (max-width: 450px) {
+  
   .men-card-image{
-    width: 45%;
+    width: 48%;
   }
+ 
+ 
 .men-card-image a {
   font-size: 14px;
   text-decoration: underline;
+}
+.men-cards{
+  padding: 25px 0px;
+}
+.men-heading{
+  margin: 0px;
 }
 }
