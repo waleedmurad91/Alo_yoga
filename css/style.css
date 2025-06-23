@@ -176,9 +176,13 @@ nav {
 }
 .dropdown-column a {
   text-decoration: none;
+ 
   color: #333;
   margin: 4px 0;
   font-size: 14px;
+}
+.dropdown-column ul li a:hover{
+  border: none;
 }
 
 .dropdown-column a.sale {
