@@ -29,7 +29,7 @@
         <ul id="menu">
 
           <li>
-            <div class="menu-item">
+            <div class="menu-item" id="women">
               <div class="menu-item-title">
                 <a href="womenpage1.html">WOMEN</a>
               </div>
@@ -105,7 +105,7 @@
             </div>
           </li>
           <li>
-            <div class="menu-item">
+            <div class="menu-item" id="men">
               <div class="menu-item-title">
                 <a href="men.html">MEN</a>
               </div>
@@ -159,7 +159,7 @@
           </li>
 
           <li>
-            <div class="menu-item">
+            <div class="menu-item" id="gift">
               <div class="menu-item-title">
                 <a href="gift.html">GIFT</a>
               </div>
@@ -184,7 +184,7 @@
             </div>
           </li>
           <li>
-            <div class="menu-item">
+            <div class="menu-item" id="accessories">
               <div class="menu-item-title">
                 <a href="accessories.html">ACCESSORIES</a>
               </div>
@@ -580,7 +580,9 @@
       <div class="cards box hidden">
         <div class="card-image">
           <a href=""><img src="/images/MatchingSets.jpg" alt="" />
-            <div class="card-image-text"> <p> MATCHING SETS</p></div>
+            <div class="card-image-text">
+              <p> MATCHING SETS</p>
+            </div>
           </a>
         </div>
         <div class="card-image">
@@ -593,12 +595,16 @@
         </div>
         <div class="card-image">
           <a href=""><img src="/images/trending_now-trousers_20240827.jpg" alt="" />
-            <div class="card-image-text"><p> PANTS & TROUSERS</p></div>
+            <div class="card-image-text">
+              <p> PANTS & TROUSERS</p>
+            </div>
           </a>
         </div>
         <div class="card-image">
           <a href=""><img src="/images/Shorts.jpg" alt="" />
-            <div class="card-image-text"><p> WOMEN'S SHORTS</p></div>
+            <div class="card-image-text">
+              <p> WOMEN'S SHORTS</p>
+            </div>
           </a>
         </div>
       </div>
@@ -606,36 +612,38 @@
   </section>
   <section class="background-banner" id="middle-banner">
     <button type="submit">
-       SHOP court sports
+      SHOP court sports
     </button>
   </section>
 
   <section class="jiso-card">
-      <div class="card-container">
-        <div class="card">
-          <img src="/images/Alo+jiso.png" alt="ALO + JISOO image" />
-          <div class="text">
-            <h3>ALO + JISOO</h3>
-            <h1>
-              From wellness club to world tour, get Blackpink star Jisoo's
-              looks.
-            </h1>
-          </div>
-        </div>
-
-        <div class="card">
-          <img src="/images/Trend report.png" alt="Trend Report image" />
-          <div class="text">
-            <h3>TREND REPORT</h3>
-            <h1>
-              Season shift & so does the opportunity to reset your closet.
-            </h1>
-          </div>
+    <div class="card-container">
+      <div class="card">
+        <img src="/images/Alo+jiso.png" alt="ALO + JISOO image" />
+        <div class="text">
+          <h3>ALO + JISOO</h3>
+          <h1>
+            From wellness club to world tour, get Blackpink star Jisoo's
+            looks.
+          </h1>
         </div>
       </div>
-    
+
+      <div class="card">
+        <img src="/images/Trend report.png" alt="Trend Report image" />
+        <div class="text">
+          <h3>TREND REPORT</h3>
+          <h1>
+            Season shift & so does the opportunity to reset your closet.
+          </h1>
+        </div>
+      </div>
+    </div>
+
   </section>
-  <section class="shopbyactivity-cards">
+
+
+  <section class="shopbyactivity-full-width">
     <div class="container">
       <div class="shopbyactivity box hidden">
         <h2>SHOP BY ACTIVITY</h2>
@@ -677,13 +685,15 @@
 
   <section class="shopbyall-cards">
     <div class="container">
-      <div class="background box hidden">
-        <h2>Shop by color</h2>
-        <div class="shopbyall">
+      <div class="shopbyall-inner-container box hidden">
+        <div class="shopbyall-label">
+          <h2>Shop by color</h2>
+        </div>
+        <div class="shopbyall-grid">
           <div class="shopbyall-card">
             <img src="/images/shopbyall1.png" alt="ALO + JISOO" />
             <div class="shopbyall-text" id="pink-quartz">
-              <h4>PINK QUARTZ</h4>
+              <h2>PINK QUARTZ</h2>
               <p id="pink-quartz">
                 We perfected this shade and she's a gem. <br />
                 <a href="">shop pink quartz</a>
@@ -694,7 +704,7 @@
           <div class="shopbyall-card">
             <img src="/images/shopbyall2.png" alt="Trend Report" />
             <div class="shopbyall-text" id="crystal-clear-blue">
-              <h4>CRYSTAL CLEAR BLUE</h4>
+              <h2>CRYSTAL CLEAR BLUE</h2>
               <p id="crystal-clear-blue">
                 The deep and serene shade that every wardrobe need <br />
                 <a href="">shop crystal clear blue</a>
@@ -705,7 +715,7 @@
           <div class="shopbyall-card">
             <img src="/images/shopbyall3.png" alt="ALO + JISOO" />
             <div class="shopbyall-text" id="smoky-quartz">
-              <h4>smoky quartz</h4>
+              <h2>smoky quartz</h2>
               <p id="smoky-quartz">
                 Realign your wardrobe with this new gem of a <br />color
                 <br />
@@ -717,7 +727,7 @@
           <div class="shopbyall-card">
             <img src="/images/shopbyall4.png" alt="Trend Report" />
             <div class="shopbyall-text" id="spruce-green">
-              <h4>spruce green</h4>
+              <h2>spruce green</h2>
               <p id="spruce-green">
                 Get your daily dose of green with this vibrant hue <br />
                 <a href="">Shop Spruce green</a>
@@ -729,20 +739,26 @@
     </div>
   </section>
 
-  <a href="index.html" class="logo-circle">alo</a>
+
 
   <section class="slider-section">
-    <div class="slider-container">
-      <div class="slider-text">
-        <h2>Alo in the wild</h2>
-        <p>click to shop the looks you love!</p>
-      </div>
+    <div class="slider-text">
+      <h2>Alo in the wild</h2>
+      <p>click to shop the looks you love!</p>
+    </div>
+    <div class="slider-image-cards">
+      <div class="slider-container">
+        <div class="slider-wrapper">
+          <div class="slider-btn slider-btn-left">
+            <svg class="" id="prevBtn" width="12" height="18" viewBox="0 0 12 18" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path d="M2.59912 15.3986L8.99912 8.99863L2.59912 2.59863" stroke="#464b5b" stroke-width="3"
+                stroke-linecap="square"></path>
+            </svg>
+          </div>
 
-      <div class="slider-wrapper">
-        <button class="arrow-btn arrow-btn-left" id="prevBtn"></button>
 
-        <div class="slider-container">
-          <div class="slider-track" id="sliderTrack">
+          <div class="slider-grid" id="sliderGrid">
             <div class="slider-card" id="bg-slider1">
               <div class="middle">
                 <div class="slider-hover">
@@ -806,95 +822,107 @@
               </div>
             </div>
           </div>
-        </div>
 
-        <button class="arrow-btn arrow-btn-right" id="nextBtn"></button>
+          <div class="slider-btn slider-btn-right">
+            <svg class="" id="nextBtn" width="12" height="18" viewBox="0 0 12 18" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path d="M2.59912 15.3986L8.99912 8.99863L2.59912 2.59863" stroke="#464b5b" stroke-width="3"
+                stroke-linecap="square"></path>
+            </svg>
+          </div>
+        </div>
       </div>
     </div>
+
   </section>
 
   <div class="footer-full">
     <footer class="footer">
-      <div class="container">
-        <div class="footer-container">
-          <div class="footer-column">
-            <h4>Customer Service</h4>
-            <ul>
-              <li><a href="#">Track My Order</a></li>
-              <li><a href="#">FAQs</a></li>
-              <li><a href="#">Contact Us</a></li>
-              <li><a href="#">Shipping Info</a></li>
-              <li><a href="#">Return Policy</a></li>
-              <li><a href="#">Size Guide</a></li>
-              <li><a href="#">Reviews</a></li>
-            </ul>
-          </div>
-
-          <div class="footer-column">
-            <h4>My Account</h4>
-            <ul>
-              <li><a href="#">Login Or Register</a></li>
-              <li><a href="#">Order History</a></li>
-              <li><a href="#">Shipping & Billing</a></li>
-            </ul>
-          </div>
-
-          <div class="footer-column">
-            <h4>Information</h4>
-            <ul>
-              <li><a href="#">We Are Alo</a></li>
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Store</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Pro Program</a></li>
-              <li><a href="#">Careers</a></li>
-            </ul>
-          </div>
-
-          <div class="footer-column">
-            <h4>Language</h4>
-            <select>
-              <option selected>English</option>
-              <option>Indonesia</option>
-            </select>
-          </div>
-
-          <div class="footer-column newsletter">
-            <h4>Sign up for our newsletter - enter your email below</h4>
-            <form>
-              <input type="email" placeholder="Enter your email" />
-              <button type="submit">➔</button>
-            </form>
-            <p class="privacy-note">
-              By entering your email address, you agree to our
-              <a href="#">Privacy Policy</a>
-              and will receive Alo Yoga offers, promotions and other
-              commercial messages. You may unsubscribe at any time.
-            </p>
-            <div class="social-icons">
-              <h2>Follow Us</h2>
-              <a href="#"><img src="/images/insta.svg" alt="" /></a>
-              <a href="#"><img src="/images/tiktok.svg" alt="" /></a>
-              <a href="#"><img src="/images/facebook.svg" alt="" /></a>
-              <a href="#"><img src="/images/twitter.svg" alt="" /></a>
-              <a href="#"><img src="/images/pinterest.svg" alt="" /></a>
-              <a href="#"><img src="/images/youtube.svg" alt="" /></a>
-            </div>
-          </div>
+      <div class="footer-container">
+        <div class="footer-column">
+          <h2>Customer Service</h2>
+          <ul>
+            <li><a href="#">Track My Order</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Shipping Info</a></li>
+            <li><a href="#">Return Policy</a></li>
+            <li><a href="#">Size Guide</a></li>
+            <li><a href="#">Reviews</a></li>
+          </ul>
         </div>
 
-        <div class="footer-bottom">
-          <p>
-            Customers Complaint Service, Directorate General of Consumer
-            Protection and Trade Compliance, Ministry of Trade of the Republic
-            of Indonesia, 0853-1111-1010 (WhatsApp)
+        <div class="footer-column">
+          <h2>My Account</h2>
+          <ul>
+            <li><a href="#">Login Or Register</a></li>
+            <li><a href="#">Order History</a></li>
+            <li><a href="#">Shipping & Billing</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h2>Information</h2>
+          <ul>
+            <li><a href="#">We Are Alo</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Store</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Pro Program</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h2>Language</h2>
+          <select>
+            <option selected>English</option>
+            <option>Indonesia</option>
+          </select>
+        </div>
+
+        <div class="newsletter">
+          <h2>Sign up for our newsletter - enter your email below</h2>
+          <form>
+            <input type="email" placeholder="Enter your email" />
+            <button type="submit">
+              <svg class="" id="prevBtn" width="10" height="11" viewBox="0 0 12 18" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M2.59912 15.3986L8.99912 8.99863L2.59912 2.59863" stroke="#464b5b" stroke-width="3"
+                  stroke-linecap="square"></path>
+              </svg>
+            </button>
+          </form>
+          <p class="privacy-note">
+            By entering your email address, you agree to our
+            <a href="#">Privacy Policy</a>
+            and will receive Alo Yoga offers, promotions and other
+            commercial messages. You may unsubscribe at any time.
           </p>
-          <p>
-            © 2025, Alo, LLC. All Rights Reserved. <a href="#">Terms</a>
-            <a href="#">Privacy</a>
-          </p>
+          <div class="social-icons">
+            <h2>Follow Us</h2>
+            <a href="#"><img src="/images/insta.svg" alt="" /></a>
+            <a href="#"><img src="/images/tiktok.svg" alt="" /></a>
+            <a href="#"><img src="/images/facebook.svg" alt="" /></a>
+            <a href="#"><img src="/images/twitter.svg" alt="" /></a>
+            <a href="#"><img src="/images/pinterest.svg" alt="" /></a>
+            <a href="#"><img src="/images/youtube.svg" alt="" /></a>
+          </div>
         </div>
       </div>
+
+      <div class="footer-bottom">
+        <p>
+          Customers Complaint Service, Directorate General of Consumer
+          Protection and Trade Compliance, Ministry of Trade of the Republic
+          of Indonesia, 0853-1111-1010 (WhatsApp)
+        </p>
+        <p>
+          © 2025, Alo, LLC. All Rights Reserved. <a href="#">Terms</a>
+          <a href="#">Privacy</a>
+        </p>
+      </div>
+
     </footer>
   </div>
 
@@ -987,6 +1015,7 @@
       </div>
     </footer>
   </div>
+  <a href="index.html" class="logo-circle"><img src="images/logocircle.png" alt=""></a>
   <!-- <button onClick="topFunction()" class="logobutton" id="mybtn"></button> -->
   <script src="/js/index.js"></script>
 </body>
