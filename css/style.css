@@ -1,1400 +1,1401 @@
 /* Arquitecta fonts  */
 
 @font-face {
-    font-family: 'Arquitecta';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ArquitectaMedium.woff2?v=2501004255419724421) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ArquitectaMedium.woff?v=1591264312384522135) format('woff');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Arquitecta';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ArquitectaMedium.woff2?v=2501004255419724421) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ArquitectaMedium.woff?v=1591264312384522135) format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Arquitecta';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ArquitectaBold.woff2?v=11623169380232169302) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ArquitectaBold.woff?v=15739824272598133385) format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Arquitecta';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ArquitectaBold.woff2?v=11623169380232169302) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ArquitectaBold.woff?v=15739824272598133385) format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Arquitecta';
-    src: url(https://aloyoga.co.id/cdn/shop/files/Arquitecta.woff2?v=3227651470291360405) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/Arquitecta.woff?v=13640258760089066133) format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Arquitecta';
+  src: url(https://aloyoga.co.id/cdn/shop/files/Arquitecta.woff2?v=3227651470291360405) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/Arquitecta.woff?v=13640258760089066133) format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Arquitecta';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ArquitectaBlack.woff2?v=5194031539792385069) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ArquitectaBlack.woff?v=10174901951747014781) format('woff');
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Arquitecta';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ArquitectaBlack.woff2?v=5194031539792385069) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ArquitectaBlack.woff?v=10174901951747014781) format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Arquitecta';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ArquitectaBook.woff2?v=13116691913416712935) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ArquitectaBook.woff?v=16022295146296185647) format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Arquitecta';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ArquitectaBook.woff2?v=13116691913416712935) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ArquitectaBook.woff?v=16022295146296185647) format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 /* proxima nova fonts */
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-Black.woff2?v=4444233428994803288) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-Black.woff?v=13180788276926720550) format('woff');
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-Black.woff2?v=4444233428994803288) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-Black.woff?v=13180788276926720550) format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-BoldIt.woff2?v=13790203009218240305) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-BoldIt.woff?v=11534192841366725773) format('woff');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-BoldIt.woff2?v=13790203009218240305) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-BoldIt.woff?v=11534192841366725773) format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-Bold.woff2?v=16896175017194974408) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-Bold.woff?v=14588209525517201298) format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-Bold.woff2?v=16896175017194974408) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-Bold.woff?v=14588209525517201298) format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-RegularIt.woff2?v=12866907588229507230) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-RegularIt.woff?v=3217263380654848796) format('woff');
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-RegularIt.woff2?v=12866907588229507230) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-RegularIt.woff?v=3217263380654848796) format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-Extrabld.woff2?v=10723210254845697434) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-Extrabld.woff?v=15550531080848405511) format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-Extrabld.woff2?v=10723210254845697434) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-Extrabld.woff?v=15550531080848405511) format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-Light.woff2?v=13103841459134234453) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-Light.woff?v=17361729594886226532) format('woff');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-Light.woff2?v=13103841459134234453) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-Light.woff?v=17361729594886226532) format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-SemiboldIt.woff2?v=13777498693289094153) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-SemiboldIt.woff?v=17407424330516391216) format('woff');
-    font-weight: 600;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-SemiboldIt.woff2?v=13777498693289094153) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-SemiboldIt.woff?v=17407424330516391216) format('woff');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-LightIt.woff2?v=10620663678823155331) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-LightIt.woff?v=15599703729355407035) format('woff');
-    font-weight: 300;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-LightIt.woff2?v=10620663678823155331) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-LightIt.woff?v=15599703729355407035) format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-Light.woff2?v=14163107437708423617) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-Light.woff?v=4776603856619879678) format('woff');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-Light.woff2?v=14163107437708423617) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-Light.woff?v=4776603856619879678) format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-ThinIt.woff2?v=18250860731421385353) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-ThinIt.woff?v=14272691976234773506) format('woff');
-    font-weight: 100;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-ThinIt.woff2?v=18250860731421385353) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-ThinIt.woff?v=14272691976234773506) format('woff');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-ThinIt.woff2?v=8370232362468144569) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-ThinIt.woff?v=16982400014560175469) format('woff');
-    font-weight: 100;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-ThinIt.woff2?v=8370232362468144569) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-ThinIt.woff?v=16982400014560175469) format('woff');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-LightIt.woff2?v=8975953505121413448) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-LightIt.woff?v=1912384528962521530) format('woff');
-    font-weight: 300;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-LightIt.woff2?v=8975953505121413448) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-LightIt.woff?v=1912384528962521530) format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-Regular.woff2?v=15254106065881791912) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-Regular.woff?v=10686646634981125925) format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-Regular.woff2?v=15254106065881791912) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-Regular.woff?v=10686646634981125925) format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-Semibold.woff2?v=8537301572881398486) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-Semibold.woff?v=2668863009063483276) format('woff');
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-Semibold.woff2?v=8537301572881398486) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-Semibold.woff?v=2668863009063483276) format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-Thin.woff2?v=15935818965361667845) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-Thin.woff?v=5171258332479234961) format('woff');
-    font-weight: 100;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-Thin.woff2?v=15935818965361667845) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-Thin.woff?v=5171258332479234961) format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-ExtrabldIt.woff2?v=3668667422021412357) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-ExtrabldIt.woff?v=2652751275798598506) format('woff');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-ExtrabldIt.woff2?v=3668667422021412357) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-ExtrabldIt.woff?v=2652751275798598506) format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-Extrabld.woff2?v=14513839607471468257) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-Extrabld.woff?v=2138797993444542285) format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-Extrabld.woff2?v=14513839607471468257) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-Extrabld.woff?v=2138797993444542285) format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-RegularIt.woff2?v=13979283794829514938) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-RegularIt.woff?v=6966296319032085217) format('woff');
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-RegularIt.woff2?v=13979283794829514938) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-RegularIt.woff?v=6966296319032085217) format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNova-Semibold.woff2?v=5493450505238079098) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNova-Semibold.woff?v=13570345723946822520) format('woff');
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNova-Semibold.woff2?v=5493450505238079098) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNova-Semibold.woff?v=13570345723946822520) format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNova-ThinIt.woff2?v=9720871827876650393) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNova-ThinIt.woff?v=11997798818306738964) format('woff');
-    font-weight: 100;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNova-ThinIt.woff2?v=9720871827876650393) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNova-ThinIt.woff?v=11997798818306738964) format('woff');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-Thin.woff2?v=6970553200666217636) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-Thin.woff?v=4932611746012741814) format('woff');
-    font-weight: 100;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-Thin.woff2?v=6970553200666217636) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-Thin.woff?v=4932611746012741814) format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaT-Thin.woff2?v=4141605799635623653) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaT-Thin.woff?v=8956904745423073878) format('woff');
-    font-weight: 100;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaT-Thin.woff2?v=4141605799635623653) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaT-Thin.woff?v=8956904745423073878) format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNova-SemiboldIt.woff2?v=15731234546567922304) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNova-SemiboldIt.woff?v=3245698491541409882) format('woff');
-    font-weight: 600;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNova-SemiboldIt.woff2?v=15731234546567922304) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNova-SemiboldIt.woff?v=3245698491541409882) format('woff');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-Black.woff2?v=4444233428994803288) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-Black.woff?v=13180788276926720550) format('woff');
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-Black.woff2?v=4444233428994803288) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-Black.woff?v=13180788276926720550) format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-BoldIt.woff2?v=13790203009218240305) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-BoldIt.woff?v=11534192841366725773) format('woff');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-BoldIt.woff2?v=13790203009218240305) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-BoldIt.woff?v=11534192841366725773) format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-Bold.woff2?v=16896175017194974408) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-Bold.woff?v=14588209525517201298) format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-Bold.woff2?v=16896175017194974408) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-Bold.woff?v=14588209525517201298) format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-RegularIt.woff2?v=12866907588229507230) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-RegularIt.woff?v=3217263380654848796) format('woff');
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-RegularIt.woff2?v=12866907588229507230) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-RegularIt.woff?v=3217263380654848796) format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-Extrabld.woff2?v=10723210254845697434) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-Extrabld.woff?v=15550531080848405511) format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-Extrabld.woff2?v=10723210254845697434) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-Extrabld.woff?v=15550531080848405511) format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-Light.woff2?v=13103841459134234453) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-Light.woff?v=17361729594886226532) format('woff');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-Light.woff2?v=13103841459134234453) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-Light.woff?v=17361729594886226532) format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-SemiboldIt.woff2?v=13777498693289094153) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-SemiboldIt.woff?v=17407424330516391216) format('woff');
-    font-weight: 600;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-SemiboldIt.woff2?v=13777498693289094153) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-SemiboldIt.woff?v=17407424330516391216) format('woff');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-LightIt.woff2?v=10620663678823155331) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-LightIt.woff?v=15599703729355407035) format('woff');
-    font-weight: 300;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-LightIt.woff2?v=10620663678823155331) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-LightIt.woff?v=15599703729355407035) format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-Light.woff2?v=14163107437708423617) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-Light.woff?v=4776603856619879678) format('woff');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-Light.woff2?v=14163107437708423617) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-Light.woff?v=4776603856619879678) format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-ThinIt.woff2?v=18250860731421385353) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-ThinIt.woff?v=14272691976234773506) format('woff');
-    font-weight: 100;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-ThinIt.woff2?v=18250860731421385353) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-ThinIt.woff?v=14272691976234773506) format('woff');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-ThinIt.woff2?v=8370232362468144569) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-ThinIt.woff?v=16982400014560175469) format('woff');
-    font-weight: 100;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-ThinIt.woff2?v=8370232362468144569) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-ThinIt.woff?v=16982400014560175469) format('woff');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-LightIt.woff2?v=8975953505121413448) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-LightIt.woff?v=1912384528962521530) format('woff');
-    font-weight: 300;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-LightIt.woff2?v=8975953505121413448) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-LightIt.woff?v=1912384528962521530) format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-Regular.woff2?v=15254106065881791912) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-Regular.woff?v=10686646634981125925) format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-Regular.woff2?v=15254106065881791912) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-Regular.woff?v=10686646634981125925) format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-Semibold.woff2?v=8537301572881398486) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-Semibold.woff?v=2668863009063483276) format('woff');
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-Semibold.woff2?v=8537301572881398486) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-Semibold.woff?v=2668863009063483276) format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-Thin.woff2?v=15935818965361667845) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-Thin.woff?v=5171258332479234961) format('woff');
-    font-weight: 100;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-Thin.woff2?v=15935818965361667845) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-Thin.woff?v=5171258332479234961) format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-ExtrabldIt.woff2?v=3668667422021412357) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-ExtrabldIt.woff?v=2652751275798598506) format('woff');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-ExtrabldIt.woff2?v=3668667422021412357) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-ExtrabldIt.woff?v=2652751275798598506) format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-Extrabld.woff2?v=14513839607471468257) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-Extrabld.woff?v=2138797993444542285) format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-Extrabld.woff2?v=14513839607471468257) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-Extrabld.woff?v=2138797993444542285) format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-RegularIt.woff2?v=13979283794829514938) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-RegularIt.woff?v=6966296319032085217) format('woff');
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-RegularIt.woff2?v=13979283794829514938) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-RegularIt.woff?v=6966296319032085217) format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNova-Semibold.woff2?v=5493450505238079098) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNova-Semibold.woff?v=13570345723946822520) format('woff');
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNova-Semibold.woff2?v=5493450505238079098) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNova-Semibold.woff?v=13570345723946822520) format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNova-ThinIt.woff2?v=9720871827876650393) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNova-ThinIt.woff?v=11997798818306738964) format('woff');
-    font-weight: 100;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNova-ThinIt.woff2?v=9720871827876650393) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNova-ThinIt.woff?v=11997798818306738964) format('woff');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-Thin.woff2?v=6970553200666217636) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-Thin.woff?v=4932611746012741814) format('woff');
-    font-weight: 100;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-Thin.woff2?v=6970553200666217636) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-Thin.woff?v=4932611746012741814) format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaT-Thin.woff2?v=4141605799635623653) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaT-Thin.woff?v=8956904745423073878) format('woff');
-    font-weight: 100;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaT-Thin.woff2?v=4141605799635623653) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaT-Thin.woff?v=8956904745423073878) format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNova-SemiboldIt.woff2?v=15731234546567922304) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNova-SemiboldIt.woff?v=3245698491541409882) format('woff');
-    font-weight: 600;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNova-SemiboldIt.woff2?v=15731234546567922304) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNova-SemiboldIt.woff?v=3245698491541409882) format('woff');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaExCn-LightIt.woff2?v=15371713092665074462) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaExCn-LightIt.woff?v=2190189052118997397) format('woff');
-    font-weight: 300;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaExCn-LightIt.woff2?v=15371713092665074462) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaExCn-LightIt.woff?v=2190189052118997397) format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaExCn-Light.woff2?v=8601248137629079495) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaExCn-Light.woff?v=717034638429443133) format('woff');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaExCn-Light.woff2?v=8601248137629079495) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaExCn-Light.woff?v=717034638429443133) format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaExCn-Thin.woff2?v=1388804327896650763) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaExCn-Thin.woff?v=1125236574255577087) format('woff');
-    font-weight: 100;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaExCn-Thin.woff2?v=1388804327896650763) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaExCn-Thin.woff?v=1125236574255577087) format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNova-LightIt.woff2?v=5733290700458021968) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNova-LightIt.woff?v=673199244921831033) format('woff');
-    font-weight: 300;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNova-LightIt.woff2?v=5733290700458021968) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNova-LightIt.woff?v=673199244921831033) format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaExCn-ThinIt.woff2?v=7678692652520330302) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaExCn-ThinIt.woff?v=10604590305198984300) format('woff');
-    font-weight: 100;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaExCn-ThinIt.woff2?v=7678692652520330302) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaExCn-ThinIt.woff?v=10604590305198984300) format('woff');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaExCn-Regular.woff2?v=15745667331223102994) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaExCn-Regular.woff?v=2179970824813201525) format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaExCn-Regular.woff2?v=15745667331223102994) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaExCn-Regular.woff?v=2179970824813201525) format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaExCn-Semibold.woff2?v=3605939851782619076) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaExCn-Semibold.woff?v=11140439828479656385) format('woff');
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaExCn-Semibold.woff2?v=3605939851782619076) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaExCn-Semibold.woff?v=11140439828479656385) format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNova-ExtrabldIt.woff2?v=8374458299678097831) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNova-ExtrabldIt.woff?v=18103933864750865958) format('woff');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNova-ExtrabldIt.woff2?v=8374458299678097831) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNova-ExtrabldIt.woff?v=18103933864750865958) format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaExCn-SemiboldIt.woff2?v=16836007683801890043) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaExCn-SemiboldIt.woff?v=40970505579114328) format('woff');
-    font-weight: 600;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaExCn-SemiboldIt.woff2?v=16836007683801890043) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaExCn-SemiboldIt.woff?v=40970505579114328) format('woff');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaExCn-RegularIt.woff2?v=8016821327404705821) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaExCn-RegularIt.woff?v=11701389455008879553) format('woff');
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaExCn-RegularIt.woff2?v=8016821327404705821) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaExCn-RegularIt.woff?v=11701389455008879553) format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSCond-Bold.woff2?v=4806730578362989508) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSCond-Bold.woff?v=17726537835381308956) format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSCond-Bold.woff2?v=4806730578362989508) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSCond-Bold.woff?v=17726537835381308956) format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSCond-Black.woff2?v=7789740451280482346) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSCond-Black.woff?v=7749779281103222774) format('woff');
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSCond-Black.woff2?v=7789740451280482346) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSCond-Black.woff?v=7749779281103222774) format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNova-RegularIt.woff2?v=11560130163636842383) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNova-RegularIt.woff?v=12853905748303890954) format('woff');
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNova-RegularIt.woff2?v=11560130163636842383) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNova-RegularIt.woff?v=12853905748303890954) format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSCond-BlackIt.woff2?v=15716948776587366873) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSCond-BlackIt.woff?v=1731467425614851007) format('woff');
-    font-weight: 900;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSCond-BlackIt.woff2?v=15716948776587366873) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSCond-BlackIt.woff?v=1731467425614851007) format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-BlackIt.woff2?v=18404501209624104631) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-BlackIt.woff?v=9092000420196989155) format('woff');
-    font-weight: 900;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-BlackIt.woff2?v=18404501209624104631) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-BlackIt.woff?v=9092000420196989155) format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-BoldIt.woff2?v=8007719575671683298) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-BoldIt.woff?v=2759224756512629579) format('woff');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-BoldIt.woff2?v=8007719575671683298) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-BoldIt.woff?v=2759224756512629579) format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSCond-BoldIt.woff2?v=1904139154251475436) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSCond-BoldIt.woff?v=7813230484659548915) format('woff');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSCond-BoldIt.woff2?v=1904139154251475436) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSCond-BoldIt.woff?v=7813230484659548915) format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNova-Regular.woff2?v=4090043302877488202) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNova-Regular.woff?v=3106722116574897225) format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNova-Regular.woff2?v=4090043302877488202) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNova-Regular.woff?v=3106722116574897225) format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-Black.woff2?v=18074141316819424458) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-Black.woff?v=5319354226440581483) format('woff');
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-Black.woff2?v=18074141316819424458) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-Black.woff?v=5319354226440581483) format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-Bold.woff2?v=6077225387202726506) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-Bold.woff?v=11038157635958606178) format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-Bold.woff2?v=6077225387202726506) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaS-Bold.woff?v=11038157635958606178) format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSCond-Light.woff2?v=14948291392276899414) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSCond-Light.woff?v=17229071310461902695) format('woff');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSCond-Light.woff2?v=14948291392276899414) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSCond-Light.woff?v=17229071310461902695) format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSCond-LightIt.woff2?v=7480715855417764246) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSCond-LightIt.woff?v=3455587004316904763) format('woff');
-    font-weight: 300;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSCond-LightIt.woff2?v=7480715855417764246) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSCond-LightIt.woff?v=3455587004316904763) format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-BlackIt.woff2?v=2500381580135015598) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-BlackIt.woff?v=3617924627845056857) format('woff');
-    font-weight: 900;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-BlackIt.woff2?v=2500381580135015598) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSExCn-BlackIt.woff?v=3617924627845056857) format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSCond-Semibold.woff2?v=309927430330092284) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSCond-Semibold.woff?v=3743228158965362096) format('woff');
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSCond-Semibold.woff2?v=309927430330092284) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSCond-Semibold.woff?v=3743228158965362096) format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSCond-ExtrabldIt.woff2?v=17469417719189496451) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSCond-ExtrabldIt.woff?v=14778636331599123304) format('woff');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSCond-ExtrabldIt.woff2?v=17469417719189496451) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSCond-ExtrabldIt.woff?v=14778636331599123304) format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSCond-Regular.woff2?v=5073816536702978494) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSCond-Regular.woff?v=4088498895747169577) format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSCond-Regular.woff2?v=5073816536702978494) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSCond-Regular.woff?v=4088498895747169577) format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSCond-Thin.woff2?v=9330486234510957152) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSCond-Thin.woff?v=14209384396284689872) format('woff');
-    font-weight: 100;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSCond-Thin.woff2?v=9330486234510957152) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSCond-Thin.woff?v=14209384396284689872) format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSCond-Extrabld.woff2?v=12407061413836826630) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSCond-Extrabld.woff?v=1906853104709841206) format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSCond-Extrabld.woff2?v=12407061413836826630) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSCond-Extrabld.woff?v=1906853104709841206) format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSCond-SemiboldIt.woff2?v=4076938091595171109) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSCond-SemiboldIt.woff?v=14566885976381567825) format('woff');
-    font-weight: 600;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSCond-SemiboldIt.woff2?v=4076938091595171109) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSCond-SemiboldIt.woff?v=14566885976381567825) format('woff');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSCond-ThinIt.woff2?v=9125344124476583462) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSCond-ThinIt.woff?v=32146770917641209) format('woff');
-    font-weight: 100;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSCond-ThinIt.woff2?v=9125344124476583462) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaSCond-ThinIt.woff?v=32146770917641209) format('woff');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaA-Light.woff2?v=5574754239137339978) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaA-Light.woff?v=17032776127484067337) format('woff');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaA-Light.woff2?v=5574754239137339978) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaA-Light.woff?v=17032776127484067337) format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaA-Regular.woff2?v=6544457066855116272) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaA-Regular.woff?v=12016199662334250103) format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaA-Regular.woff2?v=6544457066855116272) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaA-Regular.woff?v=12016199662334250103) format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaA-RegularIt.woff2?v=9002926788560132097) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaA-RegularIt.woff?v=4338431113910711618) format('woff');
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaA-RegularIt.woff2?v=9002926788560132097) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaA-RegularIt.woff?v=4338431113910711618) format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaA-ThinIt.woff2?v=434918616426007418) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaA-ThinIt.woff?v=2287708727287843364) format('woff');
-    font-weight: 100;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaA-ThinIt.woff2?v=434918616426007418) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaA-ThinIt.woff?v=2287708727287843364) format('woff');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNova-BoldIt.woff2?v=17118954126572299336) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNova-BoldIt.woff?v=13775827073303950867) format('woff');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNova-BoldIt.woff2?v=17118954126572299336) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNova-BoldIt.woff?v=13775827073303950867) format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNova-BlackIt.woff2?v=17677830057477218922) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNova-BlackIt.woff?v=6382665293682964350) format('woff');
-    font-weight: 900;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNova-BlackIt.woff2?v=17677830057477218922) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNova-BlackIt.woff?v=6382665293682964350) format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaA-SemiboldIt.woff2?v=16925860691494922669) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaA-SemiboldIt.woff?v=10179314070738215207) format('woff');
-    font-weight: 600;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaA-SemiboldIt.woff2?v=16925860691494922669) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaA-SemiboldIt.woff?v=10179314070738215207) format('woff');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaCond-BlackIt.woff2?v=2717449037504879242) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaCond-BlackIt.woff?v=869709016254805255) format('woff');
-    font-weight: 900;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaCond-BlackIt.woff2?v=2717449037504879242) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaCond-BlackIt.woff?v=869709016254805255) format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaA-Thin.woff2?v=6667235420951457914) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaA-Thin.woff?v=2896218564075351144) format('woff');
-    font-weight: 100;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaA-Thin.woff2?v=6667235420951457914) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaA-Thin.woff?v=2896218564075351144) format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaA-Semibold.woff2?v=3059047460556603484) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaA-Semibold.woff?v=3874407366421315172) format('woff');
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaA-Semibold.woff2?v=3059047460556603484) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaA-Semibold.woff?v=3874407366421315172) format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNova-Bold.woff2?v=8924675957328476666) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNova-Bold.woff?v=10494185968324255755) format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNova-Bold.woff2?v=8924675957328476666) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNova-Bold.woff?v=10494185968324255755) format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNova-Black.woff2?v=12961233562309611401) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNova-Black.woff?v=14977128432788695432) format('woff');
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNova-Black.woff2?v=12961233562309611401) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNova-Black.woff?v=14977128432788695432) format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaCond-LightIt.woff2?v=8097034898851450858) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaCond-LightIt.woff?v=3165666701086000347) format('woff');
-    font-weight: 300;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaCond-LightIt.woff2?v=8097034898851450858) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaCond-LightIt.woff?v=3165666701086000347) format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaCond-Black.woff2?v=13990143749307259061) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaCond-Black.woff?v=7746942310086630422) format('woff');
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaCond-Black.woff2?v=13990143749307259061) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaCond-Black.woff?v=7746942310086630422) format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaCond-ExtrabldIt.woff2?v=15735220963212104469) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaCond-ExtrabldIt.woff?v=13885118529873381807) format('woff');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaCond-ExtrabldIt.woff2?v=15735220963212104469) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaCond-ExtrabldIt.woff?v=13885118529873381807) format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaCond-Extrabld.woff2?v=383467740253906186) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaCond-Extrabld.woff?v=1173868831624866524) format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaCond-Extrabld.woff2?v=383467740253906186) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaCond-Extrabld.woff?v=1173868831624866524) format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaCond-RegularIt.woff2?v=15863001817338773988) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaCond-RegularIt.woff?v=7538982698319159417) format('woff');
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaCond-RegularIt.woff2?v=15863001817338773988) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaCond-RegularIt.woff?v=7538982698319159417) format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaCond-Bold.woff2?v=9701104487937359195) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaCond-Bold.woff?v=16259034306656515289) format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaCond-Bold.woff2?v=9701104487937359195) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaCond-Bold.woff?v=16259034306656515289) format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaCond-Light.woff2?v=4473663622892182325) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaCond-Light.woff?v=13847993461565800152) format('woff');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaCond-Light.woff2?v=4473663622892182325) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaCond-Light.woff?v=13847993461565800152) format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaCond-BoldIt.woff2?v=15068893575142442672) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaCond-BoldIt.woff?v=758677252178530456) format('woff');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaCond-BoldIt.woff2?v=15068893575142442672) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaCond-BoldIt.woff?v=758677252178530456) format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaExCn-BoldIt.woff2?v=12978124601071603057) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaExCn-BoldIt.woff?v=6211248900755046877) format('woff');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaExCn-BoldIt.woff2?v=12978124601071603057) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaExCn-BoldIt.woff?v=6211248900755046877) format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaCond-ThinIt.woff2?v=13933128726708757093) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaCond-ThinIt.woff?v=13754843073544423179) format('woff');
-    font-weight: 100;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaCond-ThinIt.woff2?v=13933128726708757093) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaCond-ThinIt.woff?v=13754843073544423179) format('woff');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaCond-Thin.woff2?v=11035018100365546929) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaCond-Thin.woff?v=14363957716302655464) format('woff');
-    font-weight: 100;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaCond-Thin.woff2?v=11035018100365546929) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaCond-Thin.woff?v=14363957716302655464) format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaCond-Semibold.woff2?v=17447879665749541984) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaCond-Semibold.woff?v=5866015103278411004) format('woff');
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaCond-Semibold.woff2?v=17447879665749541984) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaCond-Semibold.woff?v=5866015103278411004) format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaExCn-BlackIt.woff2?v=11520937536114102463) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaExCn-BlackIt.woff?v=1898589112287049236) format('woff');
-    font-weight: 900;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaExCn-BlackIt.woff2?v=11520937536114102463) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaExCn-BlackIt.woff?v=1898589112287049236) format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaExCn-Black.woff2?v=13662095163977320803) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaExCn-Black.woff?v=3988456701781401632) format('woff');
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaExCn-Black.woff2?v=13662095163977320803) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaExCn-Black.woff?v=3988456701781401632) format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaCond-Regular.woff2?v=5454846026900147375) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaCond-Regular.woff?v=5540363800928379377) format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaCond-Regular.woff2?v=5454846026900147375) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaCond-Regular.woff?v=5540363800928379377) format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaCond-SemiboldIt.woff2?v=15367956231608969358) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaCond-SemiboldIt.woff?v=9117389630933078251) format('woff');
-    font-weight: 600;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaCond-SemiboldIt.woff2?v=15367956231608969358) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaCond-SemiboldIt.woff?v=9117389630933078251) format('woff');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaExCn-ExtrabldIt.woff2?v=13672752337470870922) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaExCn-ExtrabldIt.woff?v=10502623999329197908) format('woff');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaExCn-ExtrabldIt.woff2?v=13672752337470870922) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaExCn-ExtrabldIt.woff?v=10502623999329197908) format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaExCn-Extrabld.woff2?v=13738867405736445724) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaExCn-Extrabld.woff?v=2569891967146518230) format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaExCn-Extrabld.woff2?v=13738867405736445724) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaExCn-Extrabld.woff?v=2569891967146518230) format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaACond-BlackIt.woff2?v=17678510069413076255) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaACond-BlackIt.woff?v=9151387425610392099) format('woff');
-    font-weight: 900;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaACond-BlackIt.woff2?v=17678510069413076255) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaACond-BlackIt.woff?v=9151387425610392099) format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaA-BoldIt.woff2?v=12108300273623550571) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaA-BoldIt.woff?v=2893175653218255740) format('woff');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaA-BoldIt.woff2?v=12108300273623550571) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaA-BoldIt.woff?v=2893175653218255740) format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaA-BlackIt.woff2?v=5654468625311744728) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaA-BlackIt.woff?v=4543998337566214086) format('woff');
-    font-weight: 900;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaA-BlackIt.woff2?v=5654468625311744728) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaA-BlackIt.woff?v=4543998337566214086) format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaACond-Black.woff2?v=17231297407960998726) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaACond-Black.woff?v=13390827865539226057) format('woff');
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaACond-Black.woff2?v=17231297407960998726) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaACond-Black.woff?v=13390827865539226057) format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaA-Black.woff2?v=11976893837868766700) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaA-Black.woff?v=39324565234099903) format('woff');
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaA-Black.woff2?v=11976893837868766700) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaA-Black.woff?v=39324565234099903) format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaA-Bold.woff2?v=13672310154365701468) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaA-Bold.woff?v=7716404300569638328) format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaA-Bold.woff2?v=13672310154365701468) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaA-Bold.woff?v=7716404300569638328) format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaACond-Extrabld.woff2?v=16803511323195492541) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaACond-Extrabld.woff?v=16633108618244980127) format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaACond-Extrabld.woff2?v=16803511323195492541) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaACond-Extrabld.woff?v=16633108618244980127) format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaACond-LightIt.woff2?v=369750022640982416) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaACond-LightIt.woff?v=16027403757439635085) format('woff');
-    font-weight: 300;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaACond-LightIt.woff2?v=369750022640982416) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaACond-LightIt.woff?v=16027403757439635085) format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaACond-Regular.woff2?v=11300130530809689083) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaACond-Regular.woff?v=5259485220222960913) format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaACond-Regular.woff2?v=11300130530809689083) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaACond-Regular.woff?v=5259485220222960913) format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaACond-SemiboldIt.woff2?v=15925367437459523996) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaACond-SemiboldIt.woff?v=14342808911538884389) format('woff');
-    font-weight: 600;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaACond-SemiboldIt.woff2?v=15925367437459523996) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaACond-SemiboldIt.woff?v=14342808911538884389) format('woff');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaACond-Bold.woff2?v=1381883333784141567) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaACond-Bold.woff?v=6768608575213479123) format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaACond-Bold.woff2?v=1381883333784141567) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaACond-Bold.woff?v=6768608575213479123) format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaACond-RegularIt.woff2?v=6172628067008299254) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaACond-RegularIt.woff?v=7648866648684156547) format('woff');
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaACond-RegularIt.woff2?v=6172628067008299254) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaACond-RegularIt.woff?v=7648866648684156547) format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaACond-BoldIt.woff2?v=4997117441617647610) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaACond-BoldIt.woff?v=15327683608318204040) format('woff');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaACond-BoldIt.woff2?v=4997117441617647610) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaACond-BoldIt.woff?v=15327683608318204040) format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaACond-ExtrabldIt.woff2?v=8772115872559034298) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaACond-ExtrabldIt.woff?v=5442944688429803448) format('woff');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaACond-ExtrabldIt.woff2?v=8772115872559034298) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaACond-ExtrabldIt.woff?v=5442944688429803448) format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaACond-Light.woff2?v=13208488795263608264) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaACond-Light.woff?v=18239212890531547519) format('woff');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaACond-Light.woff2?v=13208488795263608264) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaACond-Light.woff?v=18239212890531547519) format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaACond-ThinIt.woff2?v=9887828103016105493) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaACond-ThinIt.woff?v=4313906685390568522) format('woff');
-    font-weight: 100;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaACond-ThinIt.woff2?v=9887828103016105493) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaACond-ThinIt.woff?v=4313906685390568522) format('woff');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaAExCn-BlackIt.woff2?v=15072706414469587749) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaAExCn-BlackIt.woff?v=9340166375468924430) format('woff');
-    font-weight: 900;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaAExCn-BlackIt.woff2?v=15072706414469587749) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaAExCn-BlackIt.woff?v=9340166375468924430) format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaACond-Thin.woff2?v=2600752491376504762) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaACond-Thin.woff?v=3809047230041454673) format('woff');
-    font-weight: 100;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaACond-Thin.woff2?v=2600752491376504762) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaACond-Thin.woff?v=3809047230041454673) format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaAExCn-Bold.woff2?v=12952501169405699638) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaAExCn-Bold.woff?v=14752485306965948050) format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaAExCn-Bold.woff2?v=12952501169405699638) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaAExCn-Bold.woff?v=14752485306965948050) format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaACond-Semibold.woff2?v=83703710304158574) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaACond-Semibold.woff?v=13155079718086498519) format('woff');
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaACond-Semibold.woff2?v=83703710304158574) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaACond-Semibold.woff?v=13155079718086498519) format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaAExCn-LightIt.woff2?v=16737844761864120194) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaAExCn-LightIt.woff?v=16965797787660512620) format('woff');
-    font-weight: 300;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaAExCn-LightIt.woff2?v=16737844761864120194) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaAExCn-LightIt.woff?v=16965797787660512620) format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaAExCn-ExtrabldIt.woff2?v=2245228830359811504) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaAExCn-ExtrabldIt.woff?v=9877986799857097354) format('woff');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaAExCn-ExtrabldIt.woff2?v=2245228830359811504) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaAExCn-ExtrabldIt.woff?v=9877986799857097354) format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaAExCn-BoldIt.woff2?v=548946907263557955) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaAExCn-BoldIt.woff?v=2320963879127544299) format('woff');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaAExCn-BoldIt.woff2?v=548946907263557955) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaAExCn-BoldIt.woff?v=2320963879127544299) format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaAExCn-Light.woff2?v=12208622421865215172) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaAExCn-Light.woff?v=2063688278500781109) format('woff');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaAExCn-Light.woff2?v=12208622421865215172) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaAExCn-Light.woff?v=2063688278500781109) format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaAExCn-RegularIt.woff2?v=6929245444870257081) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaAExCn-RegularIt.woff?v=13085488935605436561) format('woff');
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaAExCn-RegularIt.woff2?v=6929245444870257081) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaAExCn-RegularIt.woff?v=13085488935605436561) format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaAExCn-ThinIt.woff2?v=5016846621035793599) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaAExCn-ThinIt.woff?v=14259957427355375855) format('woff');
-    font-weight: 100;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaAExCn-ThinIt.woff2?v=5016846621035793599) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaAExCn-ThinIt.woff?v=14259957427355375855) format('woff');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaAExCn-Regular.woff2?v=15057656276005410797) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaAExCn-Regular.woff?v=12424193669883925046) format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaAExCn-Regular.woff2?v=15057656276005410797) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaAExCn-Regular.woff?v=12424193669883925046) format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaA-Extrabld.woff2?v=10670763479692168586) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaA-Extrabld.woff?v=1169343588731736071) format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaA-Extrabld.woff2?v=10670763479692168586) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaA-Extrabld.woff?v=1169343588731736071) format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaA-ExtrabldIt.woff2?v=7307531861755000692) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaA-ExtrabldIt.woff?v=1276749617835572803) format('woff');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaA-ExtrabldIt.woff2?v=7307531861755000692) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaA-ExtrabldIt.woff?v=1276749617835572803) format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaAExCn-Semibold.woff2?v=13739265283461622489) format('woff2'),
-        url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaAExCn-Semibold.woff?v=7317347953257482641) format('woff');
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Proxima Nova';
+  src: url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaAExCn-Semibold.woff2?v=13739265283461622489) format('woff2'),
+    url(https://aloyoga.co.id/cdn/shop/files/ProximaNovaAExCn-Semibold.woff?v=7317347953257482641) format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
 }
 
 
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url('https://use.typekit.net/af/56b0cd/00000000000000007735957d/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3') format('woff2'),
-      url('https://use.typekit.net/af/56b0cd/00000000000000007735957d/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3') format('woff'),
-      url('https://use.typekit.net/af/56b0cd/00000000000000007735957d/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3') format('opentype');
-    font-style: normal;
-    font-weight: 300;
-    font-display: swap;
-  }
+  font-family: 'Proxima Nova';
+  src: url('https://use.typekit.net/af/56b0cd/00000000000000007735957d/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3') format('woff2'),
+    url('https://use.typekit.net/af/56b0cd/00000000000000007735957d/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3') format('woff'),
+    url('https://use.typekit.net/af/56b0cd/00000000000000007735957d/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3') format('opentype');
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('https://use.typekit.net/af/705e94/00000000000000003b9b3062/27/l?primer=51e46510a8bcdb92fa139186fdd3d43fc0ac4348ee92477ba51cd46504e98815&fvd=n4&v=3') format('woff2'),
+    url('https://use.typekit.net/af/705e94/00000000000000003b9b3062/27/d?primer=51e46510a8bcdb92fa139186fdd3d43fc0ac4348ee92477ba51cd46504e98815&fvd=n4&v=3') format('woff'),
+    url('https://use.typekit.net/af/705e94/00000000000000003b9b3062/27/a?primer=51e46510a8bcdb92fa139186fdd3d43fc0ac4348ee92477ba51cd46504e98815&fvd=n4&v=3') format('opentype');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
 
-  @font-face {
-    font-family: 'Proxima Nova';
-    src: url('https://use.typekit.net/af/705e94/00000000000000003b9b3062/27/l?primer=51e46510a8bcdb92fa139186fdd3d43fc0ac4348ee92477ba51cd46504e98815&fvd=n4&v=3') format('woff2'),
-      url('https://use.typekit.net/af/705e94/00000000000000003b9b3062/27/d?primer=51e46510a8bcdb92fa139186fdd3d43fc0ac4348ee92477ba51cd46504e98815&fvd=n4&v=3') format('woff'),
-      url('https://use.typekit.net/af/705e94/00000000000000003b9b3062/27/a?primer=51e46510a8bcdb92fa139186fdd3d43fc0ac4348ee92477ba51cd46504e98815&fvd=n4&v=3') format('opentype');
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-  }
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('https://use.typekit.net/af/5c70f2/00000000000000003b9b3063/27/l?primer=51e46510a8bcdb92fa139186fdd3d43fc0ac4348ee92477ba51cd46504e98815&fvd=i4&v=3') format('woff2'),
+    url('https://use.typekit.net/af/5c70f2/00000000000000003b9b3063/27/d?primer=51e46510a8bcdb92fa139186fdd3d43fc0ac4348ee92477ba51cd46504e98815&fvd=i4&v=3') format('woff'),
+    url('https://use.typekit.net/af/5c70f2/00000000000000003b9b3063/27/a?primer=51e46510a8bcdb92fa139186fdd3d43fc0ac4348ee92477ba51cd46504e98815&fvd=i4&v=3') format('opentype');
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+}
 
-  @font-face {
-    font-family: 'Proxima Nova';
-    src: url('https://use.typekit.net/af/5c70f2/00000000000000003b9b3063/27/l?primer=51e46510a8bcdb92fa139186fdd3d43fc0ac4348ee92477ba51cd46504e98815&fvd=i4&v=3') format('woff2'),
-      url('https://use.typekit.net/af/5c70f2/00000000000000003b9b3063/27/d?primer=51e46510a8bcdb92fa139186fdd3d43fc0ac4348ee92477ba51cd46504e98815&fvd=i4&v=3') format('woff'),
-      url('https://use.typekit.net/af/5c70f2/00000000000000003b9b3063/27/a?primer=51e46510a8bcdb92fa139186fdd3d43fc0ac4348ee92477ba51cd46504e98815&fvd=i4&v=3') format('opentype');
-    font-style: italic;
-    font-weight: 400;
-    font-display: swap;
-  }
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('https://use.typekit.net/af/0758f3/000000000000000077359583/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3') format('woff2'),
+    url('https://use.typekit.net/af/0758f3/000000000000000077359583/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3') format('woff'),
+    url('https://use.typekit.net/af/0758f3/000000000000000077359583/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3') format('opentype');
+  font-display: swap;
+  font-style: normal;
+  font-weight: 500;
+}
 
-  @font-face {
-    font-family: 'Proxima Nova';
-    src: url('https://use.typekit.net/af/0758f3/000000000000000077359583/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3') format('woff2'),
-      url('https://use.typekit.net/af/0758f3/000000000000000077359583/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3') format('woff'),
-      url('https://use.typekit.net/af/0758f3/000000000000000077359583/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3') format('opentype');
-    font-display: swap;
-    font-style: normal;
-    font-weight: 500;
-  }
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('https://use.typekit.net/af/576d53/00000000000000003b9b3066/27/l?primer=51e46510a8bcdb92fa139186fdd3d43fc0ac4348ee92477ba51cd46504e98815&fvd=n6&v=3') format('woff2'),
+    url('https://use.typekit.net/af/576d53/00000000000000003b9b3066/27/d?primer=51e46510a8bcdb92fa139186fdd3d43fc0ac4348ee92477ba51cd46504e98815&fvd=n6&v=3') format('woff'),
+    url('https://use.typekit.net/af/576d53/00000000000000003b9b3066/27/a?primer=51e46510a8bcdb92fa139186fdd3d43fc0ac4348ee92477ba51cd46504e98815&fvd=n6&v=3') format('opentype');
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
 
-  @font-face {
-    font-family: 'Proxima Nova';
-    src: url('https://use.typekit.net/af/576d53/00000000000000003b9b3066/27/l?primer=51e46510a8bcdb92fa139186fdd3d43fc0ac4348ee92477ba51cd46504e98815&fvd=n6&v=3') format('woff2'),
-      url('https://use.typekit.net/af/576d53/00000000000000003b9b3066/27/d?primer=51e46510a8bcdb92fa139186fdd3d43fc0ac4348ee92477ba51cd46504e98815&fvd=n6&v=3') format('woff'),
-      url('https://use.typekit.net/af/576d53/00000000000000003b9b3066/27/a?primer=51e46510a8bcdb92fa139186fdd3d43fc0ac4348ee92477ba51cd46504e98815&fvd=n6&v=3') format('opentype');
-    font-style: normal;
-    font-weight: 600;
-    font-display: swap;
-  }
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('https://use.typekit.net/af/949f99/00000000000000003b9b3068/27/l?primer=51e46510a8bcdb92fa139186fdd3d43fc0ac4348ee92477ba51cd46504e98815&fvd=n7&v=3') format('woff2'),
+    url('https://use.typekit.net/af/949f99/00000000000000003b9b3068/27/d?primer=51e46510a8bcdb92fa139186fdd3d43fc0ac4348ee92477ba51cd46504e98815&fvd=n7&v=3') format('woff'),
+    url('https://use.typekit.net/af/949f99/00000000000000003b9b3068/27/a?primer=51e46510a8bcdb92fa139186fdd3d43fc0ac4348ee92477ba51cd46504e98815&fvd=n7&v=3') format('opentype');
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
 
-  @font-face {
-    font-family: 'Proxima Nova';
-    src: url('https://use.typekit.net/af/949f99/00000000000000003b9b3068/27/l?primer=51e46510a8bcdb92fa139186fdd3d43fc0ac4348ee92477ba51cd46504e98815&fvd=n7&v=3') format('woff2'),
-      url('https://use.typekit.net/af/949f99/00000000000000003b9b3068/27/d?primer=51e46510a8bcdb92fa139186fdd3d43fc0ac4348ee92477ba51cd46504e98815&fvd=n7&v=3') format('woff'),
-      url('https://use.typekit.net/af/949f99/00000000000000003b9b3068/27/a?primer=51e46510a8bcdb92fa139186fdd3d43fc0ac4348ee92477ba51cd46504e98815&fvd=n7&v=3') format('opentype');
-    font-style: normal;
-    font-weight: 700;
-    font-display: swap;
-  }
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('https://use.typekit.net/af/4c4052/00000000000000003b9b3069/27/l?primer=51e46510a8bcdb92fa139186fdd3d43fc0ac4348ee92477ba51cd46504e98815&fvd=i7&v=3') format('woff2'),
+    url('https://use.typekit.net/af/4c4052/00000000000000003b9b3069/27/d?primer=51e46510a8bcdb92fa139186fdd3d43fc0ac4348ee92477ba51cd46504e98815&fvd=i7&v=3') format('woff'),
+    url('https://use.typekit.net/af/4c4052/00000000000000003b9b3069/27/a?primer=51e46510a8bcdb92fa139186fdd3d43fc0ac4348ee92477ba51cd46504e98815&fvd=i7&v=3') format('opentype');
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+}
 
-  @font-face {
-    font-family: 'Proxima Nova';
-    src: url('https://use.typekit.net/af/4c4052/00000000000000003b9b3069/27/l?primer=51e46510a8bcdb92fa139186fdd3d43fc0ac4348ee92477ba51cd46504e98815&fvd=i7&v=3') format('woff2'),
-      url('https://use.typekit.net/af/4c4052/00000000000000003b9b3069/27/d?primer=51e46510a8bcdb92fa139186fdd3d43fc0ac4348ee92477ba51cd46504e98815&fvd=i7&v=3') format('woff'),
-      url('https://use.typekit.net/af/4c4052/00000000000000003b9b3069/27/a?primer=51e46510a8bcdb92fa139186fdd3d43fc0ac4348ee92477ba51cd46504e98815&fvd=i7&v=3') format('opentype');
-    font-style: italic;
-    font-weight: 700;
-    font-display: swap;
-  }
+@font-face {
+  font-family: 'Arquitecta', Arial, sans-serif;
+  src: url("//www.aloyoga.com/cdn/shop/t/3960/assets/latinotype_-_Arquitectathin-webfont.woff2?v=163815346538380974561710389611") format('woff2'),
+    url("//www.aloyoga.com/cdn/shop/t/3960/assets/latinotype_-_Arquitectathin-webfont.woff?v=54613817702945917591710389609") format('woff');
+  font-weight: 100;
+  font-style: 100;
+  font-display: swap;
+}
 
-  @font-face {
-    font-family: 'Arquitecta', Arial, sans-serif;
-    src: url("//www.aloyoga.com/cdn/shop/t/3960/assets/latinotype_-_Arquitectathin-webfont.woff2?v=163815346538380974561710389611") format('woff2'),
-      url("//www.aloyoga.com/cdn/shop/t/3960/assets/latinotype_-_Arquitectathin-webfont.woff?v=54613817702945917591710389609") format('woff');
-    font-weight: 100;
-    font-style: 100;
-    font-display: swap;
-  }
+@font-face {
+  font-family: 'Arquitecta';
+  src: url("//www.aloyoga.com/cdn/shop/t/3960/assets/latinotype_-_Arquitecta-webfont.woff2?v=6997927752184387461710389612") format('woff2'),
+    url("//www.aloyoga.com/cdn/shop/t/3960/assets/latinotype_-_Arquitecta-webfont.woff?v=108333426453216714271710389610") format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
-  @font-face {
-    font-family: 'Arquitecta';
-    src: url("//www.aloyoga.com/cdn/shop/t/3960/assets/latinotype_-_Arquitecta-webfont.woff2?v=6997927752184387461710389612") format('woff2'),
-      url("//www.aloyoga.com/cdn/shop/t/3960/assets/latinotype_-_Arquitecta-webfont.woff?v=108333426453216714271710389610") format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-  }
+@font-face {
+  font-family: 'Arquitecta';
+  src: url("//www.aloyoga.com/cdn/shop/t/3960/assets/latinotype_-_Arquitectablack-webfont.woff2?v=13657020597760236281710389611") format('woff2'),
+    url("//www.aloyoga.com/cdn/shop/t/3960/assets/latinotype_-_Arquitectablack-webfont.woff?v=109944306522337207381710389608") format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
 
-  @font-face {
-    font-family: 'Arquitecta';
-    src: url("//www.aloyoga.com/cdn/shop/t/3960/assets/latinotype_-_Arquitectablack-webfont.woff2?v=13657020597760236281710389611") format('woff2'),
-      url("//www.aloyoga.com/cdn/shop/t/3960/assets/latinotype_-_Arquitectablack-webfont.woff?v=109944306522337207381710389608") format('woff');
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap;
-  }
+@font-face {
+  font-family: 'Arquitecta';
+  src: url("//www.aloyoga.com/cdn/shop/t/3960/assets/latinotype_-_Arquitectabold-webfont.woff2?v=74635081121537296441710389611") format('woff2'),
+    url("//www.aloyoga.com/cdn/shop/t/3960/assets/latinotype_-_Arquitectabold-webfont.woff?v=153485633620892383751710389611") format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
 
-  @font-face {
-    font-family: 'Arquitecta';
-    src: url("//www.aloyoga.com/cdn/shop/t/3960/assets/latinotype_-_Arquitectabold-webfont.woff2?v=74635081121537296441710389611") format('woff2'),
-      url("//www.aloyoga.com/cdn/shop/t/3960/assets/latinotype_-_Arquitectabold-webfont.woff?v=153485633620892383751710389611") format('woff');
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap;
-  }
+@font-face {
+  font-family: 'Arquitecta';
+  src: url("//www.aloyoga.com/cdn/shop/t/3960/assets/latinotype_-_Arquitectabook-webfont.woff2?v=20815885258586915531710389610") format('woff2'),
+    url("//www.aloyoga.com/cdn/shop/t/3960/assets/latinotype_-_Arquitectabook-webfont.woff?v=162414122045367758811710389610") format('woff');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
 
-  @font-face {
-    font-family: 'Arquitecta';
-    src: url("//www.aloyoga.com/cdn/shop/t/3960/assets/latinotype_-_Arquitectabook-webfont.woff2?v=20815885258586915531710389610") format('woff2'),
-      url("//www.aloyoga.com/cdn/shop/t/3960/assets/latinotype_-_Arquitectabook-webfont.woff?v=162414122045367758811710389610") format('woff');
-    font-weight: 200;
-    font-style: normal;
-    font-display: swap;
-  }
+@font-face {
+  font-family: 'Arquitecta';
+  src: url("//www.aloyoga.com/cdn/shop/t/3960/assets/latinotype_-_Arquitectamedium-webfont.woff2?v=162566454933482519361710389611") format('woff2'),
+    url("//www.aloyoga.com/cdn/shop/t/3960/assets/latinotype_-_Arquitectamedium-webfont.woff?v=290780496896615301710389610") format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
 
-  @font-face {
-    font-family: 'Arquitecta';
-    src: url("//www.aloyoga.com/cdn/shop/t/3960/assets/latinotype_-_Arquitectamedium-webfont.woff2?v=162566454933482519361710389611") format('woff2'),
-      url("//www.aloyoga.com/cdn/shop/t/3960/assets/latinotype_-_Arquitectamedium-webfont.woff?v=290780496896615301710389610") format('woff');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-  }
 ul {
   margin: 0px;
   padding: 0px;
@@ -1417,6 +1418,7 @@ body {
   display: flex;
   max-width: 100%;
   flex-direction: row;
+  justify-content: space-between;
   align-items: center;
   gap: 20px;
 }
@@ -1429,8 +1431,9 @@ header {
   position: sticky;
   top: 0px;
   z-index: 10000;
+  min-width: 280px;
   width: 100%;
-border-bottom: 1px solid rgba(180, 176, 176, 0.678);
+  border-bottom: 1px solid rgba(180, 176, 176, 0.678);
 }
 
 nav {
@@ -1442,10 +1445,12 @@ nav {
   padding: 10px 45px 0px 45px;
   z-index: 10;
 }
-.logo{
+
+.logo {
   max-width: 90px;
-  width: 6%;
+  width: 9%;
 }
+
 
 .logo a {
   font-size: 14px;
@@ -1478,7 +1483,7 @@ nav {
 }
 
 .menu ul li {
-  max-width:90px;
+  max-width: 90px;
   width: 23%;
   text-align: center;
   margin: 0px;
@@ -1492,9 +1497,11 @@ nav {
   font-size: 18px;
   font-family: 'Proxima Nova';
 }
-.menu-item-title{
-    padding: 24px 0px;
+
+.menu-item-title {
+  padding: 24px 0px;
 }
+
 .menu-item-title>a {
   font-size: 18px;
   letter-spacing: 1.25px;
@@ -1509,9 +1516,9 @@ nav {
   position: absolute;
   top: 100%;
   left: 0;
-  width:99vw;
+  width: 99vw;
   max-height: 70vh;
-  overflow-x:hidden;
+  overflow-x: hidden;
   overflow-y: scroll;
   background: white;
   padding: 30px 50px;
@@ -1532,6 +1539,7 @@ nav {
   pointer-events: auto;
   display: flex;
 }
+
 /* #dropdown-accessories {
   left: -445px;
 }
@@ -1551,20 +1559,24 @@ nav {
 .menu-item a:hover {
   border-bottom: 3px solid black;
 }
+
 .dropdown-column {
   text-align: justify;
   min-width: 150px;
 }
+
 .dropdown-column h4 {
   font-size: 20px;
   margin-bottom: 20px;
   font-weight: bold;
 }
+
 .dropdown-column ul {
   list-style: none;
-   display: flex;
+  display: flex;
   flex-direction: column;
 }
+
 .dropdown-column ul li {
   font-size: 15px;
   font-weight: 500;
@@ -1575,13 +1587,16 @@ nav {
   max-width: fit-content;
   width: 100%;
 }
-.dropdown-column ul li a{
+
+.dropdown-column ul li a {
   font-size: 14px;
   font-weight: 400;
 }
+
 .dropdown-column li:hover {
   text-decoration: underline;
 }
+
 .dropdown-column li.red {
   color: red;
 }
@@ -1590,15 +1605,18 @@ nav {
   color: #000;
   text-decoration: none;
 }
+
 .dropdown-image a:hover {
   border: 0px;
   text-decoration: underline;
 }
+
 .dropdown-image a img {
   display: block;
   object-fit: cover;
-   width: 185px;
+  width: 185px;
 }
+
 .dropdown-column a {
   text-decoration: none;
   color: #333;
@@ -1658,17 +1676,17 @@ nav {
 
 #user-icon {
   background-repeat: no-repeat;
-  width: 18px;
-  height: 17px;
+  width: 20px;
+  height: 20px;
   border: none;
   background-color: transparent;
   cursor: pointer;
   margin: 0px 0px 3px;
-  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='17' fill='none'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M9 7a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8z' fill='%23000'/%3E%3Cpath d='M7 11h4c2.761 0 6 2.239 6 5v1h1v-1c0-3.314-3.686-6-7-6H7c-3.314 0-7 2.686-7 6v1h1v-1c0-2.761 3.239-5 6-5z' fill='%23000'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' fill='none'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M9 7a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8z' fill='%23000'/%3E%3Cpath d='M7 11h4c2.761 0 6 2.239 6 5v1h1v-1c0-3.314-3.686-6-7-6H7c-3.314 0-7 2.686-7 6v1h1v-1c0-2.761 3.239-5 6-5z' fill='%23000'/%3E%3C/svg%3E");
 }
 
 #signin:hover #user-icon {
-  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='17' fill='none'%3E%3Cpath d='M13 4a4 4 0 1 1-8 0 4 4 0 0 1 8 0zM0 16c0-3.314 3.686-6 7-6h4c3.314 0 7 2.686 7 6v1H0v-1z' fill='%23000'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' fill='none'%3E%3Cpath d='M13 4a4 4 0 1 1-8 0 4 4 0 0 1 8 0zM0 16c0-3.314 3.686-6 7-6h4c3.314 0 7 2.686 7 6v1H0v-1z' fill='%23000'/%3E%3C/svg%3E");
 
 }
 
@@ -1761,23 +1779,6 @@ nav {
 }
 
 
-.mobile-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 0px;
-  border-bottom: 1px solid #ddd;
-  background: #fff;
-  position: relative;
-}
-
-.left-icons,
-.right-icons {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-}
-
 .icon-button {
   background: none;
   border: none;
@@ -1785,34 +1786,43 @@ nav {
   cursor: pointer;
 }
 
-.account {
+.signup-message{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 6px 4px 6px 15px;
+  /* padding: 6px 4px 6px 15px; */
   font-family: "Arquitecta", sans-serif !important;
   position: relative;
+  border-bottom: 1px solid gray ;
 }
 
-.account a {
+.signup-message a {
   text-decoration: none;
+  font-weight: 700;
+  line-height: 1.7;
   font-size: 15px;
+  font-family: 'Proxima Nova';
   color: black;
   text-transform: uppercase;
 }
 
 #searchbar {
   width: 100%;
-  padding: 15px 40px;
+  padding: 15px 30px;
+  font: 16px;
+  font-family: 'Proxima Nova';
+  text-transform: capitalize;
   margin: 8px 0;
   display: inline-block;
-  border: 1px solid #ccc;
+  border: 1px solid black;
   border-radius: 4px;
   box-sizing: border-box;
-  background-image: url("images/icons8-search-32.png");
+  background-image: url("/images/icons8-search-32.png");
+  background-size: 20px 20px;
   background-repeat: no-repeat;
   background-position-y: center;
+  background-position-x: 5px;
 }
 
 .nav-sidebar {
@@ -1869,25 +1879,30 @@ nav {
   text-align: center;
 }
 
-.mobile-nav-menu {
+/* .mobile-nav-menu {
   padding: 0px 0px 16px;
-}
+} */
 
 #active {
-  border-bottom: 3px solid black;
+  border-bottom: 1px solid black;
 }
 
 .mobile-nav-menu ul {
-  padding: 0px;
+  padding: 0px 0px 16px 0px;
 }
-
+.mobile-nav-menu ul li{
+  margin: 0 auto;
+}
 .mobile-nav-menu ul li button {
   background-color: transparent;
   border: none;
   text-decoration: none;
+  padding: 0px 0px 3px 0px;
   color: black;
-  font-family: "proxima nova", sans-serif;
+  font-family: "Proxima Nova", sans-serif;
   font-size: 16px;
+  font-weight: 900;
+  text-transform: uppercase;
 }
 
 #womens-menu-items {
@@ -1896,7 +1911,7 @@ nav {
 
 .navbar-menu-items {
   display: flex;
-  gap: 10px;
+  gap: 15px;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: start;
@@ -1912,7 +1927,7 @@ nav {
   color: black;
   text-transform: uppercase;
   font-size: 14px;
-  font-family: proxima nova;
+  font-family: 'Proxima Nova';
 }
 
 .shopall-women a img {
@@ -1934,6 +1949,14 @@ nav {
 
 #accessories-menu-items {
   display: none;
+}
+.mobile-signin{
+   text-transform: uppercase;
+  letter-spacing: 0.69px;
+  line-height: 1;
+  font-size: 15px;
+  font-family: 'Proxima Nova';
+  font-weight: 700;
 }
 
 .signin {
@@ -2071,7 +2094,7 @@ nav {
   border-style: none;
 }
 
-.logo-circle  img{
+.logo-circle img {
   position: fixed;
   bottom: 24px;
   right: 20px;
@@ -2093,7 +2116,7 @@ nav {
 }
 
 .trending-card {
-    /* width: 100%;
+  /* width: 100%;
     display: flex;
     justify-content: center;
   text-align: center; */
@@ -2106,39 +2129,41 @@ nav {
   flex-direction: row;
   width: 100%;
   text-align: center;
-  justify-content: space-between;
-  align-items: center;
+  /* justify-content: space-between; */
+  gap: 32px;
+  /* row-gap: 10px;
+  column-gap: 10px; */
+  align-items: baseline;
 }
 
 .card-image {
-  width: 23.843%;
+   width: calc(25% - 24px);
   cursor: pointer;
-  
 }
 
 .card-image a {
   text-align: center;
-
   color: #000;
   font-size: 18px;
   font-weight: 600;
   text-decoration: none;
- font-family: 'Proxima Nova';
- letter-spacing: 1.5px;
-
+  font-family: 'Proxima Nova';
+  letter-spacing: 1.5px;
 }
-.card-image-text p{
-  display: inline ;
+
+.card-image-text p {
+  display: inline;
   border-bottom: 2px solid transparent;
 }
-.card-image a:hover  .card-image-text p{
-  
+
+.card-image a:hover .card-image-text p {
+
   border-bottom: 2px solid black;
 }
-
 .card-image a img {
   width: 100%;
   max-height: 434px;
+  height: auto;
   margin-bottom: 13px;
   object-fit: cover;
   border: none;
@@ -2147,6 +2172,7 @@ nav {
 #middle-banner {
   background-image: url("/images/background-banner-full.jpg ");
 }
+
 .jiso-card {
   margin: 0 auto;
   display: flex;
@@ -2160,7 +2186,7 @@ nav {
   padding: 0px 15px;
   gap: 15px;
   text-align: center;
-  align-items: center;
+  align-items: baseline;
   justify-content: center;
 }
 
@@ -2200,17 +2226,20 @@ nav {
   margin: 0px;
   font-weight: 400;
   width: 100%;
-}image
-.text h1:hover{
+}
+
+image .text h1:hover {
   text-decoration: underline;
 }
-.shopbyactivity-full-width{
- background-color: #f8f6ef;
- width: 100%;
+
+.shopbyactivity-full-width {
+  background-color: #f8f6ef;
+  width: 100%;
   padding: 36px 0px;
   margin: 0 auto;
   margin-bottom: 70px;
 }
+
 /* .shopbyactivity-cards {
   display: flex;
   justify-content: center;
@@ -2235,7 +2264,8 @@ nav {
 
 .activity-grid {
   display: flex;
-flex-wrap: wrap;
+  flex-wrap: wrap;
+  flex-direction: row;
   gap: 12px;
   justify-content: center;
   align-items: baseline;
@@ -2243,6 +2273,7 @@ flex-wrap: wrap;
 
 .activity-card {
   flex: 1 0 15.4%;
+  /* width: 15.4%; */
   text-align: center;
 }
 
@@ -2268,22 +2299,26 @@ flex-wrap: wrap;
 .activity-card:hover .activity-label a {
   border-bottom: 2px solid black;
 }
-
+.shopbyall-container{
+  max-width: 1600px;
+  padding: 0px 50px;
+  margin: 0 auto;
+}
 .shopbyall-cards {
   padding: 44px 0px 48px 0px;
- margin: 0 auto;
- margin-bottom: 70px;
-background-color: #f0f0f0;
+  margin: 0 auto;
+  margin-bottom: 70px;
+  background-color: #f0f0f0;
 }
 
-.shopbyall-inner-container{
+.shopbyall-inner-container {
   display: flex;
   flex-direction: column;
   overflow: hidden;
 }
 
 
-.shopbyall-label{
+.shopbyall-label {
   margin-bottom: 40px;
 }
 
@@ -2293,15 +2328,17 @@ background-color: #f0f0f0;
   font-size: 32px;
   letter-spacing: 0.96px;
   font-weight: 600;
-  font-family: 'Proxima Nova','Arquitecta', sans-serif;
+  font-family: 'Proxima Nova', 'Arquitecta', sans-serif;
   text-transform: uppercase;
 }
+
 .shopbyall-grid {
   display: flex;
   flex-wrap: nowrap;
   width: 100%;
   gap: 15px;
 }
+
 .shopbyall-card {
   position: relative;
   width: 25%;
@@ -2334,7 +2371,7 @@ background-color: #f0f0f0;
   font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
-  font-family: 'Proxima Nova','Arquitecta',sans-serif;
+  font-family: 'Proxima Nova', 'Arquitecta', sans-serif;
 }
 
 .shopbyall-text p {
@@ -2379,7 +2416,7 @@ background-color: #f0f0f0;
 }
 
 .footer {
-  background-color: black;
+  background-color: #121212;
   color: #fff;
   padding: 32px 0px 64px 0px;
   font-family: Arial, sans-serif;
@@ -2388,19 +2425,20 @@ background-color: #f0f0f0;
 .footer-container {
   display: flex;
   flex-wrap: wrap;
-  padding: 0px 40px;
-  gap: 15px;
+  padding: 0px 15px 30px 15px;
+  column-gap: 15px;
+  row-gap: 60px;
   font-family: proxima nova;
 }
 
 .footer-column {
-  flex: 0 1 15%;
+  flex: 0 1 16.5%;
   font-family: 'Proxima Nova';
 }
 
 .footer-column h2 {
   font-size: 16px;
-  margin:0px 0px 20px 0px;
+  margin: 0px 0px 20px 0px;
   font-weight: 500;
 }
 
@@ -2431,42 +2469,49 @@ background-color: #f0f0f0;
   font-size: 13px;
   font-family: 'Proxima Nova';
   padding: 15px 40px 15px 21px;
-  background-color: black;
+  background-color: #121212;
   color: white;
 }
+
 .newsletter {
- flex: 0 1 27%;
- font-family: 'Proxima Nova';
- margin: 0 auto 0 0;
+  flex: 0 1 24%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: 'Proxima Nova';
+  margin: 0 auto 0 0;
 }
-.newsletter h2{
-  font-size:16px;
+
+.newsletter h2 {
+  font-size: 16px;
   font-family: 'Proxima Nova';
   margin: 0px;
   margin-bottom: 20px;
   font-weight: 500;
 }
+
 .newsletter form {
-  position: relative;
   display: flex;
   color: white;
-  
+
 }
+
 .newsletter input[type="email"] {
   flex: 1;
-  padding: 15px 50px 15px 15px;
+  padding: 15px 50px 15px 15px; 
+  max-width: 250px;
+  font-size: 16px;
   margin: 1px;
-  border: 1px solid white;  
-  background-color: #000;
+  border: 1px solid white;
+  background-color: #121212;
   color: white;
-  
+
 }
+
 .newsletter button {
-  position: absolute;
-  top: 1px;
-  right: 0px;
   width: 44px;
-  height: 47.5px;
+  height: auto;
+  margin:1px 1px 1px -2px ;
   background: #fff;
   color: #000;
   border: none;
@@ -2477,10 +2522,15 @@ background-color: #f0f0f0;
 
 
 .privacy-note {
-  margin-top: 10px;
   font-size: 12px;
+  font-family: 'Proxima Nova';
   color: white;
-  text-align: justify;
+  text-align: left;
+  margin: 42px 0px 5px 0px;
+  font-weight: 300;
+  letter-spacing: 0.2px;
+  max-width: 350px;
+  line-height: 1.4;
 }
 
 .privacy-note a {
@@ -2489,7 +2539,17 @@ background-color: #f0f0f0;
 }
 
 .social-icons {
-  margin-top: 10px;
+  margin: 10px 0px;
+}
+
+.social-icons p {
+  margin: 0px;
+  font-size: 16px;
+  color: white;
+  font-family: 'Proxima Nova';
+  display: block;
+  margin-bottom: 27px;
+  font-weight: 600;
 }
 
 .social-icons a {
@@ -2506,22 +2566,59 @@ background-color: #f0f0f0;
   font-family: 'Proxima Nova';
   color: white;
   text-align: left;
-  max-width: 400px;
+  width: 100%;
   line-height: 1.15;
   letter-spacing: 0.6px;
   font-weight: 400;
+  margin-bottom: 13px;
 }
-.footer-bottom p{
+
+.footer-bottom p {
+  max-width: 400px;
   margin: 0px;
   margin-top: 13px;
   font-size: 13px;
   padding: 0px 40px;
 }
-.footer-bottom a {
-  color: #fff;
+
+.terms {
   margin-top: 15px;
+  padding: 0px 40px;
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Proxima Nova';
+  font-weight: 400;
+  max-width: 450px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.terms ul {
+  margin: 0px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.terms ul li {
+  list-style: none;
+  padding: 0px 8px;
+}
+
+.terms a {
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Proxima Nova';
   cursor: pointer;
-  padding-bottom: 20px;
+  text-decoration: none;
+  border-bottom: 1px solid gray;
+
+}
+
+.terms a:hover {
+  border-bottom: 1px solid white;
 }
 
 .footer-column ul li a:hover {
@@ -2541,14 +2638,14 @@ background-color: #f0f0f0;
 
 .slider-text {
   text-align: center;
-font-family: "Proxima Nova","Arquitecta", sans-serif !important;
-color: #000;
+  font-family: "Proxima Nova", "Arquitecta", sans-serif !important;
+  color: #000;
 }
 
 .slider-text h2 {
   text-align: center;
   margin: 0px;
-  font-family: "Proxima Nova","Arquitecta", sans-serif !important;
+  font-family: "Proxima Nova", "Arquitecta", sans-serif !important;
   font-size: 32px;
   font-weight: 600;
   letter-spacing: 0.96px;
@@ -2559,17 +2656,17 @@ color: #000;
   text-align: center;
   margin: 0px;
   margin-top: 5px;
- font-family: "Proxima Nova","Arquitecta", sans-serif !important;
+  font-family: "Proxima Nova", "Arquitecta", sans-serif !important;
   font-size: 18px;
   font-weight: 400;
   line-height: 1.8;
-letter-spacing: 0.6px;
+  letter-spacing: 0.6px;
 }
 
 .slider-section {
- margin: 0 auto;
- margin-bottom: 70px;
-overflow: hidden;
+  margin: 0 auto;
+  margin-bottom: 70px;
+  overflow: hidden;
 }
 
 .slider-wrapper {
@@ -2579,18 +2676,20 @@ overflow: hidden;
   align-items: center;
   justify-content: center;
 }
-.slider-image-cards{
+
+.slider-image-cards {
   padding: 30px;
   position: relative;
   overflow: hidden;
 }
-.slider-btn-left{
-transform: rotate(180deg);
-left: 10px;
+
+.slider-btn-left {
+  transform: rotate(180deg);
+  left: 10px;
 }
 
 .slider-btn-right {
- right: 10px;
+  right: 10px;
 }
 
 .slider-btn {
@@ -2616,11 +2715,13 @@ left: 10px;
   overflow: hidden;
   width: 100%;
 }
-.slider-card-container{
-width: 100%;
-display: flex;
-flex-direction: row;
+
+.slider-card-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
 }
+
 .slider-grid::-webkit-scrollbar {
   display: none;
 }
@@ -2652,14 +2753,14 @@ flex-direction: row;
 }
 
 #bg-slider1 {
-  
+
   background-image: url("/images/slider2.png");
 }
 
 #bg-slider3 {
   /* min-width: 300px; */
   /* height: 400px; */
-  
+
   background-image: url("/images/slider3.png");
 }
 
@@ -2672,21 +2773,21 @@ flex-direction: row;
 #bg-slider5 {
   /* min-width: 300px; */
   /* height: 400px; */
-  
+
   background-image: url("/images/slider5.png");
 }
 
 #bg-slider6 {
   /* min-width: 300px; */
   /* height: 400px; */
-  
+
   background-image: url("/images/slider6.png");
 }
 
 #bg-slider7 {
   /* min-width: 300px; */
   /* height: 400px; */
-  
+
   background-image: url("/images/slider7.png");
 }
 
@@ -2824,255 +2925,159 @@ details ul li a {
   margin: 0;
   padding: 0;
 }
-/* 
-@media (width > 1600px) {
-  .shopbyall-cards {
-    display: flex;
-    justify-content: center;
-  }
-
-  .background {
-    width: 1539px;
-  }
-
-  .footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .footer-container {
-    width: 1600px;
-  }
-
-  .slider-card {
-    width: 24.4%;
-    height: auto;
-    aspect-ratio: 4 / 4;
-  }
-}
-
-@media (width < 1600px) {
-  .slider-card {
-    height: auto;
-    aspect-ratio: 4 / 4;
-  }
-}
-
-@media (max:width  1200px) {
-  .card-image {
-    width: 23%;
-  }
-
-  .activity-card {
-    width: 14.9%;
-  }
-}
-
-@media (width <=1200px) {
-  .card-image {
-    width: 22%;
-  }
-
-  .activity-card {
-    width: 14.2%;
-  }
-
-  .slider-btn {
-    padding: 14px;
-  }
-}
-
-@media (width < 750px) {
-  .container {
-    padding: 15px;
-  }
-
-  .background-banner {
-    height: 100vw;
-    background-size: 100% auto;
-    background-image: url("/images/top-banner-mobile.jpg");
-
-  }
-
-  .background-banner button {
-    right: 40%;
-  }
-
-  .grey-background {
-    height: 120vw;
-    background-size: cover;
-    background-image: url("/images/background-banner-mobile.webp");
-  }
-
-  .links-grid {
-    display: block;
-  }
-
-  .footer-container {
-    flex-direction: column;
-  }
-
-  .footer-column {
-    width: 50%;
-  }
-
-  .footer-bottom {
-    padding: 30px 15px 15px 0px 15px;
-    font: 13px;
-  }
-
-  .footer-full {
+  #footer-language-selection{
     display: none;
   }
-
-  .small {
-    display: flex;
-  }
-
-  .center {
-    display: flex;
-    justify-content: center;
-  }
-
-  .footer-bottom {
-    width: 70%;
-  }
-
-  .slider-card {
-    width: 47%;
-  }
-
-  .nav-sidebar {
-    width: 97%;
-  }
+.mobile-footer{
+  display: none;
 }
 
-@media (width <=1000px) {
-  .main-nav {
-    display: none;
-  }
-
-  .small-nav {
-    display: block;
-  }
-
-  .login {
-    display: block;
-  }
-
-  .cards {
-    flex-wrap: wrap;
-  }
-
-  .card-image {
-    width: 48%;
-  }
-
-  .card-container {
-    flex-direction: column;
+@media (max-width:992px) {
+  .cards{
     gap: 20px;
   }
-
-  .card {
-    width: 100%;
+  .card-image{
+    width: calc(50% - 10px);
   }
-
-  .shopbyactivity {
-    width: 90vw;
+  .card-image a img{
+    max-height: fit-content;
   }
-
-  .activity-grid {
+  .card-container{
     flex-direction: column;
+  }
+  .card{
     width: 100%;
   }
-
-  .activity-card {
-    width: 100%;
+  .text{
+    margin: -50px 0px 0px 50px;
   }
-
-  .shopbyall {
+  .activity-grid {
+      flex-direction: column;
+      gap: 20px;
+    }
+  .activity-card{
+        width: 100%;
+  }
+  .activity-card a img{
+    max-height: fit-content ;
+  }
+  .shopbyall-container{
+    padding: 0px 15px;
+    max-width: 100%;
+  }
+  .shopbyall-grid{
     overflow-x: scroll;
   }
-
-  .shopbyall-card {
-    width: 574.8px;
-    height: 718.48px;
+    .shopbyall-card {
+    width: 60%;
+    max-height: fit-content;
     flex: 0 0 auto;
   }
-
-  .slider-btn {
-    padding: 13px;
+  .footer-column{
+    flex: 0 1 23%;
   }
-
-  .hide {
+  .menu{
     display: none;
   }
+  .signin{
+    display: none;
+  }
+  #signin{
+    border: none;
+  }
+  #search-icon{
+    display: none;
+  }
+  .left-icons{
+    display: none;
+   width: 30%;
+   justify-content: start;
+  }
+  .logo{
+    width: 40%;
+    justify-content: center;
+  }
+  .auth-icons{
+    width: 30%;
+  }
+  nav{
+    padding: 5px 15px 7px 15px;
+  }
+  .login{
+    display: block;
+  }
+  .auth-icons{
+    align-items: center;
+  }
+  .mini-cart{
+    padding: 0px;
+  }
+  .mini-cart:hover .mini-cart-container {
+  opacity: 0;
+  visibility: hidden;
 }
-
-@media (width <=580px) {
-  .small-icon {
-    width: 15px;
-    height: 15px;
+.mini-cart:hover {
+  border: none;
+}
+.left-icons{
+  display: flex;
+}
+}
+@media (max-width:750px) {
+  .slider-card{
+    width: 49%;
+    height: 50vw;
   }
-
-  #logoid {
-    width: 40px;
+  .footer-column{
+    display: none;
   }
-
-  .right-icons ul {
+  .mobile-footer{
+    display: block;
+  }
+  .newsletter{
+      flex: 0 1 100%;
+      overflow: hidden;
+  }
+  .details{
+    flex: 0 0 100%;
+    margin: 10px 0px;
+  }
+  #footer-language-selection{
+    display: block;
+    margin-bottom: 20px;
+  }
+  #desktop-footer-icons{
+    display: none;
+  }
+  .footer-container{
+    row-gap: 7px;
+  }
+  .footer-bottom{
+   max-width: 100%;
+   width: 100%;
+  }
+  .footer-bottom p{
+    margin: 0 auto;
     padding: 0px;
   }
-
-  .card-image {
-    width: 46%;
-  }
-
-  .shopbyall-cards {
+  .terms{
+    margin: 0 auto;
+    margin-top: 15px;
     padding: 0px;
   }
-
-  .shopbyall-card {
-    width: 310.19px;
-    height: 400px;
-    flex: 0 0 auto;
+  .links-grid{
+    display: flex;
   }
-
-  .background h2 {
-    text-align: center;
+  .container{
+    padding: 0px 15px;
   }
-
-  .background {
-    padding: 0px;
+  .footer{
+     padding: 24px 0px 64px 0px;
   }
-
-  .shopbyactivity {
-    width: 89vw;
+  .background-banner{
+     background-image: url("/images/background-banner-mobile.jpg");
+      height: 100vw;
+    background-size: cover;
   }
-
-  .footer-bottom {
-    width: 100%;
-  }
-
-  .newsletter {
-    width: 100%;
-  }
-
-  .slider-btn {
-    padding: 12px;
-  }
-
-  .footer-column.newsletter input[type="email"] {
-    padding: 12px 50px 12px 12px;
-    font-size: 9px;
-
-  }
-
-  .card-image {
-    width: 45%;
-  }
-
-  #searchbar {
-    width: 95%;
-  }
-} */
+  
+}
