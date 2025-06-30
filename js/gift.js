@@ -1,3 +1,21 @@
+const menuItems = document.querySelectorAll('.menu-item');
+
+menuItems.forEach(item => {
+  item.addEventListener('mouseenter', opacitydDown);
+  item.addEventListener('mouseleave',opacityNormal);
+});
+function opacitydDown() {
+    const menuItemId = this.getAttribute('id');
+    menuItems.forEach(el => {
+      el.style.opacity = 0.5;
+    });
+    document.getElementById(menuItemId).style.opacity = 1;
+  };
+  function opacityNormal() {
+    menuItems.forEach(el => {
+      el.style.opacity = 1;
+    });
+  };
 
 
 
