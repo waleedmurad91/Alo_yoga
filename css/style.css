@@ -3096,4 +3096,9 @@ details ul li a {
   .nav-sidebar{
     width: 90%;
   }
+  .newsletter input[type="email"] {
+    min-width: 60px;
+    max-width: 240px;
+    width: 100%;
+  }
 }

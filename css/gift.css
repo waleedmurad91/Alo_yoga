@@ -1,21 +1,70 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-.gift-heading{
-padding-top:80px ;
-font-size: 24px;
-text-align: center;
-font-family: "Montserrat", sans-serif;
-text-transform: uppercase;
-font-weight: 900;
+.gift-heading-section {
+  padding:40px 0px;
+  max-width: 1500px;
+  margin: 0 auto;
+  text-align: center;
+  color: #000;
+  font-family: 'Proxima Nova';
 }
-.gift-heading h1{
-  margin-bottom:10px ;
+
+.gift-heading {
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 40px 20px 0px 0px;
+}
+
+.gift-heading h1 {
+  font-size: 40px;
+  margin:0px;
+  letter-spacing: 3.18182px;
+  line-height: 1.14;
+  font-family: 'Proxima Nova', sans-serif !important;
+  font-weight: 600;
+  text-align: center;
+  font-style: normal;
+}
+
+.gift-heading h2 {
+  font-size: 16px;
+  margin: 0px 35px;
+  color: #605e5c;
+  font-family: 'Proxima Nova';
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+  line-height: 1.5;
+  font-weight: 400;
 }
 .gift-heading p{
-  font-size: 12px;
-  font-weight: 700;
-  margin-top: 1px;
+  width: 100%;
+  text-align: center;
 }
+.gift-heading p span{
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 15px;
+  font-family: 'Proxima Nova';
+  color: black;
+  font-weight: 400;
+  line-height: 1.8;
+} 
 
+@media (max-width:750px) {
+  .gift-heading-section {
+    padding: 40px 0px 24px 0px;
+  }
 
+  .gift-heading {
+    padding: 0px;
+  }
 
+  .gift-heading h1 {
+    font-size: 28px;
+    letter-spacing: 2.2px;
+    margin: 0px;
+  }
 
+  .gift-heading h2 {
+    display: none;
+  }
+}

@@ -79,12 +79,13 @@
 }
 
 .size-filter {
-  display: block;
+  display: none;
   position: absolute;
   top: 0;
   left: -50px;
   z-index: 1000;
   background-color: white;
+  color: #000;
 }
 
 .sort-dropdown {
@@ -403,7 +404,8 @@ color: #000;
   position: fixed;
   top: 0;
   left: 0;
-  width: 60%;
+  max-width: 400px;
+  width: 80%;
   height: 100%;
   background: #fff;
   box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2);
@@ -454,7 +456,8 @@ color: #000;
 .f-aside-buttons {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  max-width: 100%;
+  width: 88%;
   padding: 27px 0px 0px;
 }
 
@@ -472,6 +475,8 @@ color: #000;
   border: none;
   text-transform: capitalize;
   font-size: 15px;
+  font-family: 'Proxima Nova';
+  font-weight: 400;
 }
 
 .svg-center {
@@ -483,7 +488,9 @@ color: #000;
 }
 
 .f-aside-bottom {
-  margin-bottom: 10px;
+  position: sticky;
+  bottom: 0px;
+  background-color: white;
 }
 
 .f-bottom-btns {
@@ -498,10 +505,15 @@ color: #000;
 #f-bottom-btns {
   width: 90%;
 }
-
+.f-bottom-btn a{
+  color: #000;
+  font-size: 15px;
+  font-family: 'Proxima Nova';
+}
 .f-bottom-btn button {
   padding: 12px 45px;
   font-size: 15px;
+  font-family: 'Proxima Nova';
   text-decoration: underline;
   background-color: transparent;
   border: none;
@@ -606,7 +618,7 @@ input[type="checkbox"] {
   position: sticky;
   width: 90%;
   bottom: 0px;
-  padding: 10px 0px;
+  padding: 0px;
   background-color: white;
 }
 
@@ -682,5 +694,11 @@ cursor: pointer;
 }
 #filter-aside{
   display: flex;
+}
+.size-filter{
+  display: block;
+}
+.womenpages{
+  gap: 20px;
 }
 }
