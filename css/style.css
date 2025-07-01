@@ -2417,16 +2417,17 @@ image .text h1:hover {
 }
 
 .footer {
-  background-color: #121212;
+  max-width: 1680px;
   color: #fff;
   padding: 32px 0px 64px 0px;
   font-family: Arial, sans-serif;
+  margin: 0 auto;
 }
 
 .footer-container {
   display: flex;
   flex-wrap: wrap;
-  padding: 0px 15px 30px 15px;
+  padding: 0px 40px 0px 40px;
   column-gap: 15px;
   row-gap: 60px;
   font-family: proxima nova;
@@ -2580,12 +2581,12 @@ image .text h1:hover {
   margin: 0px;
   margin-top: 13px;
   font-size: 13px;
-  padding: 0px 40px;
+  padding: 0px;
 }
 
 .terms {
   margin-top: 15px;
-  padding: 0px 40px;
+  padding: 0px;
   color: #fff;
   font-size: 16px;
   font-family: 'Proxima Nova';
@@ -2942,6 +2943,9 @@ details ul li a {
    width: 30%;
    justify-content: start;
   }
+.footer-full{
+  background-color: #121212;
+  }
 @media (max-width:992px) {
   .cards{
     gap: 20px;
@@ -3059,6 +3063,7 @@ details ul li a {
     display: none;
   }
   .footer-container{
+    padding: 0 15px;
     row-gap: 7px;
   }
   .footer-bottom{
@@ -3089,6 +3094,6 @@ details ul li a {
     background-size: cover;
   }
   .nav-sidebar{
-    width: 96%;
+    width: 90%;
   }
 }

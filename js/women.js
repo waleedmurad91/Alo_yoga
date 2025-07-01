@@ -1,3 +1,5 @@
+//navbar menu btns opacity downing
+
 const menuItems = document.querySelectorAll('.menu-item');
 
 menuItems.forEach(item => {
@@ -21,34 +23,18 @@ function opacitydDown() {
 
 let hoveredId = null;
 
-document.querySelectorAll(".product").forEach((el) => {
-  el.addEventListener("mouseenter", () => {
-    hoveredId = el.id;
-  });
-});
-let original = null;
-function changeImage() {
-  const card = document.getElementById(hoveredId);
-  original = card.src;
-  if (card) {
-    let name = hoveredId + ".png";
-    card.src = name;
+//image changing on hover
+document.querySelectorAll('.product-card-image').forEach(card => {
+  const hoverImage = card.getAttribute('data-hover');
+  if (hoverImage) {
+    card.style.backgroundImage = `url(${hoverImage})`;
   }
-}
-function originalImage() {
-  const card = document.getElementById(hoveredId);
-  if (card) {
-    card.src = original;
-  }
-}
-document.querySelectorAll(".product").forEach((el) => {
-  el.addEventListener("mouseenter", changeImage);
-  el.addEventListener("mouseleave", originalImage);
 });
 
 
-document.querySelectorAll(".sortDropdown").forEach((details) => {
-  const summary = details.querySelector(".selectedSort");
+//sorting filter
+document.querySelectorAll(".sort-dropdown").forEach((details) => {
+  const summary = details.querySelector(".selected-option");
   const options = details.querySelectorAll(".options li");
 
   options.forEach((option) => {
@@ -99,6 +85,8 @@ for (let i = 0; i < buttons.length; i++) {
   });
 }
 
+
+//filter aside 
 const toopen = document.getElementById("filter-open");
 const toclose = document.getElementById("filter-aside-cross");
 const open = document.getElementById("filter-aside");
