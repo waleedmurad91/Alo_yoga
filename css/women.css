@@ -600,6 +600,7 @@ color: black;
   border: none;
   text-transform: capitalize;
   font-size: 15px;
+  color: #000;
 }
 
 .input {
