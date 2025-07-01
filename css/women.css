@@ -133,6 +133,7 @@
   border: 1px solid rgb(201, 201, 201);
   display: flex;
   align-items: center;
+  color: #000;
 }
 
 .size-filter button img {
@@ -451,6 +452,7 @@ color: #000;
   left: 10px;
   background-color: transparent;
   border: none;
+  color: black;
 }
 
 .f-aside-buttons {
@@ -477,6 +479,7 @@ color: #000;
   font-size: 15px;
   font-family: 'Proxima Nova';
   font-weight: 400;
+color: black;
 }
 
 .svg-center {
