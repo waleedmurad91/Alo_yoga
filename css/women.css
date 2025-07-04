@@ -40,7 +40,8 @@
   line-height: 1.5;
   font-weight: 400;
 }
-.m-p{
+
+.m-p {
   font-size: 16px;
   margin: 0 auto;
   color: black;
@@ -52,11 +53,12 @@
 }
 
 .filters-section {
- max-width: 1600px;
+  max-width: 1600px;
   padding: 0px 10px 30px 30px;
   margin: 0px 30px 20px 40px;
-  
+
 }
+
 .filters {
   display: flex;
   flex-direction: row;
@@ -101,9 +103,10 @@
   font-size: 16px;
   font-family: 'Proxima Nova';
   cursor: pointer;
-  padding-top:10px ;
+  padding-top: 10px;
 }
-.options li{
+
+.options li {
   padding: 12px 16px;
   font-size: 16px;
   font-family: 'Proxima Nova';
@@ -114,7 +117,7 @@
 
 .selected-option {
   display: flex;
-   padding: 11px 20px 11px 15px;
+  padding: 11px 20px 11px 15px;
   align-items: center;
   font-size: 16px;
   font-weight: 400;
@@ -127,7 +130,7 @@
   padding: 8px 20px 8px 15px;
   height: 30px;
   font-size: 16px;
-  font-family:'Proxima Nova';
+  font-family: 'Proxima Nova';
   font-weight: 400;
   background-color: white;
   border: 1px solid rgb(201, 201, 201);
@@ -170,19 +173,21 @@ details {
 }
 
 
-.women-products-section{
+.women-products-section {
   display: flex;
   justify-content: center;
 }
+
 .women-products-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   max-width: 1680px;
 }
-.products-card-container{
+
+.products-card-container {
   display: flex;
-  
+
   justify-content: center;
   /* margin-top:20px ; */
   padding: 12px 30px 36px 40px;
@@ -202,7 +207,7 @@ details {
 .sidebar p {
   font-size: 18px;
   font-family: 'Proxima Nova';
-  margin:0px;
+  margin: 0px;
   font-weight: 500;
   text-transform: uppercase;
 }
@@ -265,14 +270,14 @@ details {
 
 .product-card {
   flex: 1 0 calc(25% - 23px);
-  padding:10px 0px;
+  padding: 10px 0px;
   box-sizing: border-box;
   /* align-items: center; */
 }
 
 .product-card-image img {
   width: 100%;
-  height: 100%;  
+  height: 100%;
   object-fit: fill;
 }
 
@@ -300,7 +305,7 @@ details {
 .sizes-label {
   width: 100%;
   font-size: 16px;
-  font-family:'Proxima Nova';
+  font-family: 'Proxima Nova';
   text-transform: uppercase;
   cursor: pointer;
 }
@@ -336,7 +341,7 @@ details {
   cursor: pointer;
 }
 
- .colors {
+.colors {
   display: flex;
   flex-wrap: wrap;
   gap: 2px;
@@ -356,43 +361,48 @@ details {
   font-size: 14px;
   font-family: 'Proxima Nova';
   font-weight: 600;
-  margin:0px;
-  color: black;
-  cursor: pointer;
-}
-#product-price{
-  font-size: 14px;
-  font-family: 'Proxima Nova';
-  font-weight: 400;
-  margin:0px;
-  color: #605e5c;
-}
-.product-card p {
- font-size: 14px;
-  font-family: 'Proxima Nova';
-  font-weight: 400;
-  margin:0px;
+  margin: 0px;
   color: black;
   cursor: pointer;
 }
 
-.product-card h4:hover{
- color: #605e5c;
- text-decoration: underline;
+#product-price {
+  font-size: 14px;
+  font-family: 'Proxima Nova';
+  font-weight: 400;
+  margin: 0px;
+  color: #605e5c;
 }
+
+.product-card p {
+  font-size: 14px;
+  font-family: 'Proxima Nova';
+  font-weight: 400;
+  margin: 0px;
+  color: black;
+  cursor: pointer;
+}
+
+.product-card h4:hover {
+  color: #605e5c;
+  text-decoration: underline;
+}
+
 .womenpages {
-  margin-top: 50px ;
+  margin-top: 50px;
   justify-content: center;
   display: flex;
   flex-direction: row;
   gap: 40px;
-padding-bottom: 36px;
-color: #000;
+  padding-bottom: 36px;
+  color: #000;
 }
-.womenpages a{
+
+.womenpages a {
   color: #000;
   text-decoration: none;
 }
+
 .mobile-product-p {
   display: none;
 }
@@ -479,7 +489,7 @@ color: #000;
   font-size: 15px;
   font-family: 'Proxima Nova';
   font-weight: 400;
-color: black;
+  color: black;
 }
 
 .svg-center {
@@ -508,11 +518,13 @@ color: black;
 #f-bottom-btns {
   width: 90%;
 }
-.f-bottom-btn a{
+
+.f-bottom-btn a {
   color: #000;
   font-size: 15px;
   font-family: 'Proxima Nova';
 }
+
 .f-bottom-btn button {
   padding: 12px 45px;
   font-size: 15px;
@@ -626,83 +638,102 @@ input[type="checkbox"] {
   background-color: white;
 }
 
-
-.product-card-image{
-background-image: url("");
-background-size: 100%;
-background-position: center top;
-background-repeat: no-repeat;
-transition: background-size 0.4s ease-in-out;
-cursor: pointer;
+.product-card-image {
+  background-image: url("");
+  background-size: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  transition: background-size 0.4s ease-in-out;
+  cursor: pointer;
+  overflow: hidden;
 }
-.product-card-image:hover img{
+
+.product-card-image:hover img {
   opacity: 0;
+  visibility: hidden;
   transition: opacity 0.5s ease;
 }
-.product-card-image:hover{
-  background-size: 105%;
+
+.product-card-image:hover {
+  background-size: 103%;
 }
 
 @media (max-width:1200px) {
   .product-card {
-  flex: 1 0 calc(33.3% - 20px);
-  
+    flex: 1 0 calc(33.3% - 20px);
+
+  }
 }
-}
+
 @media (max-width:1000px) {
   .product-card {
-  flex: 1 0 calc(50% - 15px);
+    flex: 1 0 calc(50% - 15px);
+  }
+
+  .product-card-sizes {
+    display: none;
+  }
 }
-.product-card-sizes{
-  display: none;
-}
-}
+
 @media (max-width:750px) {
-  .women-heading-section{
+  .women-heading-section {
     padding: 40px 0px 24px 0px;
   }
-  .women-heading{
+
+  .women-heading {
     padding: 0px;
   }
-  .women-heading h1{
+
+  .women-heading h1 {
     font-size: 28px;
     letter-spacing: 2.2px;
     margin: 0px;
   }
-    .women-heading h2{
-      display: none;
-    }
-  .products-card-container{
+
+  .women-heading h2 {
+    display: none;
+  }
+
+  .products-card-container {
     padding: 12px 15px 36px 15px;
   }
+
   .products-grid {
     gap: 7px;
   }
-  .sort-filter{
+
+  .sort-filter {
     right: 5px;
     min-width: 130px;
     width: 50%;
   }
-  .selected-option{
+
+  .selected-option {
     padding: 5px 20px 5px 15px;
   }
-.product-card {
-  flex: 1 0 calc(50% - 5px);
-}
-.filter-sidebar{
-  display: none;
-}
-.mobile-product-p {
-  display: block;
-  text-align:center;
-}
-#filter-aside{
-  display: flex;
-}
-.size-filter{
-  display: block;
-}
-.womenpages{
-  gap: 20px;
-}
+
+  .product-card {
+    flex: 1 0 calc(50% - 5px);
+  }
+
+  .filter-sidebar {
+    display: none;
+  }
+
+  .mobile-product-p {
+    display: block;
+    text-align: center;
+  }
+
+  #filter-aside {
+    display: flex;
+  }
+
+  .size-filter {
+    display: block;
+  }
+
+  .womenpages {
+    gap: 20px;
+  }
 }
