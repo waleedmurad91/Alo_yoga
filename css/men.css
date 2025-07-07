@@ -46,7 +46,12 @@
   width: 100%;
   padding: 46px 0px 36px 0px;
 }
-
+.men-trending{
+padding: 36px 0px;
+}
+.men-shopbyactivity-section{
+  padding: 36px 0px;
+}
 .men-cards {
   display: flex;
   flex-wrap: wrap;
@@ -57,8 +62,8 @@
   text-align: center;
   /* justify-content: space-between; */
   align-items: baseline;
-  gap: 15px;
-  padding: 36px 0px;
+  column-gap: 15px;
+  row-gap: 7px;
 }
 
 .men-card-image {
@@ -126,8 +131,8 @@
 .mens-text a {
   color: #000;
   font-size: 18px;
-  /* font-weight: 800; */
-  font-family: "Arquitectablack", sans-serif !important;
+  font-weight: 500;
+  font-family: "Proxima Nova", sans-serif !important;
   margin-bottom: 10px;
   letter-spacing: 0.5px;
   text-transform: uppercase;
@@ -150,10 +155,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 18px;
   max-width: 1600px;
   padding: 0px 50px;
   margin: 0 auto;
+  margin-bottom: 18px;
 }
 
 .best-sellers-label a {
@@ -282,13 +287,15 @@
   justify-content: center;
   margin: 0 auto;
   background-color: #333;
-  padding: 30px 40px;
+  padding: 10px;
   opacity: 0;
-  width: 65%;
+  visibility: hidden;
+  width: calc(100% - 35px);
 }
 
 .men-slider-card-image:hover .men-card-sizes {
   opacity: 0.9;
+  visibility: visible;
 }
 
 .men-slider-card-image {
@@ -355,6 +362,84 @@
   color: #605e5c;
  
 }
+.mens-fabric-section{
+  padding: 36px 0px;
+  /* height: 100%; */
+}
+.men-fabric-title{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 0px 20px 0px;
+}
+.men-fabric-title h2{
+  font-size: 37px;
+  font-weight: 600;
+  font-family: 'Proxima Nova';
+  text-transform: uppercase;
+  color: black;
+  margin: 0px;
+  letter-spacing: 3px;
+}
+.mens-fabric-cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 15px;
+}
+.mens-fabric-card{
+  width: 25%;
+  overflow: hidden;
+  background-color: #F5F5F5;
+  padding-bottom: 60px;
+}
+.fabric-card-image{
+  width: 100%;
+  height: 100%;
+}
+.fabric-card-image img{
+  width: 100%;
+  max-height: 80vw;
+}
+.fabric-card-text{
+  padding: 25px;
+  text-transform: capitalize;
+  font-family: 'Proxima Nova';
+  margin-top: -5px;
+}
+.fabric-card-text h3{
+margin: 0px;
+font-size: 18px;
+font-weight:500 ;
+font-family: 'Proxima Nova';
+text-transform: uppercase;
+text-decoration: underline;
+letter-spacing: 0px;
+line-height: 1.5;
+}
+.fabric-card-text p{
+  margin: 0px;
+  font-size: 16px;
+  line-height: 1.56;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+   font-family: 'Proxima Nova';
+}
+.fabric-card-text ul{
+  padding-left:20px;
+  line-height: 1.8;
+}
+.fabric-card-text ul li{
+  margin-left:20px;
+  font-size: 16px;
+  font-family: 'Proxima Nova';
+  font-weight: 400;
+  list-style: circle;
+  padding-left:10px ;
+}
 @media (max-width:992px) {
   .best-sellers-label{
     padding: 0px 15px;
@@ -379,6 +464,12 @@
     flex-direction: column;
 
   }
+  .mens-fabric-cards{
+    flex-direction: column;
+  }
+  .mens-fabric-card{
+    width: 100%;
+  }
   .mens-card{
     width: 100%;
   }
@@ -400,21 +491,35 @@
 }
 .best-sellers-label h2{
   font-size: 24px;
+  margin-bottom: 2px;
+}
+.men-card-image-labels{
+  padding: 13px 0px;
 }
 .men-card-image-labels a{
   text-decoration: underline;
+  font-size: 17px;
 }
 .best-sellers-mobile-label{
   display: flex;
   margin: 0 auto;
   justify-content: center;
   align-items: center; 
-  width: 100%;
+  max-width: 100%;
   height: 45px;
+  text-align: center;
+  padding: 0px 15px;
+}
+.best-sellers-mobile-label a{
+  padding: 0px 30px;
+}
+.men-slider-card h4{
+  font-size: 14px;
 }
 
 .mens-container{
   padding: 27px 0px;
+  gap: 7px;
 }
 .new-arrivals{
   padding: 27px 0px;
@@ -423,7 +528,36 @@
 .best-seller-section{
   padding: 27px 0px;
 }
-.men-cards{
+.men-shopbyactivity-section,.men-trending{
+  padding:27px 0px;
+}
+.card-slider{
+  gap: 20px;
+}
+.men-slider-card .colors span{
+  width: 27px;
+  height: 27px;
+}
+.men-heading h2{
+  font-size: 24px;
+}
+.men-shopbyactivity{
   padding: 27px 0px;
+}
+.mens-fabric-section{
+  padding: 27px 0px;
+}
+.men-heading{
+  margin-bottom: 30px;
+}
+.mens-text a{
+  font-size: 15px;
+}
+.fabric-card-image img{
+  max-height: 180vw;
+  height: 100%;
+}
+.men-fabric-title h2{
+  font-size: 27px;
 }
 }

@@ -96,7 +96,23 @@ startAutoSlide();
   
 let logobutton = document.getElementById("mybtn");
 
+const searchBtns = document.querySelectorAll('.search-icon');       
+const closeBtns = document.querySelectorAll('.search-cross');      
+const searchOverlay = document.getElementById('search-overlay');  
 
+
+searchBtns.forEach(button => {
+  button.addEventListener('click', () => {
+    searchOverlay.style.display = 'block';
+  });
+});
+
+
+closeBtns.forEach(button => {
+  button.addEventListener('click', () => {
+    searchOverlay.style.display = 'none';
+  });
+});
 
 
 
@@ -104,7 +120,7 @@ let logobutton = document.getElementById("mybtn");
 
 const toggleBtn = document.getElementById('toggleSidebar');
 const navSidebar = document.getElementById('nav-sidebar');
-const crossBtn = document.getElementById('cross');
+
 toggleBtn.addEventListener('click', () => {
   // navSidebar.style.display="flex";
   navSidebar.classList.add('active');
@@ -113,6 +129,7 @@ toggleBtn.addEventListener('click', () => {
 crossBtn.addEventListener('click', () => {
   // navSidebar.style.display="none";
   navSidebar.classList.remove('active');
+  
 });
 
 

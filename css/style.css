@@ -2353,8 +2353,7 @@ image .text h1:hover {
 .shopbyall-card {
   position: relative;
   width: 25%;
-  max-height: 450px;
-  height: auto;
+  max-height: 480px;
   overflow: hidden;
   cursor: pointer;
 }
@@ -2747,12 +2746,12 @@ image .text h1:hover {
   transition: transform 0.4s ease;
   overflow-x: scroll;
   overflow-y: hidden;
-  gap: 12px;
+  gap: 10px;
 }
 
 .slider-card {
   position: relative;
-  width: 24.9%;
+  width: 49.9%;
   height: 23.2vw;
   border-radius: 16px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -2760,6 +2759,7 @@ image .text h1:hover {
   background-position: center;
   object-fit: cover;
   background-size: cover;
+  overflow: hidden;
 }
 
 #bg-slider2 {
@@ -2963,6 +2963,128 @@ details ul li a {
 .footer-full {
   background-color: #121212;
 }
+.search-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-height: fit-content;
+  cursor: pointer;
+  background: white;
+  z-index: 999;
+  padding-top:30px;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  overflow-y: scroll;
+}
+
+.search-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-input {
+  max-width: 520px;
+  width: 100%;
+  font-size: 16px;
+  border: none;
+  border-bottom: 1px solid black;
+  padding: 15px 40px;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='20' height='20' viewBox='0 0 20 21' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M.6 7.493C.6 3.417 3.84.113 7.835.113c3.996 0 7.236 3.304 7.236 7.38a7.434 7.434 0 0 1-2.002 5.097c.044.027.086.06.124.098l6.017 6.017a.66.66 0 1 1-.933.933L12.26 13.62a.659.659 0 0 1-.132-.187 7.11 7.11 0 0 1-4.293 1.44C3.84 14.873.6 11.568.6 7.493zm13.366 0c0-3.453-2.745-6.253-6.13-6.253-3.387 0-6.131 2.8-6.131 6.253 0 3.454 2.744 6.254 6.13 6.254 3.386 0 6.131-2.8 6.131-6.254z' fill='%23000'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 16px;
+  outline: none;
+}
+
+.close-btn {
+  position: absolute;
+  top: 30px;
+  right: 10px;
+  background: none;
+  border: none;
+font-weight: 900;
+  cursor: pointer;
+}
+
+.search-content {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  padding-top: 13px;
+  justify-content: center;
+  flex-direction: row;
+  gap: 35px;
+  
+}
+
+.search-column {
+width: 50%;
+padding: 15px 12px;
+}
+
+.search-column h4 {
+  font-size: 16px;
+  font-family: 'Proxima Nova';
+  margin: 0;
+  margin-bottom: 8px;
+  padding: 5px 0px;
+  font-weight: 900;
+  line-height: 22px;
+  letter-spacing: 0.75px;
+  
+}
+
+.search-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.search-column li {
+padding: 5px 0px;
+}
+
+.search-column a {
+  text-decoration: none;
+  font-size: 16px;
+  font-family: 'Proxima Nova';
+  color: #333;
+}
+
+.search-column a:hover {
+  text-decoration: underline;
+}
+#back-arrow{
+  display: none;
+ background-color: transparent;
+ border: none;
+ position: absolute;
+ left: 0;
+}
+#back-arrow svg{
+  width: 15px;
+  height: 20px;
+  background-color: transparent;
+  text-align: center;
+  transform: rotate(90deg);
+}
+.search-icon{
+  background-color: transparent;
+  border: none;
+}
+.slider-card-column{
+  display: flex;
+   flex: 0 0 auto;
+  flex-direction: row;
+  width: 50%;
+  row-gap: 10px;
+  column-gap: 10px;
+  overflow: hidden;
+  border-radius: 10px;
+}
 
 @media (max-width:992px) {
   .cards {
@@ -3013,7 +3135,9 @@ details ul li a {
 
   .shopbyall-card {
     width: 60%;
-    max-height: fit-content;
+   max-height: 719px;
+   min-width: 260px;
+   min-height: 400px;
     flex: 0 0 auto;
   }
 
@@ -3078,14 +3202,54 @@ details ul li a {
   .nav-sidebar {
     display: flex;
   }
+  .search-overlay{
+    max-height: none;
+    height: 100vh;
+  }
+  .search-content{
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+  }
+  .search-content ul{
+    display: flex;
+    flex-direction: row; 
+    gap: 8px;
+
+  }
+  .search-content ul li{
+    padding: 4px 16px;
+    border: 1px solid #a3a3a3;
+    border-radius: 20px;
+  }
+  .search-input {
+    max-width: 100%;
+    width: 100%;
+    border: 1px solid;
+    background-position: 10px center;
+    margin: 0 30px;
+  }
+  .close-btn{
+    display: none;
+  }
+  #back-arrow{
+    display: block;
+  }
 }
 
 @media (max-width:750px) {
-  .slider-card {
-    width: 49%;
-    height: 50vw;
+  .slider-card-column{
+    flex-direction: column;
+    flex: 0 0 auto;
+    height: 90vw;
   }
-
+  .slider-card {
+    width: 100%;
+    height: 50%;
+  }
+  .slider-text h2{
+    font-size: 24px;
+  }
   .footer-column {
     display: none;
   }
@@ -3166,4 +3330,12 @@ details ul li a {
     max-width: 240px;
     width: 100%;
   }
+  .middle{
+    display: none;
+  }
+ .search-content{
+  align-items: start;
+ }
 }
+
+

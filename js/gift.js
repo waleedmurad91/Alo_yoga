@@ -119,3 +119,55 @@ for (let i = 0; i < fasidebtn.length; i++) {
   });
 }
 
+
+//filter aside checkbox
+
+  const inputs = document.querySelectorAll('.input');
+
+  inputs.forEach(input => {
+    input.addEventListener('click', () => {
+      input.classList.toggle('checked');
+    });
+  });
+
+
+  const filterCheckBox = document.querySelectorAll('.filter-section-checkbox');
+
+  filterCheckBox.forEach(input => {
+    input.addEventListener('click', () => {
+      input.classList.toggle('filter-checked');
+    });
+  });
+
+
+  //show more button
+  const showmore = document.getElementById('showmore');
+  const showless = document.getElementById('showless');
+  const extendColor = document.getElementById('extended-color');
+
+  showmore.addEventListener('click',()=>{
+extendColor.style.display='flex';
+showmore.style.display= 'none';
+showless.style.display= 'block';
+  })
+  showless.addEventListener('click',()=>{
+extendColor.style.display='none';
+showmore.style.display= 'block';
+showless.style.display= 'none';
+  })
+
+  //size show more button
+  const sizeshowmore = document.getElementById('size-show-more');
+  const sizeshowless = document.getElementById('size-show-less');
+  const tohide = document.querySelectorAll('.to-hide');
+
+  sizeshowmore.addEventListener('click',()=>{
+tohide.forEach(el => el.style.display='flex');
+sizeshowmore.style.display= 'none';
+sizeshowless.style.display= 'block';
+  });
+  sizeshowless.addEventListener('click',()=>{
+tohide.forEach(el=> el.style.display='none');
+sizeshowmore.style.display= 'block';
+sizeshowless.style.display= 'none';
+  })

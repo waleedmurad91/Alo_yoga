@@ -223,24 +223,25 @@ details {
   cursor: pointer;
   font-weight: 400;
   text-transform: uppercase;
+  color: #242424;
 }
 
 .sidebar .filter-section {
   padding: 10px 0;
 }
 
-.sidebar .filter-section label {
-  display: block;
+.filter-section-checkbox label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-transform: capitalize;
+  font-family: 'Proxima Nova';
   font-size: 16px;
-  padding: 6px 20px 6px 0px;
   font-weight: 400;
   color: #605e5c;
   max-width: 180px;
 }
 
-.sidebar .filter-section input[type="checkbox"] {
-  margin-right: 5px;
-}
 
 .sidebar .show-more {
   color: #007bff;
@@ -249,11 +250,9 @@ details {
 }
 
 .sidebar span {
-  width: 10px;
-  height: 10px;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
-  margin: 0 5px;
-  border: 1px solid #111111;
   display: inline-block;
 }
 
@@ -297,9 +296,9 @@ details {
   justify-content: center;
   margin: 0 auto;
   background-color: #333;
-  padding: 15px 40px;
+  padding: 10px;
   opacity: 0;
-  width: 65%;
+  width: calc(100% - 35px);
 }
 
 .sizes-label {
@@ -308,6 +307,7 @@ details {
   font-family: 'Proxima Nova';
   text-transform: uppercase;
   cursor: pointer;
+  line-height: 1.8;
 }
 
 .product-card-content:hover .product-card-sizes {
@@ -428,34 +428,83 @@ details {
   transform: translateX(-100%);
   pointer-events: none;
 }
-
+hr{
+ margin: 0px; 
+}
 #filter-aside.show {
   opacity: 1;
   transform: translateX(0);
   pointer-events: auto;
 }
-
-.filter-aside-upper {
-  border-bottom: 1px solid gray;
+.f-aside-contentup{
   position: relative;
+}
+.filter-aside-upper {
+  position: sticky;
+  top: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
   padding: 10px 25px;
   text-align: center;
+background-color: white ;
 }
 
 .f-upper-text h4 {
   text-transform: capitalize;
+  font-family: 'Proxima Nova';
   font-size: 14px;
   margin: 0px;
   padding: 0px;
+  line-height: 1.4;
 }
-
+.type-select{
+  position: relative;
+}
 .f-upper-text p {
   text-transform: capitalize;
   font-size: 13px;
   margin: 0px;
   padding: 0px;
+  color: rgba(0, 0, 0, 0.7);
 }
-
+.filter-section-checkbox{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  padding: 6px 20px 6px 0px;
+  color: #605e5c;
+  max-width: 170px;
+}
+.filter-section-checkbox svg{
+  border-radius: 2px;
+}
+#extended-color{
+  display: none;
+}
+#showless{
+  display: none;
+}
+.showmore-btn button{
+  border: none;
+  background-color: white;
+  border-bottom: 2px solid transparent;
+  text-decoration: underline;
+margin: 15px 0px 0px 0px;
+font-size: 14px;
+font-family: 'Proxima Nova';
+cursor: pointer;
+}
+.showmore-btn button:hover{
+  text-decoration-thickness:2px ;
+}
+.filter-checked svg{
+    background-image: url("data:image/svg+xml,%3Csvg width='11' height='7' viewBox='0 0 11 7' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.5 3.5L2.83333 4.75L4.16667 6L9.5 1' stroke='white' stroke-width='1.75' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #000;
+  color: white;
+  fill: white;
+  }
 #filter-aside-cross {
   position: absolute;
   top: 14px;
@@ -478,7 +527,8 @@ details {
   padding: 13px 20px;
   justify-content: space-between;
   align-items: center;
-  width: 90%;
+  max-width: 100%;
+  width: 100%;
   background-color: white;
 }
 
@@ -510,7 +560,7 @@ details {
   display: flex;
   width: 100%;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 20px;
 }
@@ -546,10 +596,12 @@ details {
   display: none;
   flex-direction: column;
   opacity: 0;
+  justify-content: space-between;
   position: relative;
   transition: opacity 0.1s ease-out, transform 0.3s ease-in;
   transform: translateX(100%);
   pointer-events: none;
+  height: 100vh;
 }
 
 #product-filter-type.show {
@@ -614,15 +666,22 @@ details {
   font-size: 15px;
   color: #000;
 }
-
+.inputs{
+  overflow-y: hidden;
+}
 .input {
-  padding: 15px 20px 15px 25px;
+    padding: 15px 20px 15px 25px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
 
-input[type="checkbox"] {
-  transform: scale(1.4);
-
-}
+.checked svg{
+   background-image: url("data:image/svg+xml,%3Csvg aria-hidden='true' class='icon icon-checkmark' width='1.1rem' height='0.7rem' viewBox='0 0 11 7' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.5 3.5L2.83333 4.75L4.16667 6L9.5 1' stroke='currentColor' stroke-width='1.75' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 12px;
+  }
 
 .inputs label {
   font-size: 15px;
@@ -657,7 +716,12 @@ input[type="checkbox"] {
 .product-card-image:hover {
   background-size: 103%;
 }
-
+.to-hide{
+  display: none;
+}
+#size-show-less{
+  display: none;
+}
 @media (max-width:1200px) {
   .product-card {
     flex: 1 0 calc(33.3% - 20px);
