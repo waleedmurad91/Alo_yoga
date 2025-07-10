@@ -24,12 +24,22 @@ function opacitydDown() {
 let hoveredId = null;
 
 //image changing on hover
+// document.querySelectorAll('.product-card-image').forEach(card => {
+//   const hoverImage = card.getAttribute('data-hover');
+//   if (hoverImage) {
+//     card.style.backgroundImage = `url(${hoverImage})`;
+//   }
+// });
+
+
 document.querySelectorAll('.product-card-image').forEach(card => {
   const hoverImage = card.getAttribute('data-hover');
   if (hoverImage) {
-    card.style.backgroundImage = `url(${hoverImage})`;
+    card.style.setProperty('--hover-bg', `url(${hoverImage})`);
   }
 });
+
+
 
 
 //sorting filter
@@ -98,17 +108,22 @@ toclose.addEventListener("click", () => {
 });
 
 const fasidebtns = document.getElementById("f-aside-buttons");
+console.log(fasidebtns);
 const fasidebtn = fasidebtns.getElementsByClassName("f-aside-button");
+console.log(fasidebtn);
 let close = document.getElementById("f-aside-buttons");
 for (let i = 0; i < fasidebtn.length; i++) {
   fasidebtn[i].addEventListener("click", function () {
     const id = this.getAttribute("id");
+console.log(id);
     let backbtn = document.getElementById(id + "-close");
+    console.log(backbtn)
     let filterType = document.getElementById(id + "-filter-type");
     filterType.style.display = "flex";
     filterType.classList.add("show");
     close.style.display = "none";
     document.getElementById("f-aside-bottom").style.display = "none";
+    console.log(backbtn);
     backbtn.addEventListener("click", () => {
       filterType.classList.remove("show");
       filterType.style.display = "none";
@@ -117,6 +132,11 @@ for (let i = 0; i < fasidebtn.length; i++) {
     });
   });
 }
+
+
+
+
+
 
 
 
@@ -171,3 +191,24 @@ tohide.forEach(el=> el.style.display='none');
 sizeshowmore.style.display= 'block';
 sizeshowless.style.display= 'none';
   })
+
+
+
+  //search icon toggle
+  const searchBtns = document.querySelectorAll('.search-icon');       
+const closeBtns = document.querySelectorAll('.search-cross');      
+const searchOverlay = document.getElementById('search-overlay');  
+
+
+searchBtns.forEach(button => {
+  button.addEventListener('click', () => {
+    searchOverlay.style.display = 'block';
+  });
+});
+
+
+closeBtns.forEach(button => {
+  button.addEventListener('click', () => {
+    searchOverlay.style.display = 'none';
+  });
+});

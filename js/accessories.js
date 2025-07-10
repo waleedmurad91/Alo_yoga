@@ -27,9 +27,11 @@ let hoveredId = null;
 document.querySelectorAll('.product-card-image').forEach(card => {
   const hoverImage = card.getAttribute('data-hover');
   if (hoverImage) {
-    card.style.backgroundImage = `url(${hoverImage})`;
+    card.style.setProperty('--hover-bg', `url(${hoverImage})`);
   }
 });
+
+
 
 
 //sorting filter
@@ -171,3 +173,22 @@ tohide.forEach(el=> el.style.display='none');
 sizeshowmore.style.display= 'block';
 sizeshowless.style.display= 'none';
   })
+
+    //search icon toggle
+  const searchBtns = document.querySelectorAll('.search-icon');       
+const closeBtns = document.querySelectorAll('.search-cross');      
+const searchOverlay = document.getElementById('search-overlay');  
+
+
+searchBtns.forEach(button => {
+  button.addEventListener('click', () => {
+    searchOverlay.style.display = 'block';
+  });
+});
+
+
+closeBtns.forEach(button => {
+  button.addEventListener('click', () => {
+    searchOverlay.style.display = 'none';
+  });
+});

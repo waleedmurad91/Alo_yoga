@@ -23,14 +23,14 @@
         <button id="toggleSidebar" class="icon-button">
           <img class="small-icon" src="images/icons8-menu-24.png" alt="menu icon" />
         </button>
-        <a href="#">
+        <button class="search-icon">
           <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20px" height="20px" viewBox="0 0 50 50"
             class="small-icon">
             <path
               d="M 21 3 C 11.621094 3 4 10.621094 4 20 C 4 29.378906 11.621094 37 21 37 C 24.710938 37 28.140625 35.804688 30.9375 33.78125 L 44.09375 46.90625 L 46.90625 44.09375 L 33.90625 31.0625 C 36.460938 28.085938 38 24.222656 38 20 C 38 10.621094 30.378906 3 21 3 Z M 21 5 C 29.296875 5 36 11.703125 36 20 C 36 28.296875 29.296875 35 21 35 C 12.703125 35 6 28.296875 6 20 C 6 11.703125 12.703125 5 21 5 Z">
             </path>
           </svg>
-        </a>
+        </button>
       </div>
       <div class="logo">
         <a href="index.html">
@@ -231,9 +231,10 @@
         <ul>
           <li>
             <a href="#">
-              <button class="icons" id="search-icon">
+              <button class="icons search-icon" id="search-icon">
               </button>
             </a>
+
           </li>
           <li>
             <a href="#" class="under-line" id="signin">
@@ -469,6 +470,42 @@
           </select>
         </div>
       </aside>
+      <div class="search-overlay" id="search-overlay">
+        <div class="search-header">
+          <button type="button" id="back-arrow" aria-label="Close" class="search-cross">
+            <svg aria-hidden="true" focusable="false" class="" viewBox="0 0 10 6">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z"
+                fill="currentColor">
+              </path>
+            </svg>
+
+          </button>
+          <input type="text" placeholder="Search" class="search-input" />
+          <button class="close-btn search-cross" id="search-cross">
+            <svg class="svg">
+              <path
+                d="M.865 15.978a.5.5 0 00.707.707l7.433-7.431 7.579 7.282a.501.501 0 00.846-.37.5.5 0 00-.153-.351L9.712 8.546l7.417-7.416a.5.5 0 10-.707-.708L8.991 7.853 1.413.573a.5.5 0 10-.693.72l7.563 7.268-7.418 7.417z">
+              </path>
+            </svg>
+          </button>
+        </div>
+
+        <div class="search-content">
+          <div class="search-column">
+            <h4>TRENDING SEARCHES</h4>
+            <ul>
+              <li><a href="#">Socks</a></li>
+              <li><a href="#">Airlift</a></li>
+              <li><a href="#">Leggings</a></li>
+            </ul>
+          </div>
+          <div class="search-column">
+            <h4>RECOMMENDED PRODUCTS</h4>
+          </div>
+        </div>
+      </div>
+
     </nav>
 
     <div class="login">sign in/sign up</div>
@@ -517,19 +554,19 @@
                   <p>363 products</p>
                 </div>
               </div>
-              <div class="filter-type" id="product-filter-type">
+              <div class="filter-type" id="product-filter-type"  >
                 <div class="type-select">
-                  <div class="type-close-btn">
+                  <div class="type-close-btn" id="product-close">
                     <div class="svg-center svg-rotate"><svg width="15px" height="15px" viewBox="0 0 15 10">
                         <path
                           d="M8.537.808a.5.5 0 01.817-.162l4 4a.5.5 0 010 .708l-4 4a.5.5 0 11-.708-.708L11.793 5.5H1a.5.5 0 010-1h10.793L8.646 1.354a.5.5 0 01-.109-.546z"
                           fill="currentColor">
                         </path>
                       </svg></div>
-                    <button id="product-close">product type</button>
+                    <button >product type</button>
 
                   </div>
-                  <div class="inputs">
+                  <div class="inputs" id="inputs">
                     <div class="input">
                       <svg width="16px" height="16px" viewBox="0 0 16 16" aria-hidden="true" focusable="false">
                         <rect width="16" height="16" stroke="currentColor" fill="none" stroke-width="1"></rect>
@@ -678,14 +715,14 @@
               </div>
               <div class="filter-type" id="size-filter-type">
                 <div class="type-select">
-                  <div class="type-close-btn">
+                  <div class="type-close-btn" id="size-close">
                     <div class="svg-center svg-rotate"><svg width="15px" height="15px" viewBox="0 0 15 10">
                         <path
                           d="M8.537.808a.5.5 0 01.817-.162l4 4a.5.5 0 010 .708l-4 4a.5.5 0 11-.708-.708L11.793 5.5H1a.5.5 0 010-1h10.793L8.646 1.354a.5.5 0 01-.109-.546z"
                           fill="currentColor">
                         </path>
                       </svg></div>
-                    <button id="size-close">size</button>
+                    <button >size</button>
 
                   </div>
                   <div class="inputs">
@@ -802,14 +839,14 @@
               </div>
               <div class="filter-type" id="color-filter-type">
                 <div class="type-select">
-                  <div class="type-close-btn">
+                  <div class="type-close-btn" id="color-close">
                     <div class="svg-center svg-rotate"><svg width="15px" height="15px" viewBox="0 0 15 10">
                         <path
                           d="M8.537.808a.5.5 0 01.817-.162l4 4a.5.5 0 010 .708l-4 4a.5.5 0 11-.708-.708L11.793 5.5H1a.5.5 0 010-1h10.793L8.646 1.354a.5.5 0 01-.109-.546z"
                           fill="currentColor">
                         </path>
                       </svg></div>
-                    <button id="color-close">color</button>
+                    <button >color</button>
 
                   </div>
                   <div class="inputs">
@@ -894,14 +931,14 @@
               </div>
               <div class="filter-type" id="fabric-filter-type">
                 <div class="type-select">
-                  <div class="type-close-btn">
+                  <div class="type-close-btn" id="fabric-close">
                     <div class="svg-center svg-rotate"><svg width="15px" height="15px" viewBox="0 0 15 10">
                         <path
                           d="M8.537.808a.5.5 0 01.817-.162l4 4a.5.5 0 010 .708l-4 4a.5.5 0 11-.708-.708L11.793 5.5H1a.5.5 0 010-1h10.793L8.646 1.354a.5.5 0 01-.109-.546z"
                           fill="currentColor">
                         </path>
                       </svg></div>
-                    <button id="fabric-close">fabric</button>
+                    <button >fabric</button>
 
                   </div>
                   <div class="inputs">
@@ -968,14 +1005,14 @@
               </div>
               <div class="filter-type" id="bra-filter-type">
                 <div class="type-select">
-                  <div class="type-close-btn">
+                  <div class="type-close-btn" id="bra-close">
                     <div class="svg-center svg-rotate"><svg width="15px" height="15px" viewBox="0 0 15 10">
                         <path
                           d="M8.537.808a.5.5 0 01.817-.162l4 4a.5.5 0 010 .708l-4 4a.5.5 0 11-.708-.708L11.793 5.5H1a.5.5 0 010-1h10.793L8.646 1.354a.5.5 0 01-.109-.546z"
                           fill="currentColor">
                         </path>
                       </svg></div>
-                    <button id="bra-close">bra support</button>
+                    <button >bra support</button>
 
                   </div>
                   <div class="inputs">
@@ -1030,14 +1067,14 @@
               </div>
               <div class="filter-type" id="length-filter-type">
                 <div class="type-select">
-                  <div class="type-close-btn">
+                  <div class="type-close-btn" id="length-close">
                     <div class="svg-center svg-rotate"><svg width="15px" height="15px" viewBox="0 0 15 10">
                         <path
                           d="M8.537.808a.5.5 0 01.817-.162l4 4a.5.5 0 010 .708l-4 4a.5.5 0 11-.708-.708L11.793 5.5H1a.5.5 0 010-1h10.793L8.646 1.354a.5.5 0 01-.109-.546z"
                           fill="currentColor">
                         </path>
                       </svg></div>
-                    <button id="length-close">length</button>
+                    <button >length</button>
 
                   </div>
                   <div class="inputs">
@@ -1086,14 +1123,14 @@
               </div>
               <div class="filter-type" id="availability-filter-type">
                 <div class="type-select">
-                  <div class="type-close-btn">
+                  <div class="type-close-btn" id="availability-close">
                     <div class="svg-center svg-rotate"><svg width="15px" height="15px" viewBox="0 0 15 10">
                         <path
                           d="M8.537.808a.5.5 0 01.817-.162l4 4a.5.5 0 010 .708l-4 4a.5.5 0 11-.708-.708L11.793 5.5H1a.5.5 0 010-1h10.793L8.646 1.354a.5.5 0 01-.109-.546z"
                           fill="currentColor">
                         </path>
                       </svg></div>
-                    <button id="availability-close">availability</button>
+                    <button >availability</button>
 
                   </div>
                   <div class="inputs">

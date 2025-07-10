@@ -62,28 +62,22 @@ function scrollSliderr(direction) {
 
 
 
-let hoveredId=null;
-
-document.querySelectorAll('.men-product').forEach(el => {
-  el.addEventListener('mouseenter', () => {
-    hoveredId = el.id;
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll('.men-slider-card-image').forEach(card => {
+    const hoverImage = card.getAttribute('data-hover');
+    if (hoverImage) {
+      card.style.setProperty('--hover-bg', `url(${hoverImage})`);
+    }
   });
 });
-let original=null;
-function changeImage() {
-  const card = document.getElementById(hoveredId);
-   original= card.src;
-  if (card) {
-    let name= hoveredId + '.webp';
-    card.src = name;
-  }
-}
-function originalImage() {
-  const card = document.getElementById(hoveredId);
-  if (card) {
-    card.src = original;
-  }
-}
+
+
+
+
+
+
+
+
 document.querySelectorAll('.men-product').forEach(el => {
   el.addEventListener('mouseenter', changeImage);
   el.addEventListener('mouseleave', originalImage);
@@ -129,3 +123,23 @@ for (let i = 0; i < buttons.length; i++) {
     this.id = "active";
   });
 }
+
+
+  //search icon toggle
+  const searchBtns = document.querySelectorAll('.search-icon');       
+const closeBtns = document.querySelectorAll('.search-cross');      
+const searchOverlay = document.getElementById('search-overlay');  
+
+
+searchBtns.forEach(button => {
+  button.addEventListener('click', () => {
+    searchOverlay.style.display = 'block';
+  });
+});
+
+
+closeBtns.forEach(button => {
+  button.addEventListener('click', () => {
+    searchOverlay.style.display = 'none';
+  });
+});

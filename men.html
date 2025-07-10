@@ -14,21 +14,21 @@
 
 <body>
   <div class="sale-banner">30% OFF SITEWIDE</div>
-  <header>
+ <header>
     <nav class="main-nav">
       <!-- changes -->
       <div class="left-icons">
         <button id="toggleSidebar" class="icon-button">
           <img class="small-icon" src="images/icons8-menu-24.png" alt="menu icon" />
         </button>
-        <a href="#">
+        <button class="search-icon">
           <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20px" height="20px" viewBox="0 0 50 50"
             class="small-icon">
             <path
               d="M 21 3 C 11.621094 3 4 10.621094 4 20 C 4 29.378906 11.621094 37 21 37 C 24.710938 37 28.140625 35.804688 30.9375 33.78125 L 44.09375 46.90625 L 46.90625 44.09375 L 33.90625 31.0625 C 36.460938 28.085938 38 24.222656 38 20 C 38 10.621094 30.378906 3 21 3 Z M 21 5 C 29.296875 5 36 11.703125 36 20 C 36 28.296875 29.296875 35 21 35 C 12.703125 35 6 28.296875 6 20 C 6 11.703125 12.703125 5 21 5 Z">
             </path>
           </svg>
-        </a>
+        </button>
       </div>
       <div class="logo">
         <a href="index.html">
@@ -229,9 +229,10 @@
         <ul>
           <li>
             <a href="#">
-              <button class="icons" id="search-icon">
+              <button class="icons search-icon" id="search-icon">
               </button>
             </a>
+
           </li>
           <li>
             <a href="#" class="under-line" id="signin">
@@ -467,6 +468,42 @@
           </select>
         </div>
       </aside>
+      <div class="search-overlay" id="search-overlay">
+        <div class="search-header">
+          <button type="button" id="back-arrow" aria-label="Close" class="search-cross">
+            <svg aria-hidden="true" focusable="false" class="" viewBox="0 0 10 6">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z"
+                fill="currentColor">
+              </path>
+            </svg>
+
+          </button>
+          <input type="text" placeholder="Search" class="search-input" />
+          <button class="close-btn search-cross" id="search-cross">
+            <svg class="svg">
+              <path
+                d="M.865 15.978a.5.5 0 00.707.707l7.433-7.431 7.579 7.282a.501.501 0 00.846-.37.5.5 0 00-.153-.351L9.712 8.546l7.417-7.416a.5.5 0 10-.707-.708L8.991 7.853 1.413.573a.5.5 0 10-.693.72l7.563 7.268-7.418 7.417z">
+              </path>
+            </svg>
+          </button>
+        </div>
+
+        <div class="search-content">
+          <div class="search-column">
+            <h4>TRENDING SEARCHES</h4>
+            <ul>
+              <li><a href="#">Socks</a></li>
+              <li><a href="#">Airlift</a></li>
+              <li><a href="#">Leggings</a></li>
+            </ul>
+          </div>
+          <div class="search-column">
+            <h4>RECOMMENDED PRODUCTS</h4>
+          </div>
+        </div>
+      </div>
+
     </nav>
 
     <div class="login">sign in/sign up</div>
@@ -520,8 +557,8 @@
 
           <div class="card-slider" id="cardSlider">
             <div class="men-slider-card">
-              <div class="men-slider-card-image">
-                <img src="/images/menslider1.webp" alt="card image" class="men-product" id="/images/menhover1" />
+              <div class="men-slider-card-image" data-hover="/images/menhover1.webp">
+                <img src="/images/menslider1.webp" alt="card image" class="men-product"  />
                 <div class="men-card-sizes">
                   <div class="sizes-label"> Quick add:</div>
                   <div class="size-buttons">
@@ -544,7 +581,7 @@
               </div>
             </div>
             <div class="men-slider-card">
-              <div class="men-slider-card-image">
+              <div class="men-slider-card-image" data-hover="/images/menhover2.webp">
                 <img src="/images/menslider2.webp" alt="card image" class="men-product" id="/images/menhover2" />
                 <div class="men-card-sizes">
                   <div class="sizes-label"> Quick add:</div>
@@ -568,7 +605,7 @@
               </div>
             </div>
             <div class="men-slider-card">
-              <div class="men-slider-card-image">
+              <div class="men-slider-card-image" data-hover="/images/menhover3.webp">
                 <img src="/images/menslider3.webp" alt="card image" class="men-product" id="/images/menhover3" />
                 <div class="men-card-sizes">
                   <div class="sizes-label"> Quick add:</div>
@@ -592,7 +629,7 @@
               </div>
             </div>
             <div class="men-slider-card">
-              <div class="men-slider-card-image">
+              <div class="men-slider-card-image" data-hover="/images/menhover4.webp">
                 <img src="/images/menslider4.webp" alt="card image" class="men-product" id="/images/menhover4" />
                 <div class="men-card-sizes">
                   <div class="sizes-label"> Quick add:</div>
@@ -616,7 +653,7 @@
               </div>
             </div>
             <div class="men-slider-card">
-              <div class="men-slider-card-image">
+              <div class="men-slider-card-image" data-hover="/images/menhover5.webp">
                 <img src="/images/menslider5.webp" alt="card image" class="men-product" id="/images/menhover5" />
                 <div class="men-card-sizes">
                   <div class="sizes-label"> Quick add:</div>
@@ -641,7 +678,7 @@
             </div>
 
             <div class="men-slider-card">
-              <div class="men-slider-card-image">
+              <div class="men-slider-card-image" data-hover="/images/menhover6.webp">
                 <img src="/images/menslider6.webp" alt="card image" class="men-product" id="/images/menhover6" />
                 <div class="men-card-sizes">
                   <div class="sizes-label"> Quick add:</div>
@@ -665,7 +702,7 @@
               </div>
             </div>
             <div class="men-slider-card">
-              <div class="men-slider-card-image">
+              <div class="men-slider-card-image" data-hover="/images/menhover7.webp">
                 <img src="/images/menslider7.webp" alt="card image" class="men-product" id="/images/menhover7" />
                 <div class="men-card-sizes">
                   <div class="sizes-label"> Quick add:</div>
@@ -689,7 +726,7 @@
               </div>
             </div>
             <div class="men-slider-card">
-              <div class="men-slider-card-image">
+              <div class="men-slider-card-image" data-hover="/images/menhover8.webp">
                 <img src="/images/menslider8.webp" alt="card image" class="men-product" id="/images/menhover8" />
                 <div class="men-card-sizes">
                   <div class="sizes-label"> Quick add:</div>
@@ -713,7 +750,7 @@
               </div>
             </div>
             <div class="men-slider-card">
-              <div class="men-slider-card-image">
+              <div class="men-slider-card-image" data-hover="/images/menhover9.webp">
                 <img src="/images/menslider9.jpg" alt="card image" class="men-product" id="/images/menhover9" />
                 <div class="men-card-sizes">
                   <div class="sizes-label"> Quick add:</div>
@@ -737,7 +774,7 @@
               </div>
             </div>
             <div class="men-slider-card">
-              <div class="men-slider-card-image">
+              <div class="men-slider-card-image" data-hover="/images/menhover10.webp">
                 <img src="/images/menslider10.webp" alt="card image" class="men-product" id="/images/menhover10" />
                 <div class="men-card-sizes">
                   <div class="sizes-label"> Quick add:</div>
@@ -823,7 +860,7 @@
 
           <div class="card-slider" id="cardSlider1">
             <div class="men-slider-card">
-              <div class="men-slider-card-image">
+              <div class="men-slider-card-image" data-hover="/images/menhover11.webp">
                 <img src="/images/menslider11.webp" alt="card image" class="men-product" id="/images/menhover11" />
                 <div class="men-card-sizes">
                   <div class="sizes-label"> Quick add:</div>
@@ -847,7 +884,7 @@
               </div>
             </div>
             <div class="men-slider-card">
-              <div class="men-slider-card-image">
+              <div class="men-slider-card-image" data-hover="/images/menhover12.webp">
                 <img src="/images/menslider12.webp" alt="card image" class="men-product" id="/images/menhover12" />
                 <div class="men-card-sizes">
                   <div class="sizes-label"> Quick add:</div>
@@ -871,7 +908,7 @@
               </div>
             </div>
             <div class="men-slider-card">
-              <div class="men-slider-card-image">
+              <div class="men-slider-card-image" data-hover="/images/menhover13.webp">
                 <img src="/images/menslider13.webp" alt="card image" class="men-product" id="/images/menhover13" />
                 <div class="men-card-sizes">
                   <div class="sizes-label"> Quick add:</div>
@@ -895,7 +932,7 @@
               </div>
             </div>
             <div class="men-slider-card">
-              <div class="men-slider-card-image">
+              <div class="men-slider-card-image" data-hover="/images/menhover14.webp">
                 <img src="/images/menslider14.webp" alt="card image" class="men-product" id="/images/menhover14" />
                 <div class="men-card-sizes">
                   <div class="sizes-label"> Quick add:</div>
@@ -919,7 +956,7 @@
               </div>
             </div>
             <div class="men-slider-card">
-              <div class="men-slider-card-image">
+              <div class="men-slider-card-image" data-hover="/images/menhover15.webp">
                 <img src="/images/menslider15.webp" alt="card image" class="men-product" id="/images/menhover15" />
                 <div class="men-card-sizes">
                   <div class="sizes-label"> Quick add:</div>
@@ -944,7 +981,7 @@
             </div>
 
             <div class="men-slider-card">
-              <div class="men-slider-card-image">
+              <div class="men-slider-card-image" data-hover="/images/menhover16.webp">
                 <img src="/images/menslider16.webp" alt="card image" class="men-product" id="/images/menhover16" />
                 <div class="men-card-sizes">
                   <div class="sizes-label"> Quick add:</div>
@@ -968,8 +1005,8 @@
               </div>
             </div>
             <div class="men-slider-card">
-              <div class="men-slider-card-image">
-                <img src="/images/menslider17.webp" alt="card image" class="men-product" id="/images/menhover17" />
+              <div class="men-slider-card-image" data-hover="/images/menhover17.jpg">
+                <img src="/images/menslider17.jpg" alt="card image" class="men-product" id="/images/menhover17" />
                 <div class="men-card-sizes">
                   <div class="sizes-label"> Quick add:</div>
                   <div class="size-buttons">
@@ -992,7 +1029,7 @@
               </div>
             </div>
             <div class="men-slider-card">
-              <div class="men-slider-card-image">
+              <div class="men-slider-card-image" data-hover="/images/menhover18.webp">
                 <img src="/images/menslider18.webp" alt="card image" class="men-product" id="/images/menhover18" />
                 <div class="men-card-sizes">
                   <div class="sizes-label"> Quick add:</div>
@@ -1016,7 +1053,7 @@
               </div>
             </div>
             <div class="men-slider-card">
-              <div class="men-slider-card-image">
+              <div class="men-slider-card-image" data-hover="/images/menhover19.webp">
                 <img src="/images/menslider19.webp" alt="card image" class="men-product" id="/images/menhover19" />
                 <div class="men-card-sizes">
                   <div class="sizes-label"> Quick add:</div>
@@ -1040,7 +1077,7 @@
               </div>
             </div>
             <div class="men-slider-card">
-              <div class="men-slider-card-image">
+              <div class="men-slider-card-image" data-hover="/images/menhover20.webp">
                 <img src="/images/menslider20.webp" alt="card image" class="men-product" id="/images/menhover20" />
                 <div class="men-card-sizes">
                   <div class="sizes-label"> Quick add:</div>
