@@ -456,6 +456,9 @@ line-height: 1.5;
   padding-left:10px ;
 }
 @media (max-width:992px) {
+  .men-shopbyactivity {
+  padding: 0px;
+}
   .best-sellers-label{
     padding: 0px 15px;
   }
@@ -575,4 +578,5 @@ line-height: 1.5;
 .men-fabric-title h2{
   font-size: 27px;
 }
+
 }
