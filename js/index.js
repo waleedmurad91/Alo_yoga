@@ -93,6 +93,7 @@ startAutoSlide();
 
 
 
+
   
 let logobutton = document.getElementById("mybtn");
 
@@ -120,18 +121,17 @@ closeBtns.forEach(button => {
 
 const toggleBtn = document.getElementById('toggleSidebar');
 const navSidebar = document.getElementById('nav-sidebar');
-
+const menuclose = document.getElementById('cross');
 toggleBtn.addEventListener('click', () => {
   // navSidebar.style.display="flex";
   navSidebar.classList.add('active');
 });
 
-crossBtn.addEventListener('click', () => {
+menuclose.addEventListener('click', () => {
   // navSidebar.style.display="none";
   navSidebar.classList.remove('active');
   
 });
-
 
 
 
@@ -140,23 +140,24 @@ const buttons = menu.getElementsByClassName("menuBtn");
 
 for (let i = 0; i < buttons.length; i++) {
   buttons[i].addEventListener("click", function () {
-    const name = this.getAttribute("name"); 
+    const name = this.getAttribute("name");
     const classDisplay = name + "-menu-items";
 
-    const allMenus = document.querySelectorAll(".navbar-menu-container > .navbar-menu-items");
-    allMenus.forEach(div => {
+    const allMenus = document.querySelectorAll(
+      ".navbar-menu-container > .navbar-menu-items"
+    );
+    allMenus.forEach((div) => {
       div.style.display = "none";
     });
 
- 
     if (classDisplay) {
       const targetMenus = document.getElementById(classDisplay);
       console.log(targetMenus);
-      if(targetMenus){
-        targetMenus.style.display = "flex";}
+      if (targetMenus) {
+        targetMenus.style.display = "flex";
+      }
     }
 
-    
     const current = document.getElementById("active");
     if (current) current.removeAttribute("id");
     this.id = "active";

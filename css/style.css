@@ -3087,6 +3087,9 @@ padding: 5px 0px;
 }
 
 @media (max-width:992px) {
+  .heading{
+    margin-bottom: 20px;
+  }
   .cards {
     gap: 20px;
   }
@@ -3238,6 +3241,12 @@ padding: 5px 0px;
 }
 
 @media (max-width:750px) {
+  .heading{
+    font-size: 24px;
+  }
+  .trending-card{
+    margin-bottom: 49px;
+  }
   .slider-card-column{
     flex-direction: column;
     flex: 0 0 auto;
@@ -3319,6 +3328,7 @@ padding: 5px 0px;
     background-image: url("/images/background-banner-mobile.jpg");
     height: 100vw;
     background-size: cover;
+    margin-bottom: 49px;
   }
 
   .nav-sidebar {
@@ -3335,6 +3345,25 @@ padding: 5px 0px;
   }
  .search-content{
   align-items: start;
+ }
+ .jiso-card{
+  margin-bottom: 49px;
+ }
+ .shopbyactivity-full-width{
+   margin-bottom: 49px;
+ }
+ .shopbyall-cards{
+  margin-bottom: 49px;
+ }
+ .shopbyall-label {
+  margin-bottom: 24px;
+ }
+ .shopbyall-label h2{
+  font-size: 28px;
+  text-align: center;
+ }
+ .slider-section{
+  margin-bottom: 49px;
  }
 }
 

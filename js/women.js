@@ -24,14 +24,6 @@ function opacitydDown() {
 let hoveredId = null;
 
 //image changing on hover
-// document.querySelectorAll('.product-card-image').forEach(card => {
-//   const hoverImage = card.getAttribute('data-hover');
-//   if (hoverImage) {
-//     card.style.backgroundImage = `url(${hoverImage})`;
-//   }
-// });
-
-
 document.querySelectorAll('.product-card-image').forEach(card => {
   const hoverImage = card.getAttribute('data-hover');
   if (hoverImage) {
