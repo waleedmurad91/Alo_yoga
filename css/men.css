@@ -172,7 +172,10 @@ padding: 36px 0px;
   letter-spacing: 0.5px;
   font-weight: 400;
 }
-
+.best-sellers-label a:hover{
+  color: black;
+  text-decoration-thickness: 2px;
+}
 .best-sellers-label h2 {
   font-size: 32px;
   font-family: "Proxima Nova";
