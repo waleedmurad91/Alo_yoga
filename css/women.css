@@ -762,13 +762,15 @@ cursor: pointer;
 
 @media (max-width:750px) {
   .women-heading-section {
-    padding: 40px 0px 24px 0px;
+    padding: 50px 0px 24px 0px;
   }
 
   .women-heading {
     padding: 0px;
   }
-
+.women-products-section{
+  padding-top: 19px;
+}
   .women-heading h1 {
     font-size: 28px;
     letter-spacing: 2.2px;
@@ -780,7 +782,7 @@ cursor: pointer;
   }
 
   .products-card-container {
-    padding: 12px 15px 36px 15px;
+    padding: 12px 15px 0px 15px;
   }
 
   .products-grid {
@@ -819,7 +821,12 @@ cursor: pointer;
   }
 
   .womenpages {
-    gap: 20px;
+   margin: 0 auto;
+   width: 90%;
+   gap: 0px;
+   justify-content: space-between;
+    padding-bottom: 27px;
+    margin-top: 40px;
   }
 }
 

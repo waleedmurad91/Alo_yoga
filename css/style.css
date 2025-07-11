@@ -1515,8 +1515,8 @@ nav {
   flex-direction: row;
   position: absolute;
   top: 100%;
-  left: 0;
-  width: 99vw;
+  left: 0px;
+  width: 99.09vw;
   max-height: 70vh;
   overflow-x: hidden;
   overflow-y: scroll;
@@ -1939,7 +1939,10 @@ nav {
 
 .shopall-women a img {
   width: 100%;
-  height: auto;
+  min-height: 177px;
+  max-height: 275px;
+  object-fit: cover;
+  border-radius: 5px;
 }
 
 .menu-item-text {
@@ -2026,7 +2029,7 @@ nav {
   overflow-x: auto;
   overflow-y: hidden;
   padding-left: 15px;
-  gap: 15px;
+  gap: 10px;
   box-sizing: border-box;
 }
 
@@ -2058,8 +2061,9 @@ nav {
 .top-links-text {
   margin-top: 5px;
   text-transform: uppercase;
-  font-family: "Arquitectabold", sans-serif;
-  font-size: 13px;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
 }
 
 .sale-banner {
@@ -3332,6 +3336,7 @@ padding: 5px 0px;
   }
 
   .nav-sidebar {
+    max-width: 100%;
     width: 95%;
   }
 
@@ -3351,9 +3356,11 @@ padding: 5px 0px;
  }
  .shopbyactivity-full-width{
    margin-bottom: 49px;
+   padding: 27px 0px;
  }
  .shopbyall-cards{
   margin-bottom: 49px;
+  padding: 33px 0px 36px 0px;
  }
  .shopbyall-label {
   margin-bottom: 24px;
@@ -3364,6 +3371,18 @@ padding: 5px 0px;
  }
  .slider-section{
   margin-bottom: 49px;
+ }
+ .shopbyactivity h2{
+  margin: 0px 0px 24px 0px;
+  font-size: 28px;
+ }
+ .activity-label{
+  padding: 13px 0px;
+
+ }
+ .activity-label a{
+ font-size: 17px;
+ text-decoration:underline ;
  }
 }
 

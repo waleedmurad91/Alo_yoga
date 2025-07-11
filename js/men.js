@@ -73,51 +73,45 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-
-
-
-
-
-document.querySelectorAll('.men-product').forEach(el => {
-  el.addEventListener('mouseenter', changeImage);
-  el.addEventListener('mouseleave', originalImage);
-});
-
 const toggleBtn = document.getElementById('toggleSidebar');
 const navSidebar = document.getElementById('nav-sidebar');
-const crossBtn = document.getElementById('cross');
+const menuclose = document.getElementById('cross');
 toggleBtn.addEventListener('click', () => {
   // navSidebar.style.display="flex";
   navSidebar.classList.add('active');
 });
 
-crossBtn.addEventListener('click', () => {
+menuclose.addEventListener('click', () => {
   // navSidebar.style.display="none";
   navSidebar.classList.remove('active');
+  
 });
+
+
 
 const menu = document.getElementById("menu-btns");
 const buttons = menu.getElementsByClassName("menuBtn");
 
 for (let i = 0; i < buttons.length; i++) {
   buttons[i].addEventListener("click", function () {
-    const name = this.getAttribute("name"); 
+    const name = this.getAttribute("name");
     const classDisplay = name + "-menu-items";
 
-    const allMenus = document.querySelectorAll(".navbar-menu-container > .navbar-menu-items");
-    allMenus.forEach(div => {
+    const allMenus = document.querySelectorAll(
+      ".navbar-menu-container > .navbar-menu-items"
+    );
+    allMenus.forEach((div) => {
       div.style.display = "none";
     });
 
- 
     if (classDisplay) {
       const targetMenus = document.getElementById(classDisplay);
       console.log(targetMenus);
-      if(targetMenus){
-        targetMenus.style.display = "flex";}
+      if (targetMenus) {
+        targetMenus.style.display = "flex";
+      }
     }
 
-    
     const current = document.getElementById("active");
     if (current) current.removeAttribute("id");
     this.id = "active";
@@ -125,8 +119,9 @@ for (let i = 0; i < buttons.length; i++) {
 }
 
 
-  //search icon toggle
-  const searchBtns = document.querySelectorAll('.search-icon');       
+
+//search icon toggle
+const searchBtns = document.querySelectorAll('.search-icon');       
 const closeBtns = document.querySelectorAll('.search-cross');      
 const searchOverlay = document.getElementById('search-overlay');  
 
