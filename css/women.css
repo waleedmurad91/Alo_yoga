@@ -203,7 +203,9 @@ details {
   height: 90vh;
   overflow-y: scroll;
 }
-
+.sidebar{
+  padding-bottom: 20px;
+}
 .sidebar p {
   font-size: 18px;
   font-family: 'Proxima Nova';
@@ -605,18 +607,20 @@ cursor: pointer;
   opacity: 0;
   justify-content: space-between;
   position: relative;
-  transition: opacity 0.1s ease-out, transform 0.3s ease-in;
+  transition: opacity 0.8s ease-out, transform 0.8s ease-in;
   transform: translateX(100%);
   pointer-events: none;
   /* height: 100vh; */
   background-color: white; 
   min-height: 93vh;
+  visibility: hidden;
 }
 
 .show {
   opacity: 1;
   transform: translateX(0);
   pointer-events: auto;
+  visibility: visible;
 }
 
 
@@ -697,6 +701,7 @@ cursor: pointer;
   position: relative;
   width: 100%;
   overflow: hidden;
+  cursor: pointer;
 }
 
 /* Background image sits behind the img */

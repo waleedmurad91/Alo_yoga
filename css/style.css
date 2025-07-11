@@ -1483,10 +1483,10 @@ nav {
 }
 
 .menu ul li {
-  max-width: 90px;
-  width: 23%;
+  max-width: 130px;
+  width: fit-content;
   text-align: center;
-  margin: 0px;
+  margin: 0px 15px;
   padding: 0px;
 }
 

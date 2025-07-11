@@ -200,6 +200,7 @@ padding: 36px 0px;
   flex: 1 0 auto;
   width: calc(20% - 29px);
   text-align: left;
+  cursor: pointer;
 }
 
 .men-slider-card img {

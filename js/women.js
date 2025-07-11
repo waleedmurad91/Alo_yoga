@@ -100,9 +100,7 @@ toclose.addEventListener("click", () => {
 });
 
 const fasidebtns = document.getElementById("f-aside-buttons");
-console.log(fasidebtns);
 const fasidebtn = fasidebtns.getElementsByClassName("f-aside-button");
-console.log(fasidebtn);
 let close = document.getElementById("f-aside-buttons");
 for (let i = 0; i < fasidebtn.length; i++) {
   fasidebtn[i].addEventListener("click", function () {
@@ -112,10 +110,9 @@ console.log(id);
     console.log(backbtn)
     let filterType = document.getElementById(id + "-filter-type");
     filterType.style.display = "flex";
-    filterType.classList.add("show");
     close.style.display = "none";
+    filterType.classList.add("show");
     document.getElementById("f-aside-bottom").style.display = "none";
-    console.log(backbtn);
     backbtn.addEventListener("click", () => {
       filterType.classList.remove("show");
       filterType.style.display = "none";
