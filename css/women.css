@@ -128,7 +128,7 @@
 
 .size-filter button {
   padding: 8px 20px 8px 15px;
-  height: 30px;
+  height: 32px;
   font-size: 16px;
   font-family: 'Proxima Nova';
   font-weight: 400;
@@ -572,6 +572,7 @@ cursor: pointer;
   justify-content: space-around;
   align-items: center;
   padding: 20px;
+  color: #000;
 }
 
 #f-bottom-btns {
@@ -591,6 +592,7 @@ cursor: pointer;
   text-decoration: underline;
   background-color: transparent;
   border: none;
+  color: black;
 }
 
 #apply {

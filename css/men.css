@@ -248,7 +248,8 @@ padding: 36px 0px;
   z-index: 1000;
   color: #000;
 }
-
+.logo-circle img {
+  height: 70px;}
 .men-slider-btn.left:hover {
   color: white;
   background-color: #000;
@@ -576,5 +577,7 @@ line-height: 1.5;
 .men-fabric-title h2{
   font-size: 27px;
 }
-
+.men-card-sizes{
+  display: none;
+}
 }
