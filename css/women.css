@@ -196,7 +196,7 @@ details {
 
 .filter-sidebar {
   position: sticky;
-  top: 90px;
+  top: 100px;
   margin-top: 10px;
   margin-right: 20px;
   min-width: 230px;
