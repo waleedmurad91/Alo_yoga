@@ -1743,6 +1743,7 @@ nav {
 .mini-cart-container {
   width: 353px;
   border: 1px solid black;
+  border-top: none;
   position: absolute;
   right: -1px;
   top: 66px;
@@ -2570,7 +2571,7 @@ image .text h1:hover {
 
 .social-icons a {
   margin-right: 10px;
-  background-image: url("/images/icons8-instagram-logo-30.png");
+  /* background-image: url("/images/icons8-instagram-logo-30.png"); */
   background-size: cover;
   font-size: 18px;
   text-decoration: none;
